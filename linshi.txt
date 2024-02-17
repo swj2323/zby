@@ -18,3 +18,10 @@
 日语丨名侦探柯南丨1,http://epg.112114.xyz/douyu/7050342
 日语丨名侦探柯南丨2,http://epg.112114.xyz/douyu/7620081
 【七龍珠改】超级赛亚人孙捂空,https://epg.112114.xyz/huya/11601966
+汪汪队长200,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/12931e843f3e4032a8557ea0437a4c7e/1200.m3u8
+汪汪队长201,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/f439f27e151e450fb8a23c17df04a2e4/1200.m3u8
+汪汪队长202,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/aa268326cfce4703b77bd899b5314301/1200.m3u8
+汪汪队长203,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/99eb9baa803e4aad98804d4a82a04e86/1200.m3u8
+汪汪队长204,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/ab3ada6f1f5b498099fcb2a51be260df/1200.m3u8
+汪汪队长205,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/4fbe78e68fd4479faab69a1e4ef8bbda/1200.m3u8
+汪汪队长206,https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/71d880f884d142aab61115952f761a75/1200.m3u8
