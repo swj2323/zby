@@ -100,20 +100,20 @@ rtsp://112.111.36.140/PLTV/88888909/224/3221225842/10000100000000060000000002473
 #EXTINF:-1 tvg-id="漳州一套" tvg-name="漳州一套" tvg-logo="https://live.fanmingming.com/tv/漳州一套.png" group-title="卫视频道",漳州一套
 rtsp://112.111.36.140/PLTV/88888909/224/3221225839/10000100000000060000000002442645_0.smil
 
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="少儿动画",CCTV-14 少儿
+rtsp://112.111.36.140/PLTV/88888909/224/3221225697/10000100000000060000000000391272_0.smil
+#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://live.fanmingming.com/tv/动漫秀场.png" group-title="少儿动画",动漫秀场
+rtsp://112.111.36.140/PLTV/88888909/224/3221225773/10000100000000060000000001423252_0.smil
 #EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="少儿动画",卡酷少儿
 rtsp://112.111.36.140/PLTV/88888909/224/3221225710/10000100000000060000000000400947_0.smil
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://live.fanmingming.com/tv/金鹰卡通.png" group-title="少儿动画",金鹰卡通
 rtsp://112.111.36.140/PLTV/88888909/224/3221225709/10000100000000060000000000400938_0.smil
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://live.fanmingming.com/tv/哈哈炫动.png" group-title="少儿动画",哈哈炫动
-rtsp://112.111.36.140/PLTV/88888909/224/3221225806/10000100000000060000000001551324_0.smil
 #EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://live.fanmingming.com/tv/嘉佳卡通.png" group-title="少儿动画",嘉佳卡通
 rtsp://112.111.36.140/PLTV/88888909/224/3221225708/10000100000000060000000000400919_0.smil
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://live.fanmingming.com/tv/哈哈炫动.png" group-title="少儿动画",哈哈炫动
+rtsp://112.111.36.140/PLTV/88888909/224/3221225806/10000100000000060000000001551324_0.smil
 #EXTINF:-1 tvg-id="福建少儿" tvg-name="福建少儿" tvg-logo="https://live.fanmingming.com/tv/福建少儿.png" group-title="少儿动画",福建少儿
 rtsp://112.111.36.140/PLTV/88888909/224/3221225786/10000100000000060000000001426129_0.smil
-#EXTINF:-1 tvg-id="动漫秀场" tvg-name="动漫秀场" tvg-logo="https://live.fanmingming.com/tv/动漫秀场.png" group-title="少儿动画",动漫秀场
-rtsp://112.111.36.140/PLTV/88888909/224/3221225773/10000100000000060000000001423252_0.smil
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="少儿动画",CCTV-14 少儿
-rtsp://112.111.36.140/PLTV/88888909/224/3221225697/10000100000000060000000000391272_0.smil
 #EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://live.fanmingming.com/tv/游戏风云.png" group-title="少儿动画",游戏风云
 rtsp://112.111.36.140/PLTV/88888909/224/3221225785/10000100000000060000000001425778_0.smil
 #EXTINF:-1 tvg-id="IPTV少儿动画" tvg-name="IPTV少儿动画" tvg-logo="https://live.fanmingming.com/tv/IPTV少儿动画.png" group-title="少儿动画",IPTV少儿动画
@@ -121,16 +121,17 @@ rtsp://112.111.36.140/PLTV/88888909/224/3221225739/10000100000000060000000000402
 #EXTINF:-1 tvg-id="IPTV野外" tvg-name="IPTV野外" tvg-logo="https://live.fanmingming.com/tv/IPTV野外.png" group-title="少儿动画",IPTV野外
 rtsp://112.111.36.140/PLTV/88888909/224/3221225730/10000100000000060000000000401591_0.smil
 
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="电影剧场",CCTV-6 电影
+rtsp://112.111.36.140/PLTV/88888909/224/3221225847/10000100000000060000000002691351_0.smil
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="电影剧场",CCTV-8 电视剧
+rtsp://112.111.36.140/PLTV/88888909/224/3221225849/10000100000000060000000002694522_0.smil
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://live.fanmingming.com/tv/都市剧场.png" group-title="电影剧场",都市剧场
 rtsp://112.111.36.140/PLTV/88888909/224/3221225771/10000100000000060000000001418795_0.smil
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场.png" group-title="电影剧场",欢笑剧场
 rtsp://112.111.36.140/PLTV/88888909/224/3221225770/10000100000000060000000001418465_0.smil
 #EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="https://live.fanmingming.com/tv/爱上4K.png" group-title="电影剧场",爱上4K
 rtsp://112.111.36.140/PLTV/88888909/224/3221225965/10000100000000060000000003176328_0.smil
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="电影剧场",CCTV-6 电影
-rtsp://112.111.36.140/PLTV/88888909/224/3221225847/10000100000000060000000002691351_0.smil
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV-8 电视剧
-rtsp://112.111.36.140/PLTV/88888909/224/3221225849/10000100000000060000000002694522_0.smil
+
 #EXTINF:-1 tvg-id="IPTV经典电影" tvg-name="IPTV经典电影" tvg-logo="https://live.fanmingming.com/tv/IPTV经典电影.png" group-title="电影剧场",IPTV经典电影
 rtsp://112.111.36.140/PLTV/88888909/224/3221225743/10000100000000060000000000403890_0.smil
 #EXTINF:-1 tvg-id="IPTV8+" tvg-name="IPTV8+" tvg-logo="https://live.fanmingming.com/tv/IPTV8+.png" group-title="电影剧场",IPTV8+
