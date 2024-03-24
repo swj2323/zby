@@ -127,9 +127,9 @@ rtsp://112.111.36.140/PLTV/88888909/224/3221225771/10000100000000060000000001418
 rtsp://112.111.36.140/PLTV/88888909/224/3221225770/10000100000000060000000001418465_0.smil
 #EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="https://live.fanmingming.com/tv/爱上4K.png" group-title="电影剧场",爱上4K
 rtsp://112.111.36.140/PLTV/88888909/224/3221225965/10000100000000060000000003176328_0.smil
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="电影剧场",CCTV6 电影
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="电影剧场",CCTV-6 电影
 rtsp://112.111.36.140/PLTV/88888909/224/3221225847/10000100000000060000000002691351_0.smil
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.com/tv/CCTV-8.png" group-title="电影剧场",CCTV8 电视剧
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV-8 电视剧
 rtsp://112.111.36.140/PLTV/88888909/224/3221225849/10000100000000060000000002694522_0.smil
 #EXTINF:-1 tvg-id="IPTV经典电影" tvg-name="IPTV经典电影" tvg-logo="https://live.fanmingming.com/tv/IPTV经典电影.png" group-title="电影剧场",IPTV经典电影
 rtsp://112.111.36.140/PLTV/88888909/224/3221225743/10000100000000060000000000403890_0.smil
