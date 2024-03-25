@@ -147,8 +147,6 @@ rtsp://112.111.36.140/PLTV/88888909/224/3221225728/10000100000000060000000000401
 rtsp://112.111.36.140/PLTV/88888909/224/3221225729/10000100000000060000000000401590_0.smil
 #EXTINF:-1 tvg-id="福建教育" tvg-name=福建教育" tvg-logo="https://live.fanmingming.com/tv/福建教育.png" group-title="其他频道",福建教育
 rtsp://112.111.36.140/PLTV/88888909/224/3221225822/10000100000000060000000001619264_0.smil
-#EXTINF:-1 tvg-id="中国教育2台" tvg-name="中国教育2台" tvg-logo="https://live.fanmingming.com/tv/CETV2.png" group-title="其他频道",CETV-2
-rtsp://112.111.36.140/PLTV/88888909/224/3221225747/10000100000000060000000000403955_0.smi
 #EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://live.fanmingming.com/tv/CETV4.png" group-title="其他频道",CETV-4
 rtsp://112.111.36.140/PLTV/88888909/224/3221225748/10000100000000060000000000403956_0.smil
 #EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://live.fanmingming.com/tv/山东教育.png" group-title="其他频道",山东教育
@@ -157,8 +155,6 @@ rtsp://112.111.36.140/PLTV/88888909/224/3221225705/10000100000000060000000000391
 rtsp://112.111.36.140/PLTV/88888909/224/3221225683/10000100000000060000000000390171_0.smil
 #EXTINF:-1 tvg-id="全纪实" tvg-name="全纪实" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="其他频道",乐游频道
 rtsp://112.111.36.140/PLTV/88888909/224/3221225791/10000100000000060000000001506715_0.smil
-#EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.com/tv/北京纪实科教.png" group-title="其他频道",纪实科教
-http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226232/index.m3u8
 #EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实.png" group-title="其他频道",金鹰纪实
 rtsp://112.111.36.140/PLTV/88888909/224/3221225682/10000100000000060000000000390143_0.smil
 #EXTINF:-1 tvg-id="中国天气" tvg-name="中国天气" tvg-logo="https://live.fanmingming.com/tv/中国天气.png" group-title="其他频道",中国天气
