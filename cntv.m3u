@@ -121,9 +121,9 @@ rtsp://112.111.36.140/PLTV/88888909/224/3221225739/10000100000000060000000000402
 #EXTINF:-1 tvg-id="IPTV野外" tvg-name="IPTV野外" tvg-logo="https://live.fanmingming.com/tv/IPTV野外.png" group-title="少儿动画",IPTV野外
 rtsp://112.111.36.140/PLTV/88888909/224/3221225730/10000100000000060000000000401591_0.smil
 
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="电影剧场",CCTV-6 电影
-rtsp://112.111.36.140/PLTV/88888909/224/3221225847/10000100000000060000000002691351_0.smil
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="电影剧场",CCTV-8 电视剧
+EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道",CCTV-6 电影
+rtsp://36.250.89.13:554/PLTV/88888909/224/3221225847/10000100000000060000000002691351_0.smil
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV-8 电视剧
 rtsp://36.250.89.9:554/PLTV/88888909/224/3221225970/10000100000000060000000004051303_0.smil
 #EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://live.fanmingming.com/tv/都市剧场.png" group-title="电影剧场",都市剧场
 rtsp://112.111.36.140/PLTV/88888909/224/3221225771/10000100000000060000000001418795_0.smil
