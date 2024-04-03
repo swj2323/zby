@@ -199,6 +199,14 @@ http://192.168.9.1:1207/udp/239.255.40.92:8208
 http://192.168.9.1:1207/udp/239.255.40.67:8208
 #EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://live.fanmingming.com/tv/法治天地.png" group-title="其他频道",法治天地
 http://192.168.9.1:1207/udp/239.255.40.76:8208
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="其他频道",CGTN英语
+http://192.168.9.1:1207/udp/239.255.40.5:8208
+#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="其他频道",CGTN俄语
+http://192.168.9.1:1207/udp/239.255.40.179:8208
+#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="其他频道",CGTN法语
+http://192.168.9.1:1207/udp/239.255.40.178:8208
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="其他频道",CGTN纪录
+http://192.168.9.1:1207/udp/239.255.40.183:8208
 #EXTINF:-1 tvg-id="直播间101" tvg-name="直播间101" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
 http://192.168.9.1:1207/udp/239.255.40.98:8208
 #EXTINF:-1 tvg-id="直播间101" tvg-name="直播间102" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
