@@ -209,15 +209,15 @@ http://192.168.9.1:1207/udp/239.255.40.178:8208
 http://192.168.9.1:1207/udp/239.255.40.183:8208
 #EXTINF:-1 tvg-id="直播间101" tvg-name="直播间101" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
 http://192.168.9.1:1207/udp/239.255.40.98:8208
-#EXTINF:-1 tvg-id="直播间101" tvg-name="直播间102" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
+#EXTINF:-1 tvg-id="直播间102" tvg-name="直播间102" tvg-logo="https://live.fanmingming.com/tv/直播间102.png" group-title="其他频道",直播间102
 http://192.168.9.1:1207/udp/239.255.40.99:8208
-#EXTINF:-1 tvg-id="直播间101" tvg-name="直播间103" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
+#EXTINF:-1 tvg-id="直播间103" tvg-name="直播间103" tvg-logo="https://live.fanmingming.com/tv/直播间103.png" group-title="其他频道",直播间103
 http://192.168.9.1:1207/udp/239.255.40.100:8208
-#EXTINF:-1 tvg-id="直播间101" tvg-name="直播间104" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
+#EXTINF:-1 tvg-id="直播间104" tvg-name="直播间104" tvg-logo="https://live.fanmingming.com/tv/直播间104.png" group-title="其他频道",直播间104
 http://192.168.9.1:1207/udp/239.255.40.101:8208
-#EXTINF:-1 tvg-id="直播间101" tvg-name="直播间105" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
+#EXTINF:-1 tvg-id="直播间105" tvg-name="直播间105" tvg-logo="https://live.fanmingming.com/tv/直播间105.png" group-title="其他频道",直播间105
 http://192.168.9.1:1207/udp/239.255.40.102:8208
-#EXTINF:-1 tvg-id="直播间101" tvg-name="直播间106" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
+#EXTINF:-1 tvg-id="直播间106" tvg-name="直播间106" tvg-logo="https://live.fanmingming.com/tv/直播间106.png" group-title="其他频道",直播间106
 http://192.168.9.1:1207/udp/239.255.40.103:8208
-#EXTINF:-1 tvg-id="直播间101" tvg-name="直播间107" tvg-logo="https://live.fanmingming.com/tv/直播间101.png" group-title="其他频道",直播间101
+#EXTINF:-1 tvg-id="直播间107" tvg-name="直播间107" tvg-logo="https://live.fanmingming.com/tv/直播间107.png" group-title="其他频道",直播间107
 http://192.168.9.1:1207/udp/239.255.40.104:8208
