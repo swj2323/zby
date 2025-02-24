@@ -1,0 +1,19 @@
+name: Sync to Gitee
+
+on:
+  schedule:
+    - cron: '30 22 * * *'  # UTC 22:00（对应北京时间 6:30）
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GitHub
+        uses: actions/checkout@v4
+
+      - name: Mirror to Gitee
+        uses: wearerequired/git-mirror@v1
+        with:
+          destination_repo: "https://gitee.com/weijun_sun/zby.git"
+          destination_token: ${{ secrets.GITEE_TOKEN }}  
