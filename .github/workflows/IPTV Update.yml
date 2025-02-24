@@ -1,0 +1,26 @@
+name: Daily IPTV Update
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  
+
+jobs:
+  update-iptv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up iptv directory
+        run: |
+          IPTV_DIR="./iptv"
+          mkdir -p "$IPTV_DIR"
+          rm -rf "$IPTV_DIR"/*  # 删除 iptv 目录下的所有文件
+
+      - name: Download ALL.m3u8
+        run: curl -o ./iptv/result.m3u http://ikuai.sunweijun.top:8123/m3u
+
+      - name: Download result.txt
+        run: curl -o ./iptv/result.txt http://ikuai.sunweijun.top:8123/txt
+
+
