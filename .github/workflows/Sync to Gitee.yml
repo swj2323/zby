@@ -15,19 +15,17 @@ jobs:
           fetch-depth: 0  # 拉取完整提交历史‌:ml-citation{ref="3" data="citationList"}
 
       # 步骤2：过滤保留指定目录（如Download/）
-      - name: Filter Target Directory
-        run: |
-          # 删除非目标目录（保留.git目录）
-          find . -mindepth 1 -maxdepth 1 \
-            ! -name 'Download' \
-            ! -name '.git' \
-            -exec rm -rf {} +
+      - name: Filter Download Directory  
+        run: |  
+          # 保留 Download、.github、.git 目录  
+          find . -mindepth 1 -maxdepth 1 ! -name 'Download' ! -name '.github' ! -name '.git' -exec rm -rf {} +  
+          ls -la  # 验证过滤结果‌:ml-citation{ref="4,5" data="citationList"}
 
       # 步骤3：配置Git身份信息
       - name: Setup Git Config
-        run: |
-          git config --global user.email "github-actions@example.com"
-          git config --global user.name "GitHub Actions"
+        run: |  
+          git config --global user.email "656556071@qq.com"  
+          git config --global user.name "毁在右手上"  
 
       # 步骤4：强制推送目录内容
       - name: Force Push to Gitee
