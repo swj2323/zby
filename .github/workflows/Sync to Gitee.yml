@@ -1,9 +1,8 @@
 name: Sync Download Directory to Gitee
-
 on:
   schedule:
     - cron: '0 19 * * *'  # UTC 19:00（北京时间凌晨 3:00）
-  workflow_dispatch:      # 允许手动触发
+  workflow_dispatch:       # 允许手动触发
 
 jobs:
   sync-download:
@@ -13,14 +12,16 @@ jobs:
       - name: Checkout Download Directory
         uses: actions/checkout@v4
         with:
-          sparse-checkout: |  # 启用稀疏检出模式，仅拉取指定路径
-            Download/
-          fetch-depth: 0      # 拉取完整历史记录
+          sparse-checkout: |
+            Download/     # 直接指定路径，避免注释干扰‌:ml-citation{ref="2,3" data="citationList"}
+          fetch-depth: 0  # 拉取完整历史记录‌:ml-citation{ref="4" data="citationList"}
 
-      # 步骤 2：镜像同步到 Gitee（仅限 Download 目录）
+      # 步骤 2：镜像同步到 Gitee（需替换认证信息）
       - name: Mirror to Gitee
         uses: wearerequired/git-mirror-action@v1
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 替换为你的 Gitee 令牌（需在仓库 Secrets 中配置）‌:ml-citation{ref="1,2" data="citationList"}
         with:
-          source-repo: "."  # 当前目录（仅包含 Download）
-          destination-repo: "https://gitee.com/weijun_sun/zby/Download.git"
-          dry-run: false    # 默认关闭（设为 true 可测试同步逻辑）
+          source-repo: "."        # 当前工作目录（需确保包含完整的 .git 元数据）‌:ml-citation{ref="2" data="citationList"}
+          destination-repo: "https://gitee.com/weijun_sun/zby.git"
+          dry-run: false          # 关闭测试模式，实际执行同步‌:ml-citation{ref="3" data="citationList"}
