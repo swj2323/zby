@@ -1,0 +1,35 @@
+name: Sync Download Directory to Gitee  
+on:  
+  workflow_dispatch:  
+  schedule:  
+    - cron: '0 19 * * *'  
+
+jobs:  
+  sync-download:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - name: Checkout Repository  
+        uses: actions/checkout@v4  
+        with:  
+          fetch-depth: 0  
+
+      - name: Filter Download Directory  
+        run: |  
+          # 保留 Download/ 和 .git/ 目录  
+          find . -mindepth 1 -maxdepth 1 ! -name 'Download' ! -name '.git' -exec rm -rf {} +  
+          ls -la Download/  # 调试输出  
+
+      - name: Configure Git  
+        run: |  
+          git config --global user.email "github-actions@example.com"  
+          git config --global user.name "GitHub Actions"  
+
+      - name: Push to Gitee  
+        env:  
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  
+        run: |  
+          git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/zby.git  
+          git add Download/  
+          git status  # 提交前检查状态  
+          git commit -m "Sync Download directory" --allow-empty  
+          git push gitee HEAD:main --force  
