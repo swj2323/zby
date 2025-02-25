@@ -29,8 +29,6 @@ jobs:
           curl -L -o Download/vbskycn_iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
           curl -L -o Download/vbskycn_iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
           curl -L -o Download/YueChan.m3u https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
-          curl -L -o Download/result.m3u http://ikuai.sunweijun.top:8123/m3u
-          curl -L -o Download/result.txt http://ikuai.sunweijun.top:8123/txt
 
       - name: Commit changes
         if: success()
