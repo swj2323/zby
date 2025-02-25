@@ -22,7 +22,5 @@ jobs:
         uses: wearerequired/git-mirror-action@v1
         with:
           source-repo: "."  # 当前目录（仅包含 Download）
-          destination-repo: "https://gitee.com/weijun_sun/zby.git"
-          # 通过 URL 嵌入令牌（替代 destination-token 参数）
-          destination-repo: "https://${{ SHA256:zctTdGDyHSQgdOGD6eRksNecAv6UgEtvZxWR0Th/NMA }}@gitee.com/weijun_sun/zby.git"
+           destination-repo: "https://${{ SHA256:zctTdGDyHSQgdOGD6eRksNecAv6UgEtvZxWR0Th/NMA }}@gitee.com/weijun_sun/zby.git"
           dry-run: false    # 默认关闭（设为 true 可测试同步逻辑）
