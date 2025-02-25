@@ -1,38 +1,34 @@
-name: Sync Specific Directory to Gitee
-on:
-  workflow_dispatch:  # 支持手动触发
-  schedule:
-    - cron: '0 19 * * *'  # UTC时间 19:00（北京时间凌晨3:00）‌:ml-citation{ref="3" data="citationList"}
+name: Sync Specific Directory to Gitee  
+on:  
+  workflow_dispatch:  
+  schedule:  
+    - cron: '0 19 * * *'  # UTC 19:00 → 北京时间凌晨 3:00‌:ml-citation{ref="1" data="citationList"}  
 
-jobs:
-  sync-directory:
-    runs-on: ubuntu-latest
-    steps:
-      # 步骤1：完整检出仓库（含.git目录）
-      - name: Checkout Full Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # 拉取完整提交历史‌:ml-citation{ref="3" data="citationList"}
+jobs:  
+  sync-directory:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - name: Checkout Full Repository  
+        uses: actions/checkout@v4  
+        with:  
+          fetch-depth: 0  # 保留完整提交历史‌:ml-citation{ref="1" data="citationList"}  
 
-      # 步骤2：过滤保留指定目录（如Download/）
       - name: Filter Download Directory  
         run: |  
-          # 保留 Download、.github、.git 目录  
+          # 保留 Download 目录及其子文件‌:ml-citation{ref="2,3" data="citationList"}  
           find . -mindepth 1 -maxdepth 1 ! -name 'Download' ! -name '.github' ! -name '.git' -exec rm -rf {} +  
-          ls -la  # 验证过滤结果‌:ml-citation{ref="4,5" data="citationList"}
+          ls -la Download/  # 验证 Download 目录内容  
 
-      # 步骤3：配置Git身份信息
-      - name: Setup Git Config
+      - name: Setup Git Config  
         run: |  
           git config --global user.email "656556071@qq.com"  
           git config --global user.name "毁在右手上"  
 
-      # 步骤4：强制推送目录内容
-      - name: Force Push to Gitee
-        env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需配置Gitee访问令牌‌:ml-citation{ref="3" data="citationList"}
-        run: |
-          git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/zby.git
-          git add ./Download/
-          git commit -m "Auto-sync Download directory" --allow-empty
-          git push gitee HEAD:main --force
+      - name: Force Push to Gitee  
+        env:  
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="1" data="citationList"}  
+        run: |  
+          git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/zby.git  
+          git add .  # 添加所有保留文件‌:ml-citation{ref="3" data="citationList"}  
+          git commit -m "Auto-sync Download directory"  
+          git push gitee HEAD:main --force  
