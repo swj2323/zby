@@ -1,19 +1,28 @@
-name: Sync to Gitee
+name: Sync Download Directory to Gitee
 
 on:
   schedule:
-    - cron: '30 22 * * *'  # UTC 22:00（对应北京时间 6:30）
-  workflow_dispatch:       # 允许手动触发
+    - cron: '0 19 * * *'  # UTC 19:00（北京时间凌晨 3:00）
+  workflow_dispatch:      # 允许手动触发
 
 jobs:
-  sync:
+  sync-download:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout GitHub
+      # 步骤 1：仅检出 GitHub 仓库的 Download 目录
+      - name: Checkout Download Directory
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |  # 启用稀疏检出模式，仅拉取指定路径
+            Download/
+          fetch-depth: 0      # 拉取完整历史记录
 
+      # 步骤 2：镜像同步到 Gitee（仅限 Download 目录）
       - name: Mirror to Gitee
         uses: wearerequired/git-mirror-action@v1
         with:
-          destination_repo: "https://gitee.com/weijun_sun/zby.git"
-          destination_token: ${{ secrets.GITEE_TOKEN }}  
+          source-repo: "."  # 当前目录（仅包含 Download）
+          destination-repo: "https://gitee.com/weijun_sun/zby.git"
+          # 通过 URL 嵌入令牌（替代 destination-token 参数）
+          destination-repo: "https://${{ secrets.8dff7e84e561e90a6f7423d9d09ea985 }}@gitee.com/weijun_sun/zby.git"
+          dry-run: false    # 默认关闭（设为 true 可测试同步逻辑）
