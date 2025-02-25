@@ -1,27 +1,31 @@
-name: Sync Download Directory to Gitee
-on:
-  schedule:
-    - cron: '0 19 * * *'  # UTC 19:00（北京时间凌晨 3:00）
-  workflow_dispatch:       # 允许手动触发
+name: Sync Download Directory to Gitee  
+on:  
+  schedule:  
+    - cron: '0 19 * * *'  # UTC 19:00（北京时间凌晨 3:00）‌:ml-citation{ref="1" data="citationList"}  
+  workflow_dispatch:       # 允许手动触发‌:ml-citation{ref="1" data="citationList"}  
 
-jobs:
-  sync-download:
-    runs-on: ubuntu-latest
-    steps:
-      # 步骤 1：仅检出 GitHub 仓库的 Download 目录
-      - name: Checkout Download Directory
-        uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            Download/     # 直接指定路径，避免注释干扰‌:ml-citation{ref="2,3" data="citationList"}
-          fetch-depth: 0  # 拉取完整历史记录‌:ml-citation{ref="4" data="citationList"}
+jobs:  
+  sync-download:  
+    runs-on: ubuntu-latest  
+    steps:  
+      # 步骤 1：检出完整仓库（需包含 .git 目录）  
+      - name: Checkout Full Repository  
+        uses: actions/checkout@v4  
+        with:  
+          fetch-depth: 0  # 拉取完整历史记录‌:ml-citation{ref="1,3" data="citationList"}  
 
-      # 步骤 2：镜像同步到 Gitee（需替换认证信息）
-      - name: Mirror to Gitee
-        uses: wearerequired/git-mirror-action@v1
-        env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 替换为你的 Gitee 令牌（需在仓库 Secrets 中配置）‌:ml-citation{ref="1,2" data="citationList"}
-        with:
-          source-repo: "."        # 当前工作目录（需确保包含完整的 .git 元数据）‌:ml-citation{ref="2" data="citationList"}
-          destination-repo: "https://gitee.com/weijun_sun/zby.git"
-          dry-run: false          # 关闭测试模式，实际执行同步‌:ml-citation{ref="3" data="citationList"}
+      # 步骤 2：仅保留 Download 目录（可选）  
+      - name: Filter Download Directory  
+        run: |  
+          # 删除其他文件，仅保留 Download 目录  
+          find . -mindepth 1 -maxdepth 1 ! -name 'Download' -exec rm -rf {} +  
+
+      # 步骤 3：镜像同步到 Gitee  
+      - name: Mirror to Gitee  
+        uses: wearerequired/git-mirror-action@v1  
+        env:  
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需在 GitHub Secrets 中配置‌:ml-citation{ref="1,4" data="citationList"}  
+        with:  
+          source-repo: "."  
+          destination-repo: "https://gitee.com/weijun_sun/zby.git"  
+          dry-run: false  # 实际执行同步‌:ml-citation{ref="1,3" data="citationList"}  
