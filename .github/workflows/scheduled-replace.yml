@@ -29,7 +29,6 @@ jobs:
           wget -q -O Download/CCTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CCTV.m3u
           wget -q -O Download/CNTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CNTV.m3u
           wget -q -O Download/suxuang.m3u https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
-          wget -q -O Download/merged_output.txt https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
           wget -q -O Download/l.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
           wget -q -O Download/kk.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
           wget -q -O Download/yuanzl77.txt https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
@@ -42,9 +41,46 @@ jobs:
       # 步骤4：批量替换文件内容
       - name: Process files
         run: |
-          find Download -type f -exec sed -i \
+          find Download -type f -exec sed -i \ 
+            -e 's/CCTV-1 综合/CCTV1/g' \
+            -e 's/CCTV-2 财经/CCTV2/g' \
+            -e 's/CCTV-3 综艺/CCTV3/g' \
+            -e 's/CCTV-4 中文国际/CCTV4/g' \
+            -e 's/CCTV-5 体育/CCTV5/g' \
+            -e 's/CCTV-5+ 体育赛事/CCTV5+/g' \
+            -e 's/CCTV-6 电影/CCTV6/g' \
+            -e 's/CCTV-7 国防军事/CCTV7/g' \
+            -e 's/CCTV-8 电视剧/CCTV8/g' \
+            -e 's/CCTV-9 纪录/CCTV9/g' \
+            -e 's/CCTV-10 科教/CCTV10/g' \
+            -e 's/CCTV-11 戏曲/CCTV11/g' \
+            -e 's/CCTV-12 社会与法/CCTV12/g' \
+            -e 's/CCTV-13 新闻/CCTV13/g' \
+            -e 's/CCTV-14 少儿/CCTV14/g' \
+            -e 's/CCTV-15 音乐/CCTV15/g' \
+            -e 's/CCTV-16 奥林匹克/CCTV16/g' \
+            -e 's/CCTV-17 农业农村/CCTV17/g' \
+            -e 's/CCTV-1综合/CCTV1/g' \
+            -e 's/CCTV-2财经/CCTV2/g' \
+            -e 's/CCTV-3综艺/CCTV3/g' \
+            -e 's/CCTV-4中文国际/CCTV4/g' \
+            -e 's/CCTV-5体育/CCTV5/g' \
+            -e 's/CCTV-5+体育赛事/CCTV5+/g' \
+            -e 's/CCTV-6电影/CCTV6/g' \
+            -e 's/CCTV-7国防军事/CCTV7/g' \
+            -e 's/CCTV-8电视剧/CCTV8/g' \
+            -e 's/CCTV-9纪录/CCTV9/g' \
+            -e 's/CCTV-10科教/CCTV10/g' \
+            -e 's/CCTV-11戏曲/CCTV11/g' \
+            -e 's/CCTV-12社会与法/CCTV12/g' \
+            -e 's/CCTV-13新闻/CCTV13/g' \
+            -e 's/CCTV-14少儿/CCTV14/g' \
+            -e 's/CCTV-15音乐/CCTV15/g' \
+            -e 's/CCTV-16奥林匹克/CCTV16/g' \
+            -e 's/CCTV-17农业农村/CCTV17/g' \
             -e 's/CCTV-/CCTV/g' \
             -e 's/CCTV /CCTV/g' \
+            -e 's/CCTV-0/CCTV/g' \
             -e 's/CGTN记录/CGTN纪录/g' \
             {} +
 
