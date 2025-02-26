@@ -1,59 +1,75 @@
-name: Auto-Update Keywords
-
+name: IPTV AutoSync Workflow
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * *"  # 每天UTC时间18点（北京时间次日2点）
 
 jobs:
-  keyword-replacement:
+  sync-iptv-sources:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-      pull-requests: write  # 新增权限
-    
+      contents: write  # 允许提交代码
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-        path: ./Download  # 精确指定路径
+      # 步骤1：检出仓库代码
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整提交历史
 
-    - name: Debug path
-      run: |
-        echo "当前工作目录: $(pwd)"
-        ls -la ./Download
+      # 步骤2：创建下载目录
+      - name: Create download directory
+        run: mkdir -p Download
 
-    - name: Perform replacements
-      run: |
-        cd ./Download || exit 1
-        # 安全执行模式
-        set +eo pipefail
-        find . -type f $ -name "*.m3u" -o -name "*.m3u8" -o -name "*.txt" $ \
-          -exec sed -i.bak \
-          -e 's/CCTV-/CCTV/g' \
-          -e 's/CCTV /CCTV/g' \
-          -e 's/CGTN记录/CGTN纪录/g' {} + \
-          || echo "忽略无文件错误"
-        find . -name "*.bak" -delete 2>/dev/null || true
-        set -eo pipefail
+      # 步骤3：下载IPTV源文件
+      - name: Download IPTV sources
+        run: |
+          wget -q -O Download/wwkejishe.m3u8 https://iptv.wwkejishe.top/ALL.m3u8
+          wget -q -O Download/iptv-api.txt https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+          wget -q -O Download/CCTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CCTV.m3u
+          wget -q -O Download/CNTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CNTV.m3u
+          wget -q -O Download/suxuang.m3u https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
+          wget -q -O Download/merged_output.txt https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
+          wget -q -O Download/l.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
+          wget -q -O Download/kk.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
+          wget -q -O Download/yuanzl77.txt https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
+          wget -q -O Download/fanmingming_ipv6.m3u https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+          wget -q -O Download/vbskycn_iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
+          wget -q -O Download/vbskycn_iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+          wget -q -O Download/YueChan.m3u https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
+          wget -q -O Download/e.xml https://raw.githubusercontent.com/fanmingming/live/main/e.xml
 
-    - name: Check changes
-      id: check_changes
-      run: |
-        git config --global --add safe.directory /github/workspace/Download
-        if ! git diff --quiet --exit-code -- ./Download; then
-          echo "changed=true" >> $GITHUB_OUTPUT
-          git status --porcelain >> changes.log
-        else
-          echo "changed=false" >> $GITHUB_OUTPUT
-        fi
+      # 步骤4：批量替换文件内容
+      - name: Process files
+        run: |
+          find Download -type f -exec sed -i \
+            -e 's/CCTV-/CCTV/g' \
+            -e 's/CCTV /CCTV/g' \
+            -e 's/CGTN记录/CGTN纪录/g' \
+            {} +
 
-    - name: Commit changes
-      if: steps.check_changes.outputs.changed == 'true'
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add ./Download/
-        git commit -m "🤖 自动更新-$(date +'%Y%m%d')"
-        git push origin HEAD:${{ github.ref_name }} --force-with-lease
+      # 步骤5：自动提交更新
+      - name: Commit changes
+        run: |
+          git config --global user.name "IPTV Sync Bot"
+          git config --global user.email "iptv-sync@noreply.github.com"
+          
+          # 检测文件变化
+          if git diff --quiet --exit-code; then
+            echo "没有检测到文件变化"
+          else
+            git add .
+            git commit -m "📡 AutoSync IPTV Sources [$(date +'%Y-%m-%d %H:%M UTC')]"
+            git push origin main
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 步骤6：上传构建产物（可选）
+      - name: Upload artifact
+        if: ${{ always() }}  # 即使失败也上传
+        uses: actions/upload-artifact@v4
+        with:
+          name: iptv-sources-${{ github.run_id }}
+          path: Download/
+          retention-days: 3
