@@ -1,0 +1,44 @@
+name: Scheduled Pattern Replacement with PR
+
+on:
+  schedule:
+    - cron: '30 2 * * *'  # 每天北京时间10:30触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  text-refactor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Multi-pattern Replacement
+        run: |
+          # 复合替换命令（支持简繁中文）
+          find . -type f $ -name "*.m3u" -o -name "*.m3u8" -o -name "*.txt" $ \
+            -exec sed -i -E \
+            -e 's/CCTV-/CCTV/g' \
+            -e 's/CCTV /CCTV/g' \
+            -e 's/CGTN(记录|紀錄)/CGTN紀录/g' \
+            {} +
+
+      - name: Create Pull Request
+        uses: actions/create-pull-request@v4
+        with:
+          branch: "auto-replace/$(date +%s)"
+          commit-message: "chore: Automated pattern standardization [bot]"
+          title: "媒体文件格式标准化（自动生成）"
+          body: |
+            ### 自动化修改内容
+            - CCTV相关格式标准化
+            - CGTN纪录片名修正
+            - 文件类型: m3u/m3u8/txt
+          draft: false
+          labels: "automated,maintenance"
