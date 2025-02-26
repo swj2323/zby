@@ -30,10 +30,8 @@ jobs:
           wget -q -O Download/CNTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CNTV.m3u
           wget -q -O Download/suxuang.m3u https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
           wget -q -O Download/l.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
-          wget -q -O Download/kk.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
           wget -q -O Download/fanmingming_ipv6.m3u https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
           wget -q -O Download/vbskycn_iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
-          wget -q -O Download/vbskycn_iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
           wget -q -O Download/YueChan.m3u https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
           wget -q -O Download/alienlu.txt https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt
 
