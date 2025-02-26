@@ -1,66 +1,86 @@
-name: Media File Standardization
-on:
-  schedule:
-    - cron: '0 3 * * *'  # UTC时间
+name: Media File Processor
+on: 
   workflow_dispatch:
-
-permissions:
-  contents: write
-  pull-requests: write
+  schedule:
+    - cron: '0 3 * * *'  # 每日UTC时间3点执行
 
 jobs:
-  media-refactor:
+  process-files:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-    env:
-      TZ: Asia/Shanghai  # 2023兼容语法
+    timeout-minutes: 20
+    permissions:
+      contents: write  # 最小化权限原则
 
     steps:
     # --------------------------
-    # 阶段1：安全代码库初始化
+    # 阶段1：安全代码检出
     # --------------------------
-    - name: Checkout Code
-      uses: actions/checkout@v4  # 实际存在的最新稳定版
+    - name: Checkout code
+      uses: actions/checkout@v4  # 官方最新稳定版
       with:
-        fetch-depth: 3
-        persist-credentials: false
+        fetch-depth: 1
+        sparse-checkout: |      # 文件操作白名单
+          *.m3u
+          *.m3u8
+          *.txt
 
     # --------------------------
     # 阶段2：文件处理核心逻辑
     # --------------------------
-    - name: Install GNU Sed
-      run: sudo apt-get install -y gsed
-
-    - name: Execute Pattern Replacement
+    - name: Install dependencies
       run: |
+        sudo apt-get update
+        sudo apt-get install -y gsed findutils  # 基础工具链
+
+    - name: Execute replacement
+      run: |
+        set -eo pipefail  # 严格错误检测
+        
+        # 安全查找与替换（POSIX兼容）
         find . -type f $ \
           -name '*.m3u' -o \
           -name '*.m3u8' -o \
           -name '*.txt' $ \
           -exec gsed -i -E \
-            -e 's/CCTV[[:space:]-]+/CCTV/g' \  # 2023兼容正则
+            -e 's/CCTV[[:space:]-]+/CCTV/g' \
             -e 's/CGTN(记录|紀錄)/CGTN紀录/g' \
             {} +
+        
+        # 校验修改文件数（防止误操作）
+        changed_files=$(git diff --name-only | wc -l)
+        if [ $changed_files -eq 0 ]; then
+          echo "::warning::未检测到有效变更"
+        fi
 
     # --------------------------
-    # 阶段3：PR生成（现有版本）
+    # 阶段3：结果提交
     # --------------------------
-    - name: Create Standardized PR
-      uses: peter-evans/create-pull-request@v5  # 已发布的最新版
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5  # 已验证可用版本
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        branch: refactor/media-$(date +%s)
+        branch: file-refactor-$(date +%s)
         delete-branch: true
         commit-message: |
-          chore: [Bot] 媒体文件标准化
-          * 统一CCTV格式
-          * 规范纪录片名称
-        title: "[自动化] 媒体关键字标准化 ($(date +%F))"
+          chore: [自动化] 媒体文件标准化
+          * 统一频道命名格式
+          * 修正纪录片名称
+        title: "媒体文件标准化更新 ($(date +%F))"
+        body: |
+          ### 变更详情
+          - 完成CCTV格式标准化
+          - 统一简繁体纪录片名称
+          - 影响文件类型：`.m3u`, `.m3u8`, `.txt`
 
     # --------------------------
-    # 阶段4：基础验证
+    # 阶段4：错误追踪
     # --------------------------
-    - name: Verify Changes
-      if: always()
+    - name: Post-process
+      if: ${{ failure() }}
       run: |
-        git diff --name-only HEAD^ | grep -E '\.(m3u|m3u8|txt)$'
+        # 生成诊断日志
+        journalctl -u github-actions --since "5 minutes ago" > action_errors.log
+        echo "退出代码: ${{ job.status }}" >> exit_codes.log
+        
+        # 上传错误报告
+        gh run upload action_errors.log exit_codes.log
