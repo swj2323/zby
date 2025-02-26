@@ -31,6 +31,7 @@ jobs:
           wget -O Download/vbskycn_iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
           wget -O Download/vbskycn_iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
           wget -O Download/YueChan.m3u https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
+          wget -O Download/e.xml https://raw.githubusercontent.com/fanmingming/live/main/e.xml
 
      # 4. 上传 Artifact
       - name: 上传文件为 Artifact
