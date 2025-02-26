@@ -115,10 +115,6 @@ http://192.168.6.1:1207/rtp/239.255.40.24:8208
 http://192.168.6.1:1207/rtp/239.255.40.25:8208
 #EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/嘉佳卡通.png" group-title="🎥动画频道",嘉佳卡通
 http://192.168.6.1:1207/rtp/239.255.40.26:8208
-#EXTINF:-1 tvg-name="赛罗奥特曼" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/赛罗奥特曼.png" group-title="🎥动画频道",赛罗奥特曼
-http://192.168.7.1:1208/udp/239.9.9.9:8530
-#EXTINF:-1 tvg-name="捷德奥特曼" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/捷德奥特曼.png" group-title="🎥动画频道",捷德奥特曼
-http://192.168.7.1:1208/udp/239.9.9.9:8531
 #EXTINF:-1 tvg-name="IPTV少儿动画" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/IPTV少儿动画.png" group-title="🎥动画频道",IPTV少儿动画
 http://192.168.6.1:1207/rtp/239.255.40.66:8208
 #EXTINF:-1 tvg-name="IPTV野外" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/IPTV野外.png" group-title="🎥动画频道",IPTV野外
