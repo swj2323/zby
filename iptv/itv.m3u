@@ -41,8 +41,7 @@ http://192.168.6.1:1207/rtp/239.255.40.4:8208
 http://192.168.6.1:1207/rtp/239.255.40.194:8208
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV17.png" group-title="📺央视频道",CCTV17
 http://192.168.6.1:1207/rtp/239.255.40.143:8208
-#EXTINF:-1 tvg-name="IPTV法治" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV 央视网.png" group-title="📺央视频道",CCTV 央视网
-http://192.168.6.1:1207/rtp/239.255.40.61:8208
+
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/东南卫视.png" group-title="📡卫视频道",东南卫视
 http://192.168.6.1:1207/rtp/239.255.40.149:8208
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/东南卫视.png" group-title="📡卫视频道",东南卫视
@@ -205,6 +204,8 @@ http://192.168.6.1:1207/rtp/239.255.40.68:8208
 http://192.168.6.1:1207/rtp/239.255.40.71:8208
 #EXTINF:-1 tvg-name="IPTV3+" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/IPTV3+.png" group-title="📼其他频道",IPTV3+
 http://192.168.6.1:1207/rtp/239.255.40.62:8208
+#EXTINF:-1 tvg-name="IPTV法治" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/IPTV法治.png" group-title="📼其他频道",IPTV法治
+http://192.168.6.1:1207/rtp/239.255.40.61:8208
 #EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/IPTV相声小品.png" group-title="📼其他频道",IPTV相声小品
 http://192.168.6.1:1207/rtp/239.255.40.59:8208
 #EXTINF:-1 tvg-name="中国天气" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/中国天气.png" group-title="📼其他频道",中国天气
