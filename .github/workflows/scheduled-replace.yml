@@ -2,8 +2,8 @@ name: Auto-Update Keywords
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天UTC时间00:00运行
-  workflow_dispatch:     # 手动触发选项
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   keyword-replacement:
@@ -16,15 +16,23 @@ jobs:
 
     - name: Perform replacements
       run: |
-        # 批量替换操作（兼容Linux/macOS环境）
         find . -type $ -name "*.m3u" -o -name "*.m3u8" -o -name "*.txt" $ -exec sed -i.bak \
         -e 's/CCTV-/CCTV/g' \
         -e 's/CCTV /CCTV/g' \
-        -e 's/CGTN记录/CGTN纪录/g' {} \; 
-        find . -name "*.bak" -delete  # 清理备份文件
+        -e 's/CGTN记录/CGTN纪录/g' {} \;
+        find . -name "*.bak" -delete
+
+    - name: Check changes
+      id: check_changes
+      run: |
+        if git diff --exit-code; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
 
     - name: Commit changes
-      if: "! git diff --exit-code"
+      if: steps.check_changes.outputs.changed == 'true'
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
