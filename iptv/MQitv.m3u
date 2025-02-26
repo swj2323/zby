@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/fanmingming/live/main/e.xml"
+#EXTM3U
 #EXTINF:-1 group-title="🎬电影剧集"三国演义1-21
 http://192.168.7.1:1208/udp/239.9.9.9:8522
 #EXTINF:-1 group-title="🎬电影剧集"三国演义22-4
