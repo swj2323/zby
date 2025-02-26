@@ -29,7 +29,7 @@ jobs:
           wget -q -O Download/CCTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CCTV.m3u
           wget -q -O Download/CNTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CNTV.m3u
           wget -q -O Download/suxuang.m3u https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
-          wget -O Download/merged_output.txt https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
+          wget -q -O Download/merged_output.txt https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
           wget -q -O Download/l.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
           wget -q -O Download/kk.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
           wget -q -O Download/yuanzl77.txt https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
