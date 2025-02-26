@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ github.ref }}
           fetch-depth: 0
@@ -30,7 +30,7 @@ jobs:
             {} +
 
       - name: Create Pull Request
-        uses: actions/create-pull-request@v4
+        uses: actions/create-pull-request@v5
         with:
           branch: "auto-replace/$(date +%s)"
           commit-message: "chore: Automated pattern standardization [bot]"
