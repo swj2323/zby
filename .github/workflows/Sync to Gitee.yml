@@ -33,7 +33,7 @@ jobs:
         env:  
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="1" data="citationList"}  
         run: |  
-          git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/zby.git  
+          git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/live.git  
           git add .  # 添加所有保留文件‌:ml-citation{ref="3" data="citationList"}  
           git commit -m "Auto-sync Download directory"  
           git push gitee HEAD:master --force  
