@@ -9,7 +9,7 @@ jobs:
   keyword-replacement:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 关键权限配置
+      contents: write
     
     steps:
     - name: Checkout code
@@ -19,19 +19,17 @@ jobs:
 
     - name: Perform replacements
       run: |
-        # 安全执行模式（防止找不到文件时报错）
-        set +e
+        cd Download  # 关键路径修改
         find . -type f $ -name "*.m3u" -o -name "*.m3u8" -o -name "*.txt" $ -print0 | xargs -0 sed -i.bak \
           -e 's/CCTV-/CCTV/g' \
           -e 's/CCTV /CCTV/g' \
           -e 's/CGTN记录/CGTN纪录/g'
         find . -name "*.bak" -delete || true
-        set -e
 
     - name: Check changes
       id: check_changes
       run: |
-        git config --global core.safecrlf false  # 防止CRLF报错
+        git config --global core.safecrlf false
         if ! git diff --quiet --exit-code; then
           echo "changed=true" >> $GITHUB_OUTPUT
         else
