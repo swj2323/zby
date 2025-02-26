@@ -13,11 +13,16 @@ jobs:
         with:  
           fetch-depth: 0  # 保留完整提交历史‌:ml-citation{ref="1" data="citationList"}  
 
-      - name: Filter Download Directory  
-        run: |  
-          # 保留 Download 目录及其子文件‌:ml-citation{ref="2,3" data="citationList"}  
-          find . -mindepth 1 -maxdepth 1 ! -name 'Download' ! -name '.github' ! -name '.git' -exec rm -rf {} +  
-          ls -la Download/  # 验证 Download 目录内容  
+      - name: Prepare Download directory
+        run: |
+          mkdir -p sync_temp
+          cp -R Download/ sync_temp/
+          cd sync_temp
+          git init
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-sync Download directory"  
 
       - name: Setup Git Config  
         run: |  
