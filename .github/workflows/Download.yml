@@ -1,5 +1,6 @@
+```yaml
 name: Download Workflow
-on: 
+on:
   workflow_dispatch:
   schedule:
     - cron: "0 18 * * *" # 每天 UTC 18 点执行
@@ -11,24 +12,24 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Clean Download directory
-      run: rm -rf Download/*
+    - name: Clean zby directory
+      run: rm -rf zby/*
 
     - name: Download files
       run: |
-        curl -L -o Download/wwkejishe.m3u8 https://iptv.wwkejishe.top/ALL.m3u8 && echo "Download successful"
-        curl -L -o Download/iptv-api.txt https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt && echo "Download successful"
-        curl -L -o Download/CCTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CCTV.m3u && echo "Download successful"
-        curl -L -o Download/CNTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CNTV.m3u && echo "Download successful"
-        curl -L -o Download/suxuang.m3u https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u && echo "Download successful"
-        curl -L -o Download/merged_output.txt https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt && echo "Download successful"
-        curl -L -o Download/l.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt && echo "Download successful"
-        curl -L -o Download/kk.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt && echo "Download successful"
-        curl -L -o Download/yuanzl77.txt https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt && echo "Download successful"
-        curl -L -o Download/fanmingming_ipv6.m3u https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u && echo "Download successful"
-        curl -L -o Download/vbskycn_iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt && echo "Download successful"
-        curl -L -o Download/vbskycn_iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt && echo "Download successful"
-        curl -L -o Download/YueChan.m3u https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u && echo "Download successful"
+        curl -L -o zby/wwkejishe.m3u8 https://iptv.wwkejishe.top/ALL.m3u8 && echo "Download successful"
+        curl -L -o zby/iptv-api.txt https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt && echo "Download successful"
+        curl -L -o zby/CCTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CCTV.m3u && echo "Download successful"
+        curl -L -o zby/CNTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CNTV.m3u && echo "Download successful"
+        curl -L -o zby/suxuang.m3u https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u && echo "Download successful"
+        curl -L -o zby/merged_output.txt https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt && echo "Download successful"
+        curl -L -o zby/l.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt && echo "Download successful"
+        curl -L -o zby/kk.txt https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt && echo "Download successful"
+        curl -L -o zby/yuanzl77.txt https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt && echo "Download successful"
+        curl -L -o zby/fanmingming_ipv6.m3u https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u && echo "Download successful"
+        curl -L -o zby/vbskycn_iptv6.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt && echo "Download successful"
+        curl -L -o zby/vbskycn_iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt && echo "Download successful"
+        curl -L -o zby/YueChan.m3u https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u && echo "Download successful"
 
     - name: Commit changes
       if: success()
@@ -37,7 +38,7 @@ jobs:
       run: |
         git config --global user.name "swj2323"
         git config --global user.email "656556071@qq.com"
-        git add Download/
+        git add zby/
         if ! git diff --quiet && ! git diff --staged --quiet; then
           git commit -m "chore: auto-update $(date +'%Y-%m-%d')"
           git push origin HEAD:${{ github.ref }}
