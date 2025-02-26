@@ -100,6 +100,9 @@ jobs:
             -e 's/CCTV16 奥林匹克/CCTV16/g' \
             -e 's/CCTV17 农业农村/CCTV17/g' \
             -e 's/CGTN记录/CGTN纪录/g' \
+            -e 's/BRTV北京卫视/北京卫视/g' \
+            -e 's/BRTV卡酷少儿/卡酷少儿/g' \
+            -e 's/BRTV纪实科教/纪实科教/g' \
             {} +
 
       # 步骤5：自动提交更新
