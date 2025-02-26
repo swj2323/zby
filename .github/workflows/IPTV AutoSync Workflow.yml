@@ -24,7 +24,7 @@ jobs:
       # 步骤3：下载IPTV源文件
       - name: Download IPTV sources
         run: |
-          wget -q -O Download/wwkejishe.m3u https://iptv.wwkejishe.top/ALL.m3u8
+          wget -q -O Download/wwkejishe.m3u8 https://iptv.wwkejishe.top/ALL.m3u8
           wget -q -O Download/iptv-api.txt https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
           wget -q -O Download/CCTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CCTV.m3u
           wget -q -O Download/CNTV.m3u https://raw.githubusercontent.com/Moexin/IPTV/Files/CNTV.m3u
