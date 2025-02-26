@@ -1,91 +1,33 @@
-name: Media Automation Engine
-on: 
-  workflow_dispatch:
+name: Auto-Update Keywords
+
+on:
   schedule:
-    - cron: '0 3 * * *'  # 每日UTC时间3点智能触发
+    - cron: '0 0 * * *'  # 每天UTC时间00:00运行
+  workflow_dispatch:     # 手动触发选项
 
 jobs:
-  media-ops:
-    runs-on: ubuntu-2025LTS
-    timeout-minutes: 15
-    env:
-      ICUDATA: /usr/share/icu/2025  # Unicode 15.1强制模式
-      
-    permissions:
-      contents: write
-      security-events: write
-
+  keyword-replacement:
+    runs-on: ubuntu-latest
     steps:
-    # --------------------------
-    # 阶段1：量子安全初始化
-    # --------------------------
-    - name: Quantum-Safe Checkout
-      uses: actions/checkout@v6.2-quantum
+    - name: Checkout code
+      uses: actions/checkout@v4
       with:
-        quantum-seal: true
-        sparse-checkout: |
-          *.m3u
-          *.m3u8
-          *.txt
-          !**/encrypted_          
-      env:
-        GIT_SAFE_DIRECTORIES: /github/workspace
+        fetch-depth: 0
 
-    # --------------------------
-    # 阶段2：智能文件处理
-    # --------------------------
-    - name: 安装AI增强工具链
+    - name: Perform replacements
       run: |
-        sudo apt-get install -y \
-          gsed-2025 \
-          unicode-tools \
-          acl-manager
+        # 批量替换操作（兼容Linux/macOS环境）
+        find . -type $ -name "*.m3u" -o -name "*.m3u8" -o -name "*.txt" $ -exec sed -i.bak \
+        -e 's/CCTV-/CCTV/g' \
+        -e 's/CCTV /CCTV/g' \
+        -e 's/CGTN记录/CGTN纪录/g' {} \; 
+        find . -name "*.bak" -delete  # 清理备份文件
 
-    - name: 执行语义替换
+    - name: Commit changes
+      if: "! git diff --exit-code"
       run: |
-        set -eo pipefail -x
-        
-        # 神经正则引擎初始化
-        export REGEX_ENGINE=ai-enhanced
-        export UNICODE_VERSION=15.1
-        
-        find . -type f $ \
-          -name '*.m3u' -o \
-          -name '*.m3u8' -o \
-          -name '*.txt' $ \
-          -exec gsed-2025 -i --ai-fallback \
-            -e 's/CCTV[\p{Zs}\-]+/CCTV/g' \
-            -e 's/CGTN(记录|紀錄)/CGTN纪录/g' \
-            {} +
-
-        # 变更验证（区块链存证）
-        git diff --exit-code || echo "CHANGE_DETECTED=true" >> $GITHUB_ENV
-
-    # --------------------------
-    # 阶段3：智能PR生成
-    # --------------------------
-    - name: 创建AI审核PR
-      if: env.CHANGE_DETECTED == 'true'
-      uses: ai-pr-generator@v2025.3
-      with:
-        quantum-token: ${{ secrets.QUANTUM_TOKEN }}
-        branch: media-refactor-$(date +%s)
-        ai-reviewers: 2
-        commit-message: |
-          chore: [AI Agent] 媒体文件量子化升级
-          * 智能合并CCTV格式
-          * 自动修正历史文档
-        body: |
-          ## 人工智能修改报告
-          - 影响文件类型检测准确率：99.8%
-          - 语义冲突风险：0.2% 
-          - 区块链存证哈希：${{ steps.blockchain.outputs.tx-id }}
-
-    # --------------------------
-    # 阶段4：跨维验证
-    # --------------------------
-    - name: 量子区块链存证
-      uses: quantum-ledger/action@v3
-      with:
-        files: '**/*.(m3u|m3u8|txt)'
-        network: gh-mainnet
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add -A
+        git commit -m "🤖 自动替换关键字 - 2025-02-26更新"
+        git push
