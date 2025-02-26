@@ -2,12 +2,15 @@ name: Auto-Update Keywords
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'  # 每日UTC时间0点（北京时间8:00）
   workflow_dispatch:
 
 jobs:
   keyword-replacement:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 关键权限配置
+    
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -16,19 +19,23 @@ jobs:
 
     - name: Perform replacements
       run: |
-        find . -type $ -name "*.m3u" -o -name "*.m3u8" -o -name "*.txt" $ -exec sed -i.bak \
-        -e 's/CCTV-/CCTV/g' \
-        -e 's/CCTV /CCTV/g' \
-        -e 's/CGTN记录/CGTN纪录/g' {} \;
-        find . -name "*.bak" -delete
+        # 安全执行模式（防止找不到文件时报错）
+        set +e
+        find . -type f $ -name "*.m3u" -o -name "*.m3u8" -o -name "*.txt" $ -print0 | xargs -0 sed -i.bak \
+          -e 's/CCTV-/CCTV/g' \
+          -e 's/CCTV /CCTV/g' \
+          -e 's/CGTN记录/CGTN纪录/g'
+        find . -name "*.bak" -delete || true
+        set -e
 
     - name: Check changes
       id: check_changes
       run: |
-        if git diff --exit-code; then
-          echo "changed=false" >> $GITHUB_OUTPUT
-        else
+        git config --global core.safecrlf false  # 防止CRLF报错
+        if ! git diff --quiet --exit-code; then
           echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
         fi
 
     - name: Commit changes
@@ -37,5 +44,5 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add -A
-        git commit -m "🤖 自动替换关键字 - 2025-02-26更新"
-        git push
+        git commit -m "🤖 自动替换关键字 - $(date +'%Y-%m-%d')"
+        git push origin HEAD:$(echo $GITHUB_REF | cut -d'/' -f3)
