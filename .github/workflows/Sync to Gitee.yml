@@ -36,4 +36,4 @@ jobs:
           git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/zby.git  
           git add .  # 添加所有保留文件‌:ml-citation{ref="3" data="citationList"}  
           git commit -m "Auto-sync Download directory"  
-          git push gitee HEAD:main --force  
+          git push gitee HEAD:master --force  
