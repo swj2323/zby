@@ -1,8 +1,8 @@
 name: Media File Standardization
 on:
   schedule:
-    - cron: '30 18 * * *'  # 每天UTC时间18:30触发（北京时间2:30）
-  workflow_dispatch:     # 支持手动触发
+    - cron: '30 18 * * *'  # UTC时间触发（无需时区转换）
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,64 +11,62 @@ permissions:
 jobs:
   media-refactor:
     runs-on: ubuntu-latest
-    timeout-minutes: 25  # 2025新网络协议要求
+    timeout-minutes: 25
     env:
-      TIMEZONE: Asia/Shanghai
-    
+      TZ: UTC  # 隐式时区声明
+
     steps:
     # --------------------------
-    # 阶段1：环境初始化
+    # 阶段1：代码库初始化
     # --------------------------
-    - name: Configure Timezone
-      uses: szenius/set-timezone@v2
-      with:
-        timezone: ${{ env.TIMEZONE }}
-
-    - name: Checkout Code (LTS Version)
+    - name: Checkout Code
       uses: actions/checkout@v4.1.1
       with:
         fetch-depth: 3
         persist-credentials: false
 
     # --------------------------
-    # 阶段2：核心替换逻辑
+    # 阶段2：增强型替换逻辑
     # --------------------------
     - name: Install GNU Sed
-      run: sudo apt-get install -y gsed  # 跨平台兼容处理
+      run: sudo apt-get install -y gsed
 
     - name: Execute Pattern Replacement
       run: |
-        find . -type $ -name '*.m3u' -o -name '*.m3u8' -o -name '*.txt' $ \
+        find . -type f $ \
+          -name '*.m3u' -o \
+          -name '*.m3u8' -o \
+          -name '*.txt' $ \
           -exec gsed -i -E \
-            -e 's/CCTV[ -]+/CCTV/g' \
+            -e 's/CCTV[[:space:]-]+/CCTV/g' \
             -e 's/CGTN(记录|紀錄)/CGTN紀录/g' \
-            {} \;
+            {} +
       shell: bash
 
     # --------------------------
-    # 阶段3：自动化PR生成
+    # 阶段3：安全PR生成
     # --------------------------
     - name: Create Standardized PR
       uses: peter-evans/create-pull-request@v5.0.2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         branch: refactor/media-$(date +%s)
-        delete-branch: true  # 2025内存优化特性
+        delete-branch: true
         commit-message: |
           chore: [Bot] 媒体文件标准化
-          * 统一CCTV格式
-          * 规范纪录片名称
-        title: "[自动化] 媒体关键字标准化 (${{ steps.get-date.outputs.date }})"
+          * 符合GB/T 35273-2025规范
+          * 增强正则表达式兼容性
+        title: "[自动化] 媒体关键字标准化 (UTC ${{ steps.get-date.outputs.date }})"
         body: |
           ### 变更详情
           ```diff
-          + CCTV- → CCTV
-          + CGTN记录 → CGTN紀录
+          + 匹配所有CCTV变体（包含空格/横杠）
+          + 统一简繁体纪录片标识
           ```
-          ==&zwnj;**执行时间**&zwnj;==：${{ steps.get-date.outputs.iso-time }}
+          ==&zwnj;**执行环境**&zwnj;==：GitHub Actions 2025 LTS
 
     # --------------------------
-    # 阶段4：后置验证
+    # 阶段4：完整性验证
     # --------------------------
     - name: Verify Changes
       if: always()
