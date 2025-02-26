@@ -11,7 +11,7 @@ jobs:
         run: wget -O ALL.m3u8 "https://iptv.wwkejishe.top/ALL.m3u8"  
       - name: 提交文件  
         run: |  
-          git config --global user.email "you@example.com"  
-          git add file.txt  
+          git config --global user.email "656556071@qq.com"  
+          git add ALL.m3u8  
           git commit -m "Update file"  
           git push  
