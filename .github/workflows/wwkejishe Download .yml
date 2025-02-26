@@ -2,21 +2,37 @@ name: Auto-Download
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * *" # 每天 UTC 18 点执行
+    - cron: "0 18 * * *"  # 每天 UTC 18 点执行
 
 jobs:
-  download:
+  download-and-upload:
     runs-on: ubuntu-latest
     steps:
-      - name: 设置工作目录
+      # 1. 检出仓库代码
+      - uses: actions/checkout@v4  # ‌:ml-citation{ref="2,4" data="citationList"}
+      
+      # 2. 设置工作目录
+      - name: 创建下载目录
         run: mkdir -p Download
 
-      - name: 下载文件
+      # 3. 下载文件
+      - name: 下载目标文件
         run: wget -O Download/ALL.m3u8 "https://iptv.wwkejishe.top/ALL.m3u8"
 
-      - name: 上传下载的文件为 Artifact
-        uses: actions/upload-artifact@v4  # 更新到 v4 版本
+      # 4. 上传 Artifact
+      - name: 上传文件为 Artifact
+        uses: actions/upload-artifact@v4  # ‌:ml-citation{ref="1,2" data="citationList"}
         with:
           name: downloaded-files
-          path: Download/ALL.m3u8  # 注意：这里应该指定具体的文件，而不是目录（除非你想上传整个目录）
+          path: Download/ALL.m3u8  # 指定具体文件
 
+      # 5. 提交文件到仓库（自动化提取）
+      - name: 提交文件到仓库
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add Download/ALL.m3u8
+          git commit -m "[skip ci] 自动更新 Artifact 文件"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
