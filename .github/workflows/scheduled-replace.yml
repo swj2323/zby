@@ -1,7 +1,7 @@
-name: Media File Standardization 2025
+name: Media File Standardization
 on:
   schedule:
-    - cron: '0 3 * * *'  # UTC时间触发（北京时间11:00）
+    - cron: '0 3 * * *'  # UTC时间
   workflow_dispatch:
 
 permissions:
@@ -13,72 +13,54 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
-      TZ: UTC  # 2025新规范（ISO 8601:2025）
+      TZ: Asia/Shanghai  # 2023兼容语法
 
     steps:
     # --------------------------
     # 阶段1：安全代码库初始化
     # --------------------------
-    - name: Checkout Code (LTS 2025)
-      uses: actions/checkout@v4.2.1-lts
+    - name: Checkout Code
+      uses: actions/checkout@v4  # 实际存在的最新稳定版
       with:
         fetch-depth: 3
         persist-credentials: false
-        allowed-patterns: |  # 文件类型白名单
-          *.m3u
-          *.m3u8
-          *.txt
 
     # --------------------------
-    # 阶段2：增强型文件处理
+    # 阶段2：文件处理核心逻辑
     # --------------------------
     - name: Install GNU Sed
-      run: |
-        sudo apt-get install -y gsed=4.9-2025ubuntu1
-        gsed --version | grep '2025 Compliance'
+      run: sudo apt-get install -y gsed
 
     - name: Execute Pattern Replacement
       run: |
-        set -eo pipefail  # 严格错误检测
         find . -type f $ \
           -name '*.m3u' -o \
           -name '*.m3u8' -o \
           -name '*.txt' $ \
           -exec gsed -i -E \
-            -e 's/CCTV([[:space:]\x{2014}-])+/CCTV/g' \
+            -e 's/CCTV[[:space:]-]+/CCTV/g' \  # 2023兼容正则
             -e 's/CGTN(记录|紀錄)/CGTN紀录/g' \
             {} +
-      env:
-        GIT_SAFE_MODE: 1  # 防篡改保护
 
     # --------------------------
-    # 阶段3：智能PR生成
+    # 阶段3：PR生成（现有版本）
     # --------------------------
     - name: Create Standardized PR
-      uses: peter-evans/create-pull-request@v5.2-lts
+      uses: peter-evans/create-pull-request@v5  # 已发布的最新版
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        branch: refactor/media-$(date +%s)_$(sha256sum <<<$GITHUB_RUN_ID | cut -c1-6)
+        branch: refactor/media-$(date +%s)
         delete-branch: true
         commit-message: |
-          chore: [Bot] 媒体标准化 v2025
-          * 符合GB/T 35273-2025
-          * 增强CVE-2025-32768防护
-        title: "[自动化] 媒体文件合规更新 (UTC $(date +%F))"
-        body: |
-          ### 变更清单
-          ```diff
-          + CCTV格式统一（支持全角/半角连接符）
-          + 纪录片命名规范（简繁体自动转换）
-          ```
-          ==&zwnj;**安全认证**&zwnj;==：ISO/IEC 5055:2025
+          chore: [Bot] 媒体文件标准化
+          * 统一CCTV格式
+          * 规范纪录片名称
+        title: "[自动化] 媒体关键字标准化 ($(date +%F))"
 
     # --------------------------
-    # 阶段4：区块链验证
+    # 阶段4：基础验证
     # --------------------------
-    - name: Blockchain Verification
+    - name: Verify Changes
       if: always()
-      uses: actions/blockchain-verify@2025.1
-      with:
-        algorithm: SHA3-512
-        ledger-type: github-ledger-v2
+      run: |
+        git diff --name-only HEAD^ | grep -E '\.(m3u|m3u8|txt)$'
