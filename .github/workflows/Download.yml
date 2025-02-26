@@ -11,9 +11,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Clean zby directory
-      run: rm -rf zby/*
-
     - name: Download files
       run: |
         curl -L -o zby/wwkejishe.m3u8 https://iptv.wwkejishe.top/ALL.m3u8 && echo "Download successful"
