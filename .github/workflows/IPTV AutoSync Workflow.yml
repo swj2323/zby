@@ -38,7 +38,6 @@ jobs:
           wget -q -O Download/vbskycn_iptv4.txt https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
           wget -q -O Download/YueChan.m3u https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
           wget -q -O Download/alienlu.txt https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.txt
-          
           wget -q -O Download/e.xml https://raw.githubusercontent.com/fanmingming/live/main/e.xml
 
       # 步骤4：批量替换文件内容
