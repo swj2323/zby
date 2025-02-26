@@ -235,7 +235,7 @@ CCTV1,http://e1.woc.iiiya.cn:8888/rtp/239.61.3.61:9884$LR•IPV4『线路228』
 CCTV1,http://e1.woc.iiiya.cn:8888/rtp/239.61.3.60:9878$LR•IPV4『线路229』
 CCTV1,http://wouu.net:9977/udp/239.93.0.184:5140$LR•IPV4『线路230』
 CCTV1,https://piccpndali.v.myalicdn.com/audio/cctv1_2.m3u8$LR•IPV4『线路231』
-CCTV1,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-1H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路232』
+CCTV1,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV1H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路232』
 CCTV1,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv1$LR•IPV4『线路233』
 CCTV1,http://182.91.124.60:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路234』
 CCTV1,http://113.57.111.4:1111/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路235』
@@ -284,7 +284,7 @@ CCTV1,http://58.57.40.22:9901/tsfile/live/0001_1.m3u8$LR•IPV4『线路277』
 CCTV1,http://59.48.75.130:3052/tsfile/live/0001_1.m3u8$LR•IPV4『线路278』
 CCTV1,http://61.138.128.226:19901/tsfile/live/0001_1.m3u8$LR•IPV4『线路279』
 CCTV1,http://61.156.228.12:8154/tsfile/live/0001_1.m3u8$LR•IPV4『线路280』
-CCTV1,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-1H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路281』
+CCTV1,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV1H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路281』
 CCTV1,http://42.237.159.135:9003/hls/1/index.m3u8$LR•IPV4『线路282』
 CCTV1,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv1$LR•IPV4『线路283』
 CCTV1,p3p://108.181.32.169:14521/6794c86f000d02a1772744cf38ed5c13$LR•IPV4『线路284』
@@ -363,8 +363,8 @@ CCTV1,http://219.128.121.202:59901/tsfile/live/0001_1.m3u8?key=txiptv$LR•IPV4�
 CCTV1,http://111.9.163.109:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路357』
 CCTV1,http://101.66.198.93:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路358』
 CCTV1,http://hangfun.top:35455/gaoma/cctv1.m3u8$LR•IPV4『线路359』
-CCTV1,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-1-HD-265-8M$LR•IPV4『线路360』
-CCTV1,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-1-AVS-4K264$LR•IPV4『线路361』
+CCTV1,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV1-HD-265-8M$LR•IPV4『线路360』
+CCTV1,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV1-AVS-4K264$LR•IPV4『线路361』
 CCTV1,http://117.144.58.42:35455/gaoma/cctv1.m3u8$LR•IPV4『线路362』
 CCTV1,http://113.109.251.18:9999/udp/239.77.1.144:5146$LR•IPV4『线路363』
 CCTV1,http://113.118.15.210:808/hls/19/index.m3u8$LR•IPV4『线路364』
@@ -658,7 +658,7 @@ CCTV2,http://8.138.7.223/tv/mgitv.php?id=11$LR•IPV4『线路199』
 CCTV2,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.174:9032$LR•IPV4『线路200』
 CCTV2,http://wouu.net:9977/udp/239.93.1.23:6000$LR•IPV4『线路201』
 CCTV2,https://piccpndali.v.myalicdn.com/audio/cctv2_2.m3u8$LR•IPV4『线路202』
-CCTV2,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-2H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路203』
+CCTV2,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV2H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路203』
 CCTV2,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv2$LR•IPV4『线路204』
 CCTV2,http://182.91.124.60:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路205』
 CCTV2,http://113.57.111.4:1111/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路206』
@@ -710,7 +710,7 @@ CCTV2,http://183.66.15.146:60901/tsfile/live/0002_1.m3u8$LR•IPV4『线路251�
 CCTV2,http://220.164.192.48:50085/tsfile/live/0003_1.m3u8$LR•IPV4『线路252』
 CCTV2,http://222.169.85.8:9901/tsfile/live/0002_1.m3u8$LR•IPV4『线路253』
 CCTV2,http://58.57.40.22:9901/tsfile/live/1001_1.m3u8$LR•IPV4『线路254』
-CCTV2,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-2H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路255』
+CCTV2,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV2H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路255』
 CCTV2,http://42.237.159.135:9003/hls/2/index.m3u8$LR•IPV4『线路256』
 CCTV2,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv2$LR•IPV4『线路257』
 CCTV2,p3p://108.181.32.169:14521/64260c83000b5f74edfa64604fe67a12$LR•IPV4『线路258』
@@ -775,7 +775,7 @@ CCTV2,http://183.223.157.33:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&a
 CCTV2,https://www.freetv.top/migu/631780532.m3u8?migutoken=0bbd368e56ca239424f7c5ccc970c14b033a2a8ae6ee8749423233b1af2cf31d089694e2a89e22162c6f6ca67d978d52b628c87627d859fd8b0bf99ebbf20a7ec95de4171a037a5e3b65b7c3ce$LR•IPV4『线路317』
 CCTV2,http://223.145.224.76:8000/udp/239.76.246.152:1234$LR•IPV4『线路318』
 CCTV2,http://223.145.224.76:8000/udp/239.76.253.152:9000$LR•IPV4『线路319』
-CCTV2,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-2-HD-265-8M$LR•IPV4『线路320』
+CCTV2,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV2-HD-265-8M$LR•IPV4『线路320』
 CCTV2,http://117.144.58.42:35455/gaoma/cctv2.m3u8$LR•IPV4『线路321』
 CCTV2,http://113.118.15.210:808/hls/20/index.m3u8$LR•IPV4『线路322』
 CCTV2,http://14.19.151.0:9900/udp/239.77.1.158:5146$LR•IPV4『线路323』
@@ -1066,7 +1066,7 @@ CCTV3,http://8.138.7.223/tv/mgitv.php?id=16$LR•IPV4『线路186』
 CCTV3,http://e1.woc.iiiya.cn:8888/rtp/239.61.3.34:9722$LR•IPV4『线路187』
 CCTV3,http://wouu.net:9977/udp/239.93.1.11:2223$LR•IPV4『线路188』
 CCTV3,https://piccpndali.v.myalicdn.com/audio/cctv3_2.m3u8$LR•IPV4『线路189』
-CCTV3,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-3H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路190』
+CCTV3,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV3H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路190』
 CCTV3,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv3$LR•IPV4『线路191』
 CCTV3,http://182.91.124.60:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路192』
 CCTV3,http://113.57.111.4:1111/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路193』
@@ -1120,7 +1120,7 @@ CCTV3,http://222.169.85.8:9901/tsfile/live/0003_1.m3u8$LR•IPV4『线路240』
 CCTV3,http://59.48.75.130:3052/tsfile/live/0003_1.m3u8$LR•IPV4『线路241』
 CCTV3,http://61.138.128.226:19901/tsfile/live/0003_1.m3u8$LR•IPV4『线路242』
 CCTV3,http://61.156.228.12:8154/tsfile/live/0003_1.m3u8$LR•IPV4『线路243』
-CCTV3,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-3H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路244』
+CCTV3,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV3H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路244』
 CCTV3,http://42.237.159.135:9003/hls/3/index.m3u8$LR•IPV4『线路245』
 CCTV3,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv3$LR•IPV4『线路246』
 CCTV3,p3p://108.181.32.169:14521/64260c9b0000ca3dedfabf6a10b00144$LR•IPV4『线路247』
@@ -1188,8 +1188,8 @@ CCTV3,http://101.66.199.158:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&a
 CCTV3,https://www.freetv.top/migu/624878271.m3u8?migutoken=2d13be95db5e58e97f6fa8da49abb89867168be140fac8df0accbbab11e6fc7f6e78cdef9168ed3f65951dadc9feafdc5ede7bbcc43c0d4c7f9510c146a2309333483f883a0be4b76da20ed280$LR•IPV4『线路309』
 CCTV3,https://www.freetv.top/migu/624878271.m3u8?migutoken=26f112920b7d750d5c237dcfeea880c9e4f73d9f9c90ed6628cd1e3b0e4c1424eb700fa97ef3b1a8d3676d047db35285709219d8e971f98e2b095ef2d7c3c343a9df476c13a0daee16c74e7478$LR•IPV4『线路310』
 CCTV3,https://www.freetv.top/migu/624878271.m3u8?migutoken=e8d38daa280e2049e79abdee2d8546a2afea5b9e9c1a4713b05154116ba5f1133b046c7d4d52fcc0fda414c2208c7aa3a4cf2572926916023730b040718b8a6022093ebfc572f0ea281f1bb0b4$LR•IPV4『线路311』
-CCTV3,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-3-HD-265-8M$LR•IPV4『线路312』
-CCTV3,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-3-AVS-4K264$LR•IPV4『线路313』
+CCTV3,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV3-HD-265-8M$LR•IPV4『线路312』
+CCTV3,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV3-AVS-4K264$LR•IPV4『线路313』
 CCTV3,http://113.101.245.67:9988/udp/239.77.0.169:5146$LR•IPV4『线路314』
 CCTV3,http://117.144.58.42:35455/gaoma/cctv3.m3u8$LR•IPV4『线路315』
 CCTV3,http://113.118.15.210:808/hls/91/index.m3u8$LR•IPV4『线路316』
@@ -1499,7 +1499,7 @@ CCTV4,http://wouu.net:9977/udp/239.93.1.105:5140$LR•IPV4『线路212』
 CCTV4,https://piccpndali.v.myalicdn.com/audio/cctv4_2.m3u8$LR•IPV4『线路213』
 CCTV4,https://piccpndali.v.myalicdn.com/audio/cctveurope_2.m3u8$LR•IPV4『线路214』
 CCTV4,https://piccpndali.v.myalicdn.com/audio/cctvamerica_2.m3u8$LR•IPV4『线路215』
-CCTV4,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-4H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路216』
+CCTV4,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV4H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路216』
 CCTV4,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv4$LR•IPV4『线路217』
 CCTV4,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv4o$LR•IPV4『线路218』
 CCTV4,http://182.91.124.60:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路219』
@@ -1550,7 +1550,7 @@ CCTV4,http://59.48.75.130:3052/tsfile/live/0004_1.m3u8$LR•IPV4『线路263』
 CCTV4,http://60.12.183.46:9901/tsfile/live/0004_1.m3u8$LR•IPV4『线路264』
 CCTV4,http://61.138.128.226:19901/tsfile/live/0004_1.m3u8$LR•IPV4『线路265』
 CCTV4,http://61.156.228.12:8154/tsfile/live/0004_1.m3u8$LR•IPV4『线路266』
-CCTV4,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-4H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路267』
+CCTV4,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV4H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路267』
 CCTV4,http://42.237.159.135:9003/hls/4/index.m3u8$LR•IPV4『线路268』
 CCTV4,https://haoyunlai.serv00.net/Smartv-1.php?id=Cctv4$LR•IPV4『线路269』
 CCTV4,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv4$LR•IPV4『线路270』
@@ -1629,7 +1629,7 @@ CCTV4,http://223.145.224.76:8000/udp/239.76.245.195:1234$LR•IPV4『线路342�
 CCTV4,http://223.145.224.76:8000/udp/239.76.246.95:1234$LR•IPV4『线路343』
 CCTV4,http://nas.hssvm.com:8888/udp/225.1.1.150:5002$LR•IPV4『线路344』
 CCTV4,http://223.145.224.76:8000/udp/239.76.246.96:1234$LR•IPV4『线路345』
-CCTV4,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-4-HD-265-8M$LR•IPV4『线路346』
+CCTV4,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV4-HD-265-8M$LR•IPV4『线路346』
 CCTV4,http://1.itv.nctv.top:35455/gaoma/cctv4k.m3u8$LR•IPV4『线路347』
 CCTV4,http://113.101.245.67:9988/udp/239.77.1.163:5146$LR•IPV4『线路348』
 CCTV4,http://113.118.15.210:808/hls/67/index.m3u8$LR•IPV4『线路349』
@@ -1973,7 +1973,7 @@ CCTV5,http://e1.woc.iiiya.cn:8888/rtp/239.61.3.35:9728$LR•IPV4『线路221』
 CCTV5,http://wouu.net:9977/udp/239.93.42.37:5140$LR•IPV4『线路222』
 CCTV5,http://wouu.net:9977/udp/239.93.1.36:8004$LR•IPV4『线路223』
 CCTV5,https://piccpndali.v.myalicdn.com/audio/cctv5_2.m3u8$LR•IPV4『线路224』
-CCTV5,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-5H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路225』
+CCTV5,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV5H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路225』
 CCTV5,http://182.91.124.60:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路226』
 CCTV5,http://113.57.111.4:1111/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路227』
 CCTV5,http://116.117.106.117:8096/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路228』
@@ -2025,7 +2025,7 @@ CCTV5,http://123.138.22.30:9901/tsfile/live/0005_1.m3u8$LR•IPV4『线路273』
 CCTV5,http://124.128.73.58:9901/tsfile/live/0005_1.m3u8$LR•IPV4『线路274』
 CCTV5,http://58.57.40.22:9901/tsfile/live/1004_1.m3u8$LR•IPV4『线路275』
 CCTV5,http://59.48.75.130:3052/tsfile/live/0005_1.m3u8$LR•IPV4『线路276』
-CCTV5,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-5H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路277』
+CCTV5,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV5H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路277』
 CCTV5,http://42.237.159.135:9003/hls/5/index.m3u8$LR•IPV4『线路278』
 CCTV5,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv5$LR•IPV4『线路279』
 CCTV5,p3p://108.181.32.169:14521/64260cb0000afd53edfb140f10811127$LR•IPV4『线路280』
@@ -2087,8 +2087,8 @@ CCTV5,https://www.freetv.top/migu/641886683.m3u8?migutoken=e81b62c9a59cfc3592405
 CCTV5,http://omnix.cn:4000/udp/225.1.8.89:8000$LR•IPV4『线路336』
 CCTV5,http://14.112.86.85:4022/udp/239.77.0.170:5146$LR•IPV4『线路337』
 CCTV5,http://lt.hxtre.com:35455/gaoma/cctv5.m3u8$LR•IPV4『线路338』
-CCTV5,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-5-HD-265-5M$LR•IPV4『线路339』
-CCTV5,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-5-AVS-4K264$LR•IPV4『线路340』
+CCTV5,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV5-HD-265-5M$LR•IPV4『线路339』
+CCTV5,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV5-AVS-4K264$LR•IPV4『线路340』
 CCTV5,http://113.101.245.67:9988/udp/239.77.0.170:5146$LR•IPV4『线路341』
 CCTV5,http://117.144.58.42:35455/gaoma/cctv5.m3u8$LR•IPV4『线路342』
 CCTV5,http://113.109.251.18:9999/udp/239.77.0.170:5146$LR•IPV4『线路343』
@@ -2319,7 +2319,7 @@ CCTV5+,http://8.138.7.223/tv/mgitv.php?id=28$LR•IPV4『线路116』
 CCTV5+,http://8.138.7.223/tv/mgitv.php?id=29$LR•IPV4『线路117』
 CCTV5+,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.171:9014$LR•IPV4『线路118』
 CCTV5+,https://piccpndali.v.myalicdn.com/audio/cctv5plus_2.m3u8$LR•IPV4『线路119』
-CCTV5+,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-5plusH265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路120』
+CCTV5+,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV5plusH265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路120』
 CCTV5+,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv5p$LR•IPV4『线路121』
 CCTV5+,http://113.15.184.97:8181/tsfile/live/faacts/1100_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路122』
 CCTV5+,http://183.215.211.219:9998/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路123』
@@ -2338,7 +2338,7 @@ CCTV5+,http://123.130.84.106:8154/tsfile/live/0016_1.m3u8$LR•IPV4『线路135�
 CCTV5+,http://222.169.85.8:9901/tsfile/live/0116_1.m3u8$LR•IPV4『线路136』
 CCTV5+,http://61.136.172.236:9901/tsfile/live/0016_1.m3u8$LR•IPV4『线路137』
 CCTV5+,http://61.138.128.226:19901/tsfile/live/1006_1.m3u8$LR•IPV4『线路138』
-CCTV5+,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-5plusH265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路139』
+CCTV5+,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV5plusH265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路139』
 CCTV5+,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv5plus$LR•IPV4『线路140』
 CCTV5+,p3p://108.181.32.169:14521/64260cbc00081417edfb42307c984dd4$LR•IPV4『线路141』
 CCTV5+,http://113.94.58.16:10010/udp/239.77.0.87:5146$LR•IPV4『线路142』
@@ -2385,7 +2385,7 @@ CCTV5+,http://123.254.110.101:5000/1000000005000265016/ystenlive/index.m3u8$LR�
 CCTV5+,http://60.7.56.33:4000/udp/239.253.92.82:8013$LR•IPV4『线路183』
 CCTV5+,http://223.145.224.77:8000/udp/239.76.253.168:9000$LR•IPV4『线路184』
 CCTV5+,http://nas.hssvm.com:8888/udp/225.1.1.121:5002$LR•IPV4『线路185』
-CCTV5+,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-5PLUS-HD-265-5M$LR•IPV4『线路186』
+CCTV5+,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV5PLUS-HD-265-5M$LR•IPV4『线路186』
 CCTV5+,http://113.109.251.18:9999/udp/239.77.0.87:5146$LR•IPV4『线路187』
 CCTV5+,http://113.109.251.18:9999/udp/239.77.1.31:5146$LR•IPV4『线路188』
 CCTV5+,http://113.101.119.26:8090/hls/10/index.m3u8$LR•IPV4『线路189』
@@ -2656,7 +2656,7 @@ CCTV6,http://e1.woc.iiiya.cn:8888/rtp/239.61.3.36:9734$LR•IPV4『线路186』
 CCTV6,http://wouu.net:9977/udp/239.93.1.13:2226$LR•IPV4『线路187』
 CCTV6,http://dns.yiandrive.com:15907/1905/cctv6$LR•IPV4『线路188』
 CCTV6,https://piccpndali.v.myalicdn.com/audio/cctv6_2.m3u8$LR•IPV4『线路189』
-CCTV6,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-6H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路190』
+CCTV6,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV6H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路190』
 CCTV6,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv6$LR•IPV4『线路191』
 CCTV6,http://182.91.124.60:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路192』
 CCTV6,http://113.57.111.4:1111/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路193』
@@ -2705,7 +2705,7 @@ CCTV6,http://220.164.192.48:50085/tsfile/live/0007_1.m3u8$LR•IPV4『线路235�
 CCTV6,http://222.169.85.8:9901/tsfile/live/0006_1.m3u8$LR•IPV4『线路236』
 CCTV6,http://58.57.40.22:9901/tsfile/live/1006_1.m3u8$LR•IPV4『线路237』
 CCTV6,http://61.136.172.236:9901/tsfile/live/0006_1.m3u8$LR•IPV4『线路238』
-CCTV6,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-6H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路239』
+CCTV6,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV6H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路239』
 CCTV6,http://42.237.159.135:9003/hls/6/index.m3u8$LR•IPV4『线路240』
 CCTV6,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv6$LR•IPV4『线路241』
 CCTV6,p3p://108.181.32.169:14521/64260cc800087ffdedfb712c61a06569$LR•IPV4『线路242』
@@ -2773,8 +2773,8 @@ CCTV6,http://111.9.163.109:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&au
 CCTV6,http://www.freetv.top/migu/624878396.m3u8?migutoken=3adcad950884d4ecc6c6967edee9c162189a1e09480eb5c29b369864aeedaed43c3f951d7eb6c32d86baac49792aacb3264b8f074e746477064fd7b1f172f00a9d84373825617d4366e8c54f0c$LR•IPV4『线路304』
 CCTV6,http://101.66.199.132:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路305』
 CCTV6,http://223.145.224.76:8000/udp/239.76.246.156:1234$LR•IPV4『线路306』
-CCTV6,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-6-HD-265-8M$LR•IPV4『线路307』
-CCTV6,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-6-AVS-4K264$LR•IPV4『线路308』
+CCTV6,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV6-HD-265-8M$LR•IPV4『线路307』
+CCTV6,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV6-AVS-4K264$LR•IPV4『线路308』
 CCTV6,http://117.144.58.42:35455/gaoma/cctv6.m3u8$LR•IPV4『线路309』
 CCTV6,http://113.109.251.18:9999/udp/239.77.0.171:5146$LR•IPV4『线路310』
 CCTV6,http://14.19.151.0:9900/udp/239.77.0.171:5146$LR•IPV4『线路311』
@@ -3075,7 +3075,7 @@ CCTV7,http://8.138.7.223/tv/mgitv.php?id=40$LR•IPV4『线路194』
 CCTV7,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.175:9038$LR•IPV4『线路195』
 CCTV7,http://wouu.net:9977/udp/239.93.1.67:5140$LR•IPV4『线路196』
 CCTV7,https://piccpndali.v.myalicdn.com/audio/cctv7_2.m3u8$LR•IPV4『线路197』
-CCTV7,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-7H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路198』
+CCTV7,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV7H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路198』
 CCTV7,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv7$LR•IPV4『线路199』
 CCTV7,http://182.91.124.60:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路200』
 CCTV7,http://113.57.111.4:1111/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路201』
@@ -3123,7 +3123,7 @@ CCTV7,http://121.33.239.242:9901/tsfile/live/0007_1.m3u8$LR•IPV4『线路242�
 CCTV7,http://123.130.84.106:8154/tsfile/live/0007_1.m3u8$LR•IPV4『线路243』
 CCTV7,http://220.164.192.48:50085/tsfile/live/0008_1.m3u8$LR•IPV4『线路244』
 CCTV7,http://60.12.183.46:9901/tsfile/live/0007_1.m3u8$LR•IPV4『线路245』
-CCTV7,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-7H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路246』
+CCTV7,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV7H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路246』
 CCTV7,http://42.237.159.135:9003/hls/7/index.m3u8$LR•IPV4『线路247』
 CCTV7,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv7$LR•IPV4『线路248』
 CCTV7,p3p://108.181.32.169:14521/64260cd9000ba7ebedfbb46356b665a0$LR•IPV4『线路249』
@@ -3176,7 +3176,7 @@ CCTV7,http://2000.run:35455/gaoma/cctv7.m3u8$LR•IPV4『线路295』
 CCTV7,http://nas.hssvm.com:8888/udp/225.1.1.138:5002$LR•IPV4『线路296』
 CCTV7,http://58.221.214.82:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路297』
 CCTV7,http://223.145.224.77:8000/udp/239.76.246.157:1234$LR•IPV4『线路298』
-CCTV7,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-7-HQ$LR•IPV4『线路299』
+CCTV7,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV7-HQ$LR•IPV4『线路299』
 CCTV7,http://117.144.58.42:35455/gaoma/cctv7.m3u8$LR•IPV4『线路300』
 CCTV7,http://113.118.15.210:808/hls/25/index.m3u8$LR•IPV4『线路301』
 CCTV7,http://113.109.251.18:9999/udp/239.77.0.138:5146$LR•IPV4『线路302』
@@ -3457,7 +3457,7 @@ CCTV8,http://8.138.7.223/tv/mgitv.php?id=45$LR•IPV4『线路180』
 CCTV8,http://e1.woc.iiiya.cn:8888/rtp/239.61.3.37:9740$LR•IPV4『线路181』
 CCTV8,http://wouu.net:9977/udp/239.93.42.39:5140$LR•IPV4『线路182』
 CCTV8,https://piccpndali.v.myalicdn.com/audio/cctv8_2.m3u8$LR•IPV4『线路183』
-CCTV8,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-8H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路184』
+CCTV8,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV8H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路184』
 CCTV8,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv8$LR•IPV4『线路185』
 CCTV8,http://182.91.124.60:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路186』
 CCTV8,http://113.57.111.4:1111/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路187』
@@ -3505,7 +3505,7 @@ CCTV8,http://58.57.40.22:9901/tsfile/live/1008_1.m3u8$LR•IPV4『线路228』
 CCTV8,http://60.12.183.46:9901/tsfile/live/0008_1.m3u8$LR•IPV4『线路229』
 CCTV8,http://61.156.228.12:8154/tsfile/live/0008_1.m3u8$LR•IPV4『线路230』
 CCTV8,http://61.157.139.15:9901/tsfile/live/2378_1.m3u8$LR•IPV4『线路231』
-CCTV8,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-8H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路232』
+CCTV8,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV8H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路232』
 CCTV8,http://42.237.159.135:9003/hls/8/index.m3u8$LR•IPV4『线路233』
 CCTV8,http://iptv.0564.org:35455/gaoma/cctv8k_36m.m3u8$LR•IPV4『线路234』
 CCTV8,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv8hd$LR•IPV4『线路235』
@@ -3570,8 +3570,8 @@ CCTV8,http://60.7.56.33:4000/udp/239.253.92.195:6060$LR•IPV4『线路293』
 CCTV8,http://219.128.121.202:59901/tsfile/live/0008_1.m3u8?key=txiptv$LR•IPV4『线路294』
 CCTV8,http://101.66.198.93:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路295』
 CCTV8,http://125.82.168.238:8888/rtp/235.254.198.144:1856$LR•IPV4『线路296』
-CCTV8,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-8-HD-265-5M$LR•IPV4『线路297』
-CCTV8,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-8-AVS-4K264$LR•IPV4『线路298』
+CCTV8,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV8-HD-265-5M$LR•IPV4『线路297』
+CCTV8,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV8-AVS-4K264$LR•IPV4『线路298』
 CCTV8,http://113.101.245.67:9988/udp/239.77.0.172:5146$LR•IPV4『线路299』
 CCTV8,http://117.144.58.42:35455/gaoma/cctv8.m3u8$LR•IPV4『线路300』
 CCTV8,http://113.109.251.18:9999/udp/239.77.0.172:5146$LR•IPV4『线路301』
@@ -3875,7 +3875,7 @@ CCTV9,http://8.138.7.223/tv/mgitv.php?id=50$LR•IPV4『线路191』
 CCTV9,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.172:9020$LR•IPV4『线路192』
 CCTV9,http://wouu.net:9977/udp/239.93.1.24:5140$LR•IPV4『线路193』
 CCTV9,https://piccpndali.v.myalicdn.com/audio/cctv9_2.m3u8$LR•IPV4『线路194』
-CCTV9,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-9H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路195』
+CCTV9,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV9H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路195』
 CCTV9,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv9$LR•IPV4『线路196』
 CCTV9,http://113.57.111.4:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路197』
 CCTV9,http://116.117.106.117:8096/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路198』
@@ -3925,7 +3925,7 @@ CCTV9,http://220.164.192.48:50085/tsfile/live/0010_1.m3u8$LR•IPV4『线路241�
 CCTV9,http://60.12.183.46:9901/tsfile/live/0009_1.m3u8$LR•IPV4『线路242』
 CCTV9,http://61.136.67.238:50085/tsfile/live/0010_1.m3u8$LR•IPV4『线路243』
 CCTV9,http://61.138.128.226:19901/tsfile/live/0009_2.m3u8$LR•IPV4『线路244』
-CCTV9,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-9H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路245』
+CCTV9,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV9H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路245』
 CCTV9,http://42.237.159.135:9003/hls/9/index.m3u8$LR•IPV4『线路246』
 CCTV9,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv9hd$LR•IPV4『线路247』
 CCTV9,p3p://108.181.32.169:14521/64260cef0008fa21edfc09a37d024704$LR•IPV4『线路248』
@@ -3983,7 +3983,7 @@ CCTV9,https://www.freetv.top/migu/673168140.m3u8?migutoken=9cebd017730e602010005
 CCTV9,http://113.25.252.226:9901/tsfile/live/0009_1.m3u8$LR•IPV4『线路300』
 CCTV9,http://114.252.238.87:8000/udp/239.3.1.62:8112$LR•IPV4『线路301』
 CCTV9,http://60.7.56.33:4000/udp/239.253.92.107:6020$LR•IPV4『线路302』
-CCTV9,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-9-HD-265-5M$LR•IPV4『线路303』
+CCTV9,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV9-HD-265-5M$LR•IPV4『线路303』
 CCTV9,http://113.109.251.18:9999/udp/239.77.0.135:5146$LR•IPV4『线路304』
 CCTV9,http://113.118.15.210:808/hls/27/index.m3u8$LR•IPV4『线路305』
 CCTV9,http://121.232.178.75:60001/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路306』
@@ -4296,7 +4296,7 @@ CCTV10,http://8.138.7.223/tv/mgitv.php?id=56$LR•IPV4『线路199』
 CCTV10,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.176:9044$LR•IPV4『线路200』
 CCTV10,http://wouu.net:9977/udp/239.93.1.28:5140$LR•IPV4『线路201』
 CCTV10,https://piccpndali.v.myalicdn.com/audio/cctv10_2.m3u8$LR•IPV4『线路202』
-CCTV10,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-10H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路203』
+CCTV10,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV10H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路203』
 CCTV10,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv10$LR•IPV4『线路204』
 CCTV10,http://182.91.124.60:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路205』
 CCTV10,http://113.57.111.4:1111/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路206』
@@ -4347,7 +4347,7 @@ CCTV10,http://58.57.40.22:9901/tsfile/live/1010_1.m3u8$LR•IPV4『线路250』
 CCTV10,http://61.136.67.238:50085/tsfile/live/0011_1.m3u8$LR•IPV4『线路251』
 CCTV10,http://61.138.128.226:19901/tsfile/live/0011_1.m3u8$LR•IPV4『线路252』
 CCTV10,http://61.156.228.12:8154/tsfile/live/0010_1.m3u8$LR•IPV4『线路253』
-CCTV10,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-10H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路254』
+CCTV10,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV10H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路254』
 CCTV10,http://42.237.159.135:9003/hls/10/index.m3u8$LR•IPV4『线路255』
 CCTV10,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv10hd$LR•IPV4『线路256』
 CCTV10,p3p://108.181.32.169:14521/64260d0a000e81f1edfc74866d9b5c0f$LR•IPV4『线路257』
@@ -4403,7 +4403,7 @@ CCTV10,http://60.7.56.33:4000/rtp/239.253.92.196:6061$LR•IPV4『线路306』
 CCTV10,http://223.145.224.77:8000/udp/239.76.246.160:1234$LR•IPV4『线路307』
 CCTV10,http://nas.hssvm.com:8888/udp/225.1.1.140:5002$LR•IPV4『线路308』
 CCTV10,http://223.145.224.77:8000/udp/239.76.253.160:9000$LR•IPV4『线路309』
-CCTV10,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-10-HQ$LR•IPV4『线路310』
+CCTV10,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV10-HQ$LR•IPV4『线路310』
 CCTV10,http://113.109.251.18:9999/udp/239.77.0.134:5146$LR•IPV4『线路311』
 CCTV10,http://113.109.251.18:9999/udp/239.77.1.113:5146$LR•IPV4『线路312』
 CCTV10,http://113.118.15.210:808/hls/28/index.m3u8$LR•IPV4『线路313』
@@ -4696,7 +4696,7 @@ CCTV11,http://8.138.7.223/tv/mgitv.php?id=60$LR•IPV4『线路179』
 CCTV11,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.21:8120$LR•IPV4『线路180』
 CCTV11,http://wouu.net:9977/udp/239.93.0.102:5140$LR•IPV4『线路181』
 CCTV11,https://piccpndali.v.myalicdn.com/audio/cctv11_2.m3u8$LR•IPV4『线路182』
-CCTV11,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-11-H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路183』
+CCTV11,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV11-H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路183』
 CCTV11,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv11$LR•IPV4『线路184』
 CCTV11,http://182.91.124.60:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路185』
 CCTV11,http://113.57.111.4:1111/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路186』
@@ -4738,7 +4738,7 @@ CCTV11,http://123.138.22.30:9901/tsfile/live/0011_1.m3u8$LR•IPV4『线路221�
 CCTV11,http://124.128.73.58:9901/tsfile/live/0011_1.m3u8$LR•IPV4『线路222』
 CCTV11,http://222.169.85.8:9901/tsfile/live/0011_1.m3u8$LR•IPV4『线路223』
 CCTV11,http://58.57.40.22:9901/tsfile/live/1011_1.m3u8$LR•IPV4『线路224』
-CCTV11,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-11-H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路225』
+CCTV11,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV11-H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路225』
 CCTV11,http://42.237.159.135:9003/hls/11/index.m3u8$LR•IPV4『线路226』
 CCTV11,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv11$LR•IPV4『线路227』
 CCTV11,p3p://108.181.32.169:14521/64260dce0000aea8edff6e9d426b2704$LR•IPV4『线路228』
@@ -4785,7 +4785,7 @@ CCTV11,http://113.25.252.226:9901/tsfile/live/0011_1.m3u8$LR•IPV4『线路268�
 CCTV11,http://60.7.56.33:4000/udp/239.253.93.153:6321$LR•IPV4『线路269』
 CCTV11,http://223.145.224.76:8000/udp/239.76.245.251:1234$LR•IPV4『线路270』
 CCTV11,http://125.82.168.238:8888/rtp/235.254.198.7:1304$LR•IPV4『线路271』
-CCTV11,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-11-HQ$LR•IPV4『线路272』
+CCTV11,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV11-HQ$LR•IPV4『线路272』
 CCTV11,http://117.144.58.42:35455/gaoma/cctv11.m3u8$LR•IPV4『线路273』
 CCTV11,http://113.101.245.67:9988/udp/239.77.1.238:5146$LR•IPV4『线路274』
 CCTV11,http://113.101.119.62:8090/hls/123/index.m3u8$LR•IPV4『线路275』
@@ -5090,7 +5090,7 @@ CCTV12,http://8.138.7.223/tv/mgitv.php?id=65$LR•IPV4『线路202』
 CCTV12,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.177:9050$LR•IPV4『线路203』
 CCTV12,http://wouu.net:9977/udp/239.93.1.30:8124$LR•IPV4『线路204』
 CCTV12,https://piccpndali.v.myalicdn.com/audio/cctv12_2.m3u8$LR•IPV4『线路205』
-CCTV12,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-12H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路206』
+CCTV12,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV12H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路206』
 CCTV12,http://113.57.111.4:1111/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路207』
 CCTV12,http://116.117.106.117:8096/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路208』
 CCTV12,http://116.117.106.11:8096/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路209』
@@ -5137,7 +5137,7 @@ CCTV12,http://123.138.22.30:9901/tsfile/live/0012_1.m3u8$LR•IPV4『线路249�
 CCTV12,http://222.169.85.8:9901/tsfile/live/0012_1.m3u8$LR•IPV4『线路250』
 CCTV12,http://60.12.183.46:9901/tsfile/live/0012_1.m3u8$LR•IPV4『线路251』
 CCTV12,http://61.138.128.226:19901/tsfile/live/0013_1.m3u8$LR•IPV4『线路252』
-CCTV12,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-12H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路253』
+CCTV12,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV12H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路253』
 CCTV12,http://42.237.159.135:9003/hls/12/index.m3u8$LR•IPV4『线路254』
 CCTV12,p3p://108.181.32.169:14521/64260e37000ca83aee010bd5707e0fea$LR•IPV4『线路255』
 CCTV12,http://113.94.58.16:10010/udp/239.77.1.109:5146$LR•IPV4『线路256』
@@ -5489,7 +5489,7 @@ CCTV13,http://8.138.7.223/tv/mgitv.php?id=68$LR•IPV4『线路190』
 CCTV13,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.23:8132$LR•IPV4『线路191』
 CCTV13,http://wouu.net:9977/udp/239.93.0.66:5140$LR•IPV4『线路192』
 CCTV13,https://piccpndali.v.myalicdn.com/audio/cctv13_2.m3u8$LR•IPV4『线路193』
-CCTV13,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-xw_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路194』
+CCTV13,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTVxw_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路194』
 CCTV13,http://113.57.111.4:1111/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路195』
 CCTV13,http://116.117.106.117:8096/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路196』
 CCTV13,http://116.117.106.11:8096/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路197』
@@ -5530,7 +5530,7 @@ CCTV13,http://59.48.75.130:3052/tsfile/live/0013_1.m3u8$LR•IPV4『线路231』
 CCTV13,http://60.12.183.46:9901/tsfile/live/0013_1.m3u8$LR•IPV4『线路232』
 CCTV13,http://61.138.128.226:19901/tsfile/live/0013_2.m3u8$LR•IPV4『线路233』
 CCTV13,http://61.156.228.12:8154/tsfile/live/0013_1.m3u8$LR•IPV4『线路234』
-CCTV13,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-xw_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路235』
+CCTV13,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTVxw_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路235』
 CCTV13,http://42.237.159.135:9003/hls/13/index.m3u8$LR•IPV4『线路236』
 CCTV13,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv13$LR•IPV4『线路237』
 CCTV13,p3p://108.181.32.169:14521/64260e45000ccab2ee01428e6da4043d$LR•IPV4『线路238』
@@ -5576,7 +5576,7 @@ CCTV13,http://123.138.22.30:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&a
 CCTV13,http://114.252.238.87:8000/udp/239.3.1.124:8128$LR•IPV4『线路278』
 CCTV13,http://14.112.86.85:4022/udp/239.77.0.188:5146$LR•IPV4『线路279』
 CCTV13,http://101.66.199.158:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路280』
-CCTV13,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-13-HQ$LR•IPV4『线路281』
+CCTV13,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV13-HQ$LR•IPV4『线路281』
 CCTV13,http://121.232.178.75:60001/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路282』
 CCTV13,http://117.144.58.42:35455/gaoma/cctv13.m3u8$LR•IPV4『线路283』
 CCTV13,http://113.101.245.67:9988/udp/239.77.0.188:5146$LR•IPV4『线路284』
@@ -5872,7 +5872,7 @@ CCTV14,http://8.138.7.223/tv/mgitv.php?id=73$LR•IPV4『线路195』
 CCTV14,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.178:9056$LR•IPV4『线路196』
 CCTV14,http://wouu.net:9977/udp/239.93.1.29:6000$LR•IPV4『线路197』
 CCTV14,https://piccpndali.v.myalicdn.com/audio/cctv14_2.m3u8$LR•IPV4『线路198』
-CCTV14,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-14H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路199』
+CCTV14,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV14H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路199』
 CCTV14,http://113.57.111.4:1111/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路200』
 CCTV14,http://116.117.106.117:8096/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路201』
 CCTV14,http://116.117.106.11:8096/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路202』
@@ -5915,7 +5915,7 @@ CCTV14,http://58.57.40.22:9901/tsfile/live/1014_1.m3u8$LR•IPV4『线路238』
 CCTV14,http://60.12.183.46:9901/tsfile/live/0014_1.m3u8$LR•IPV4『线路239』
 CCTV14,http://61.138.128.226:19901/tsfile/live/0015_1.m3u8$LR•IPV4『线路240』
 CCTV14,http://61.156.228.12:8154/tsfile/live/0014_1.m3u8$LR•IPV4『线路241』
-CCTV14,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-14H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路242』
+CCTV14,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV14H265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路242』
 CCTV14,http://42.237.159.135:9003/hls/14/index.m3u8$LR•IPV4『线路243』
 CCTV14,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv14$LR•IPV4『线路244』
 CCTV14,p3p://108.181.32.169:14521/64260e4f0007169bee0168271778447e$LR•IPV4『线路245』
@@ -6254,7 +6254,7 @@ CCTV15,http://8.138.7.223/tv/mgitv.php?id=77$LR•IPV4『线路182』
 CCTV15,http://e1.woc.iiiya.cn:8888/rtp/239.61.2.25:8144$LR•IPV4『线路183』
 CCTV15,http://wouu.net:9977/udp/239.93.0.103:5140$LR•IPV4『线路184』
 CCTV15,https://piccpndali.v.myalicdn.com/audio/cctv15_2.m3u8$LR•IPV4『线路185』
-CCTV15,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-15-yyH265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路186』
+CCTV15,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV15-yyH265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路186』
 CCTV15,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv15$LR•IPV4『线路187』
 CCTV15,http://113.57.111.4:1111/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路188』
 CCTV15,http://116.117.106.117:8096/tsfile/live/0014_2.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路189』
@@ -6301,7 +6301,7 @@ CCTV15,http://58.57.40.22:9901/tsfile/live/1015_1.m3u8$LR•IPV4『线路229』
 CCTV15,http://60.12.183.46:9901/tsfile/live/0015_1.m3u8$LR•IPV4『线路230』
 CCTV15,http://61.138.128.226:19901/tsfile/live/0019_1.m3u8$LR•IPV4『线路231』
 CCTV15,http://61.156.228.12:8154/tsfile/live/0015_1.m3u8$LR•IPV4『线路232』
-CCTV15,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-15-yyH265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路233』
+CCTV15,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV15-yyH265_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路233』
 CCTV15,http://42.237.159.135:9003/hls/15/index.m3u8$LR•IPV4『线路234』
 CCTV15,https://haoyunlai.serv00.net/Smartv-1.php?id=cctv15$LR•IPV4『线路235』
 CCTV15,p3p://108.181.32.169:14521/64260e5a000a63ffee0193f872fa5767$LR•IPV4『线路236』
@@ -6346,7 +6346,7 @@ CCTV15,http://nas.hssvm.com:8888/udp/225.1.1.26:5002$LR•IPV4『线路274』
 CCTV15,http://223.145.224.76:8000/udp/239.76.245.252:1234$LR•IPV4『线路275』
 CCTV15,http://125.82.168.238:8888/rtp/235.254.198.11:1320$LR•IPV4『线路276』
 CCTV15,http://14.112.86.85:4022/udp/239.77.1.239:5146$LR•IPV4『线路277』
-CCTV15,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-15$LR•IPV4『线路278』
+CCTV15,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV15$LR•IPV4『线路278』
 CCTV15,http://14.19.151.0:9900/udp/239.77.1.239:5146$LR•IPV4『线路279』
 CCTV15,http://113.101.245.67:9988/udp/239.77.1.239:5146$LR•IPV4『线路280』
 CCTV15,http://113.118.15.210:808/hls/102/index.m3u8$LR•IPV4『线路281』
@@ -6535,7 +6535,7 @@ CCTV16,http://211.101.234.24:866/aishang/migu.php/migu.php?id=cctv16$LR•IPV4�
 CCTV16,http://8.138.7.223/tv/mgitv.php?id=78$LR•IPV4『线路93』
 CCTV16,http://1b6467f415.iok.la:9931/tsfile/live/1094_1.m3u8$LR•IPV4『线路94』
 CCTV16,https://piccpndali.v.myalicdn.com/audio/cctv16_2.m3u8$LR•IPV4『线路95』
-CCTV16,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-16_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路96』
+CCTV16,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV16_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路96』
 CCTV16,https://stream1.freetv.fun/f5e0459fd9f11d93ac18af88196997db1c71aeb6d27ce1bd24faccb628652629.m3u8$LR•IPV4『线路97』
 CCTV16,http://113.15.184.97:8181/tsfile/live/faacts/1111_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路98』
 CCTV16,http://121.11.160.7:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路99』
@@ -6546,7 +6546,7 @@ CCTV16,http://117.27.190.42:9998/tsfile/live/23249_1.m3u8$LR•IPV4『线路103�
 CCTV16,http://111.160.17.2:59901/tsfile/live/0001_17.m3u8$LR•IPV4『线路104』
 CCTV16,http://202.100.46.58:9901/tsfile/live/1016_1.m3u8$LR•IPV4『线路105』
 CCTV16,http://220.164.192.48:50085/tsfile/live/0017_1.m3u8$LR•IPV4『线路106』
-CCTV16,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-16_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路107』
+CCTV16,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV16_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路107』
 CCTV16,https://yunmei.tv/main/cctv-16.m3u8$LR•IPV4『线路108』
 CCTV16,http://113.94.58.16:10010/udp/239.77.0.165:5146$LR•IPV4『线路109』
 CCTV16,http://125.89.163.44:8888/udp/239.77.0.165:5146$LR•IPV4『线路110』
@@ -6577,7 +6577,7 @@ CCTV16,http://14.112.86.85:4022/udp/239.77.0.165:5146$LR•IPV4『线路134』
 CCTV16,http://iptv77.iptv66.eu.org:35455/gaoma/cctv16.m3u8$LR•IPV4『线路135』
 CCTV16,http://114.252.238.87:8000/udp/239.3.1.184:8001$LR•IPV4『线路136』
 CCTV16,http://114.252.238.87:8000/udp/239.3.1.183:8001$LR•IPV4『线路137』
-CCTV16,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-16-CQ$LR•IPV4『线路138』
+CCTV16,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV16-CQ$LR•IPV4『线路138』
 CCTV16,http://113.101.245.67:9988/udp/239.77.0.165:5146$LR•IPV4『线路139』
 CCTV16,http://117.144.58.42:35455/gaoma/cctv16.m3u8$LR•IPV4『线路140』
 CCTV16,http://14.19.151.0:9900/udp/239.77.0.165:5146$LR•IPV4『线路141』
@@ -6768,7 +6768,7 @@ CCTV17,http://8.138.7.223/tv/mgitv.php?id=82$LR•IPV4『线路137』
 CCTV17,http://e1.woc.iiiya.cn:8888/rtp/239.61.3.9:9572$LR•IPV4『线路138』
 CCTV17,http://wouu.net:9977/udp/239.93.0.92:5140$LR•IPV4『线路139』
 CCTV17,https://piccpndali.v.myalicdn.com/audio/cctv17_2.m3u8$LR•IPV4『线路140』
-CCTV17,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-17_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路141』
+CCTV17,http://101.204.187.4:8731/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV17_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路141』
 CCTV17,http://tv.20191209.xyz:37377/migu/673168256$LR•IPV4『线路142』
 CCTV17,http://113.57.111.4:1111/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路143』
 CCTV17,http://113.15.184.97:8181/tsfile/live/1115_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路144』
@@ -6783,7 +6783,7 @@ CCTV17,http://111.160.17.2:59901/tsfile/live/0001_18.m3u8$LR•IPV4『线路152�
 CCTV17,http://120.238.94.10:9901/tsfile/live/1048_1.m3u8$LR•IPV4『线路153』
 CCTV17,http://220.164.192.48:50085/tsfile/live/0018_1.m3u8$LR•IPV4『线路154』
 CCTV17,http://58.57.40.22:9901/tsfile/live/0019_1.m3u8$LR•IPV4『线路155』
-CCTV17,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV-17_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路156』
+CCTV17,http://101.204.187.4:8729/hls.p2p.com/58.144.234.4/live2.rxip.sc96655.com/live/CCTV17_4000.m3u8?E=&U=&A=&K=&P=&S=$LR•IPV4『线路156』
 CCTV17,http://113.94.58.16:10010/udp/239.77.1.121:5146$LR•IPV4『线路157』
 CCTV17,http://125.89.163.44:8888/udp/239.77.1.121:5146$LR•IPV4『线路158』
 CCTV17,http://123.122.162.179:19999/rtp/239.3.1.151:8144$LR•IPV4『线路159』
@@ -6817,7 +6817,7 @@ CCTV17,http://123.138.22.30:9901/tsfile/live/0017_1.m3u8$LR•IPV4『线路186�
 CCTV17,https://www.freetv.top/migu/673168256.m3u8?migutoken=cd9ac55fddf5f22ac004018cec6a4046c41dd9f4fc2bf0d97a30aaddef8a88da0e984cf03e60fa6a6adcb81d784905e343fb6a9dae398827b1b71b5164b118d15f6762b07225d4764bce858c33$LR•IPV4『线路187』
 CCTV17,http://223.145.224.77:8000/udp/239.76.245.238:1234$LR•IPV4『线路188』
 CCTV17,http://60.7.56.33:4000/udp/239.253.93.150:6318$LR•IPV4『线路189』
-CCTV17,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV-17-HD$LR•IPV4『线路190』
+CCTV17,http://dl.wifi942.com:66/jsyd/jsyd.php?id=G_CCTV17-HD$LR•IPV4『线路190』
 CCTV17,http://14.19.151.0:9900/udp/239.77.1.121:5146$LR•IPV4『线路191』
 CCTV17,http://117.144.58.42:35455/gaoma/cctv17.m3u8$LR•IPV4『线路192』
 CCTV17,http://1.197.249.81:9901/tsfile/live/0007_2.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路193』
