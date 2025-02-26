@@ -81,6 +81,24 @@ jobs:
             -e 's/CCTV-15音乐/CCTV15/g' \
             -e 's/CCTV-16奥林匹克/CCTV16/g' \
             -e 's/CCTV-17农业农村/CCTV17/g' \
+            -e 's/CCTV1 综合/CCTV1/g' \
+            -e 's/CCTV2 财经/CCTV2/g' \
+            -e 's/CCTV3 综艺/CCTV3/g' \
+            -e 's/CCTV4 中文国际/CCTV4/g' \
+            -e 's/CCTV5 体育/CCTV5/g' \
+            -e 's/CCTV5+ 体育赛事/CCTV5+/g' \
+            -e 's/CCTV6 电影/CCTV6/g' \
+            -e 's/CCTV7 国防军事/CCTV7/g' \
+            -e 's/CCTV8 电视剧/CCTV8/g' \
+            -e 's/CCTV9 纪录/CCTV9/g' \
+            -e 's/CCTV10 科教/CCTV10/g' \
+            -e 's/CCTV11 戏曲/CCTV11/g' \
+            -e 's/CCTV12 社会与法/CCTV12/g' \
+            -e 's/CCTV13 新闻/CCTV13/g' \
+            -e 's/CCTV14 少儿/CCTV14/g' \
+            -e 's/CCTV15 音乐/CCTV15/g' \
+            -e 's/CCTV16 奥林匹克/CCTV16/g' \
+            -e 's/CCTV17 农业农村/CCTV17/g' \
             -e 's/CGTN记录/CGTN纪录/g' \
             {} +
 
