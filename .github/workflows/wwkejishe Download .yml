@@ -14,9 +14,3 @@ jobs:
       - name: 下载文件
         run: wget -O Download/ALL.m3u8 "https://iptv.wwkejishe.top/ALL.m3u8"
 
-      # 注意：以下步骤是可选的，用于展示如何上传下载的文件作为 Artifact
-      - name: ALL.m3u8
-        uses: actions/upload-artifact@v3
-        with:
-          name: downloaded-files
-          path: Download/
