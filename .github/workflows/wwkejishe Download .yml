@@ -15,7 +15,8 @@ jobs:
         run: wget -O Download/ALL.m3u8 "https://iptv.wwkejishe.top/ALL.m3u8"
 
       - name: 上传下载的文件为 Artifact
-        uses: actions/upload-artifact@latest  # 使用最新的稳定版本
+        uses: actions/upload-artifact@v4  # 更新到 v4 版本
         with:
           name: downloaded-files
-          path: Download/ALL.m3u8  # 指定要上传的具体文件
+          path: Download/ALL.m3u8  # 注意：这里应该指定具体的文件，而不是目录（除非你想上传整个目录）
+
