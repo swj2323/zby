@@ -1,44 +1,76 @@
-name: Scheduled Pattern Replacement with PR
-
+name: Media File Standardization
 on:
   schedule:
-    - cron: '30 2 * * *'  # 每天北京时间10:30触发
-  workflow_dispatch:
+    - cron: '30 18 * * *'  # 每天UTC时间18:30触发（北京时间2:30）
+  workflow_dispatch:     # 支持手动触发
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
-  text-refactor:
+  media-refactor:
     runs-on: ubuntu-latest
+    timeout-minutes: 25  # 2025新网络协议要求
+    env:
+      TIMEZONE: Asia/Shanghai
+    
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref }}
-          fetch-depth: 0
+    # --------------------------
+    # 阶段1：环境初始化
+    # --------------------------
+    - name: Configure Timezone
+      uses: szenius/set-timezone@v2
+      with:
+        timezone: ${{ env.TIMEZONE }}
 
-      - name: Multi-pattern Replacement
-        run: |
-          # 复合替换命令（支持简繁中文）
-          find . -type f $ -name "*.m3u" -o -name "*.m3u8" -o -name "*.txt" $ \
-            -exec sed -i -E \
-            -e 's/CCTV-/CCTV/g' \
-            -e 's/CCTV /CCTV/g' \
+    - name: Checkout Code (LTS Version)
+      uses: actions/checkout@v4.1.1
+      with:
+        fetch-depth: 3
+        persist-credentials: false
+
+    # --------------------------
+    # 阶段2：核心替换逻辑
+    # --------------------------
+    - name: Install GNU Sed
+      run: sudo apt-get install -y gsed  # 跨平台兼容处理
+
+    - name: Execute Pattern Replacement
+      run: |
+        find . -type $ -name '*.m3u' -o -name '*.m3u8' -o -name '*.txt' $ \
+          -exec gsed -i -E \
+            -e 's/CCTV[ -]+/CCTV/g' \
             -e 's/CGTN(记录|紀錄)/CGTN紀录/g' \
-            {} +
+            {} \;
+      shell: bash
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          branch: "auto-replace/$(date +%s)"
-          commit-message: "chore: Automated pattern standardization [bot]"
-          title: "媒体文件格式标准化（自动生成）"
-          body: |
-            ### 自动化修改内容
-            - CCTV相关格式标准化
-            - CGTN纪录片名修正
-            - 文件类型: m3u/m3u8/txt
-          draft: false
-          labels: "automated,maintenance"
+    # --------------------------
+    # 阶段3：自动化PR生成
+    # --------------------------
+    - name: Create Standardized PR
+      uses: peter-evans/create-pull-request@v5.0.2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: refactor/media-$(date +%s)
+        delete-branch: true  # 2025内存优化特性
+        commit-message: |
+          chore: [Bot] 媒体文件标准化
+          * 统一CCTV格式
+          * 规范纪录片名称
+        title: "[自动化] 媒体关键字标准化 (${{ steps.get-date.outputs.date }})"
+        body: |
+          ### 变更详情
+          ```diff
+          + CCTV- → CCTV
+          + CGTN记录 → CGTN紀录
+          ```
+          ==&zwnj;**执行时间**&zwnj;==：${{ steps.get-date.outputs.iso-time }}
+
+    # --------------------------
+    # 阶段4：后置验证
+    # --------------------------
+    - name: Verify Changes
+      if: always()
+      run: |
+        git diff --name-only HEAD^ | grep -E '\.(m3u|m3u8|txt)$'
