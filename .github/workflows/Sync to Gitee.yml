@@ -1,4 +1,4 @@
-name: Sync Specific Directory to Gitee  
+name: Sync to Gitee  
 on:  
   workflow_dispatch:  
   schedule:  
