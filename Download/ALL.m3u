@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml,https://e.erw.cc/e.xml"
-#EXTINF:-1 tvg-name="更新日期20250222" tvg-logo="https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/tg.jpg" group-title="更新日期",20250222
+#EXTINF:-1 tvg-name="更新日期20250333" tvg-logo="https://cdn.jsdelivr.net/gh/feiyangdigital/testvideo/tg.jpg" group-title="更新日期",20250222
 http://iptv.wwkejishe.top/share.mp4
 #EXTINF:-1 group-title="央视频道",CCTV1
 http://tv.20191209.xyz:37377/migu/608807420.m3u8?migutoken=004b385f879c68b1898b3b528c53ce2cc69a05fc6ccef397d5ff725950f98cc37983a6c0565ab535a964de0b80663b3a394fd8a43c51d0547d2e232162525de45bdb07292d1fc1944aea97f0
