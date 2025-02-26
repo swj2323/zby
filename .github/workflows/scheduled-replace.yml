@@ -30,7 +30,7 @@ jobs:
             {} +
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5.0.1
+        uses: peter-evans/create-pull-request@v5
         with:
           branch: "auto-replace/$(date +%s)"
           commit-message: "chore: Automated pattern standardization [bot]"
