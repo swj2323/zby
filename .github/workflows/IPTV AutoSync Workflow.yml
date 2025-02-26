@@ -46,6 +46,8 @@ jobs:
           find Download -type f -exec sed -i \
             -e 's/CCTV-/CCTV/g' \
             -e 's/CCTV /CCTV/g' \
+            -e 's/CCTV-0/CCTV/g' \
+            -e 's/CCTV0/CCTV/g' \
             -e 's/CCTV-1 综合/CCTV1/g' \
             -e 's/CCTV-2 财经/CCTV2/g' \
             -e 's/CCTV-3 综艺/CCTV3/g' \
