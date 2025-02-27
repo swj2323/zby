@@ -1,44 +1,46 @@
 name: Sync to Gitee2
+
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # 手动触发
   schedule:
-    - cron: '0 19 * * *'  # UTC 19:00 → 北京时间凌晨 3:00‌:ml-citation{ref="5" data="citationList"}
+    - cron: '0 19 * * *'  # 定时触发，UTC 时间 19:00
 
 jobs:
   sync-directory:
     runs-on: ubuntu-latest
     steps:
-      # 步骤1：选择性检出仓库（严格路径格式）
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          sparse-checkout: |  
-            *            # 匹配根目录所有内容（无前导斜杠）‌:ml-citation{ref="2,3" data="citationList"}
-            !.github     # 排除 .github 目录（相对路径格式）‌:ml-citation{ref="3" data="citationList"}
+          fetch-depth: 0  # 检出所有历史提交
+          sparse-checkout: |
+            /*
+            !.github  # 排除 .github 目录
 
-      # 步骤2：同步目录（强化递归过滤）
       - name: Prepare Sync Directory
         run: |
           mkdir -p sync_temp
-          # 递归排除所有 .github 及其子内容（含隐藏文件）‌:ml-citation{ref="3,4" data="citationList"}
-          rsync -av --exclude='.github' --exclude='.git*' TV/ sync_temp/
+          # 使用 rsync 复制除 .github 外的所有内容到 sync_temp 目录
+          rsync -av --exclude='.github' . sync_temp/
           cd sync_temp
           git init
+
+      - name: Configure Git User
+        run: |
           git config --local user.name "GitHub Actions Bot"
           git config --local user.email "actions@github.com"
-          git add .
-          git commit -m "Auto-sync TV directory"
+        working-directory: ./sync_temp
 
-      # 步骤3：强制清理残留元数据
+      - name: Add and Commit Files
+        run: |
+          git add .
+          git commit -m "Auto-sync from GitHub Actions"
+        working-directory: ./sync_temp
+
       - name: Force Push to Gitee
         env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="5" data="citationList"}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需要在仓库的 Secrets 中配置 GITEE_TOKEN
         run: |
-          cd sync_temp
           git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/live.git
-          # 添加 --skip-checks 绕过路径检查‌:ml-citation{ref="3,4" data="citationList"}
-          git rm -r --cached .github --skip-checks 2>/dev/null || true
-          git add .
-          git commit --allow-empty -m "Auto-sync TV directory"
           git push gitee HEAD:master --force
+        working-directory: ./sync_temp
