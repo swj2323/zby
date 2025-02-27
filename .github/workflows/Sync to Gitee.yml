@@ -16,13 +16,13 @@ jobs:
       - name: Prepare Download directory
         run: |
           mkdir -p sync_temp
-          cp -R Download/ sync_temp/
+          cp -R TV/ sync_temp/
           cd sync_temp
           git init
           git config --local user.name "GitHub Actions Bot"
           git config --local user.email "actions@github.com"
           git add .
-          git commit -m "Auto-sync Download directory"  
+          git commit -m "Auto-sync TV directory"  
 
       - name: Setup Git Config  
         run: |  
@@ -35,5 +35,5 @@ jobs:
         run: |  
           git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/live.git  
           git add .  # 添加所有保留文件‌:ml-citation{ref="3" data="citationList"}  
-          git commit -m "Auto-sync Download directory"  
+          git commit -m "Auto-sync TV directory"  
           git push gitee HEAD:master --force  
