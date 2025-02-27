@@ -1,0 +1,50 @@
+name: Sync to Gitee+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 19 * * *'  # UTC 19:00 → 北京时间凌晨 3:00 ‌:ml-citation{ref="1,4" data="citationList"}
+
+jobs:
+  sync-directory:
+    runs-on: ubuntu-latest
+    steps:
+      # 步骤1：选择性检出仓库（排除 .github 目录）
+      - name: Checkout Repository (Exclude .github)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          sparse-checkout: |  # 指定需要检出的路径 ‌:ml-citation{ref="2" data="citationList"}
+            /*
+            !.github
+
+      # 步骤2：准备同步目录（过滤隐藏文件）
+      - name: Prepare Sync Directory
+        run: |
+          mkdir -p sync_temp
+          # 使用 rsync 排除 .github 目录 ‌:ml-citation{ref="2" data="citationList"}
+          rsync -av --exclude='.github/' --exclude='.git/' Download/ sync_temp/
+          cd sync_temp
+          git init
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-sync Download directory"
+
+      # 步骤3：配置全局 Git 身份（需与目标仓库匹配）
+      - name: Setup Git Config
+        run: |
+          git config --global user.email "656556071@qq.com"
+          git config --global user.name "毁在右手上"
+
+      # 步骤4：强制推送至 Gitee（验证目录内容）
+      - name: Force Push to Gitee
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需配置写入权限 ‌:ml-citation{ref="3,5" data="citationList"}
+        run: |
+          cd sync_temp
+          git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/live.git
+          # 二次排除 .github 文件 ‌:ml-citation{ref="2" data="citationList"}
+          git rm -r --cached .github 2>/dev/null || true
+          git add .
+          git commit --allow-empty -m "Auto-sync Download directory"
+          git push gitee HEAD:master --force
