@@ -1,27 +1,27 @@
-name: Sync to Gitee2
+name: Sync to Gitee
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 19 * * *'  # UTC 19:00 → 北京时间凌晨 3:00‌:ml-citation{ref="1" data="citationList"}
+    - cron: '0 19 * * *'  # UTC 19:00 → 北京时间凌晨 3:00‌:ml-citation{ref="1,5" data="citationList"}
 
 jobs:
   sync-directory:
     runs-on: ubuntu-latest
     steps:
-      # 步骤1：选择性检出仓库（排除 .github 目录）
+      # 步骤1：选择性检出仓库（修正路径格式）
       - name: Checkout Full Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          sparse-checkout: |  # 过滤 .github 目录‌:ml-citation{ref="2,5" data="citationList"}
+          sparse-checkout: |  # 使用无前导斜杠的路径规则‌:ml-citation{ref="2,6" data="citationList"}
             *
             !.github
 
-      # 步骤2：准备同步目录（强化过滤逻辑）
+      # 步骤2：准备同步目录（递归排除 .github）
       - name: Prepare TV directory
         run: |
           mkdir -p sync_temp
-          # 使用 rsync 排除 .github 目录‌:ml-citation{ref="2,3" data="citationList"}
+          # 使用 rsync 递归排除 .github 及其子内容‌:ml-citation{ref="2,3" data="citationList"}
           rsync -av --exclude='.github/' --exclude='.github/**/*' TV/ sync_temp/
           cd sync_temp
           git init
@@ -36,14 +36,14 @@ jobs:
           git config --global --replace-all user.email "656556071@qq.com"
           git config --global --replace-all user.name "毁在右手上"
 
-      # 步骤4：强制推送至 Gitee（二次验证）
+      # 步骤4：强制推送至 Gitee（二次清理残留文件）
       - name: Force Push to Gitee
         env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="1,4" data="citationList"}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="3,5" data="citationList"}
         run: |
           cd sync_temp
           git remote add gitee https://oauth2:$GITEE_TOKEN@gitee.com/weijun_sun/live.git
-          # 强制清理残留的 .github 目录‌:ml-citation{ref="2,3" data="citationList"}
+          # 使用相对路径清理残留 .github‌:ml-citation{ref="2,4" data="citationList"}
           git rm -r --cached .github 2>/dev/null || true
           git add .
           git commit --allow-empty -m "Auto-sync TV directory"
