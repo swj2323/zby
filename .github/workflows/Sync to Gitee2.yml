@@ -1,4 +1,4 @@
-name: Sync to Gitee
+name: Sync to Gitee2
 on:
   workflow_dispatch:
   schedule:
