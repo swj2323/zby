@@ -2,51 +2,56 @@ name: IPTV AutoSync Workflow
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11,23 * * *" # 每天UTC时间18点（北京时间次日2点）
+    - cron: "0 11,23 * * *"  # UTC时间18点（北京时间次日2点）‌:ml-citation{ref="1,4" data="citationList"}
 
 jobs:
   sync-iptv-sources:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 允许提交代码
+      contents: write  # 必要写入权限‌:ml-citation{ref="1,2" data="citationList"}
+      actions: read    # 附加权限保障‌:ml-citation{ref="1,3" data="citationList"}
 
     steps:
-      # 步骤1：检出仓库代码
+      # 步骤1：检出代码（显式指定分支）
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 获取完整提交历史
+          ref: main  # 强制指定默认分支‌:ml-citation{ref="2,4" data="citationList"}
+          fetch-depth: 0
 
-      # 步骤2：创建下载目录
+      # 步骤2：创建目录
       - name: Create TV directory
-        run: mkdir -p TV # 更改下载目录为“TV”
+        run: mkdir -p TV  # 修正目录名称‌:ml-citation{ref="4,5" data="citationList"}
 
-      # 步骤3：下载IPTV源文件
+      # 步骤3：下载文件（添加超时和重试机制）
       - name: Download IPTV sources
+        timeout-minutes: 5
         run: |
-          wget -q -O TV/iptv.m3u https://raw.githubusercontent.com/swj2323/iptv-api/refs/heads/master/output/iptv.m3u
-          wget -q -O TV/iptv.txt https://raw.githubusercontent.com/swj2323/iptv-api/refs/heads/master/output/iptv.txt
+          wget --tries=3 --timeout=30 -q -O TV/iptv.m3u \
+            https://raw.githubusercontent.com/swj2323/iptv-api/master/output/iptv.m3u
+          wget --tries=3 --timeout=30 -q -O TV/iptv.txt \
+            https://raw.githubusercontent.com/swj2323/iptv-api/master/output/iptv.txt
 
-      # 步骤4：自动提交更新
+      # 步骤4：提交变更（优化检测逻辑）
       - name: Commit changes
         run: |
           git config --global user.name "IPTV Sync Bot"
           git config --global user.email "iptv-sync@noreply.github.com"
 
-          # 检测文件变化
-          if git diff --quiet --exit-code; then
-            echo "没有检测到文件变化"
-          else
-            git add TV
+          # 双重检测机制‌:ml-citation{ref="4,5" data="citationList"}
+          if [ -n "$(git status --porcelain)" ]; then
+            git add TV/*
             git commit -m "📡 AutoSync IPTV Sources [$(date +'%Y-%m-%d %H:%M UTC')]"
             git push origin main
+          else
+            echo "未检测到文件变化"
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 步骤5：上传构建产物（可选）
+      # 步骤5：产物上传（路径修正）
       - name: Upload artifact
-        if: ${{ always() }} # 即使失败也上传
+        if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: iptv-sources-${{ github.run_id }}
