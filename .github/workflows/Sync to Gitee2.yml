@@ -18,7 +18,7 @@ jobs:
             !.github
 
       # 步骤2：准备同步目录（强化过滤逻辑）
-      - name: Prepare Download directory
+      - name: Prepare TV directory
         run: |
           mkdir -p sync_temp
           # 使用 rsync 排除 .github 目录‌:ml-citation{ref="2,3" data="citationList"}
