@@ -31,9 +31,9 @@ jobs:
             https://raw.githubusercontent.com/swj2323/iptv-api/master/output/tv.m3u
           wget --tries=3 --timeout=30 -q -O TV/tv.txt \
             https://raw.githubusercontent.com/swj2323/iptv-api/master/output/tv.txt
-          wget --tries=3 --timeout=30 -q -O TV/tv.m3u \
+          wget --tries=3 --timeout=30 -q -O TV/my_tv.m3u \
             https://raw.githubusercontent.com/sweijun/iptv-api/master/output/my_tv.m3u
-          wget --tries=3 --timeout=30 -q -O TV/tv.txt \
+          wget --tries=3 --timeout=30 -q -O TV/my_tv.txt \
             https://raw.githubusercontent.com/sweijun/iptv-api/master/output/my_tv.txt
 
       # 步骤4：提交变更（优化检测逻辑）
