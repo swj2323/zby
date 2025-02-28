@@ -27,10 +27,10 @@ jobs:
       - name: Download IPTV sources
         timeout-minutes: 5
         run: |
-          wget --tries=3 --timeout=30 -q -O TV/iptv.m3u \
-            https://raw.githubusercontent.com/swj2323/iptv-api/master/output/iptv.m3u
-          wget --tries=3 --timeout=30 -q -O TV/iptv.txt \
-            https://raw.githubusercontent.com/swj2323/iptv-api/master/output/iptv.txt
+          wget --tries=3 --timeout=30 -q -O TV/tv.m3u \
+            https://raw.githubusercontent.com/swj2323/iptv-api/master/output/tv.m3u
+          wget --tries=3 --timeout=30 -q -O TV/tv.txt \
+            https://raw.githubusercontent.com/swj2323/iptv-api/master/output/tv.txt
 
       # 步骤4：提交变更（优化检测逻辑）
       - name: Commit changes
