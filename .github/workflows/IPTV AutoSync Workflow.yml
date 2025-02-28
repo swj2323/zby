@@ -2,7 +2,7 @@ name: IPTV AutoSync Workflow
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11,23 * * *"  # UTC时间18点（北京时间次日2点）‌:ml-citation{ref="1,4" data="citationList"}
+    - cron: "0 19 * * *"  # UTC时间19点（北京时间次日3点）‌:ml-citation{ref="1,4" data="citationList"}
 
 jobs:
   sync-iptv-sources:
