@@ -164,7 +164,7 @@ http://192.168.6.1:1207/rtp/239.255.40.157:8208
 http://192.168.6.1:1207/rtp/239.255.40.170:8208
 #EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/厦门卫视.png" group-title="💾福建频道",厦门卫视
 http://192.168.6.1:1207/rtp/239.255.40.28:8208
-#EXTINF:-1 tvg-name="厦门1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/厦门1.png" group-title="💾福建频道",厦门1
+#EXTINF:-1 tvg-name="厦门一套" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/厦门一套.png" group-title="💾福建频道",厦门一套
 http://192.168.6.1:1207/rtp/239.255.40.171:8208
 #EXTINF:-1 tvg-name="平潭卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/平潭卫视.png" group-title="💾福建频道",平潭卫视
 http://192.168.6.1:1207/rtp/239.255.40.191:8208
