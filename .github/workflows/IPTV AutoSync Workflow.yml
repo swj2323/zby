@@ -40,8 +40,8 @@ jobs:
       - name: Process files
         run: |
           find Download -type f -exec sed -i \
-            -e 's/https://raw.githubusercontent.com/fanmingming/live/main/e.xml/ https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml/g' \
-            -e 's/ https://raw.githubusercontent.com/fanmingming/live/main/tv/ https://gitee.com/weijun_sun/icon/raw/master/PNG/g' \
+            -e 's/https://raw.githubusercontent.com/fanmingming/live/main/e.xml/https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml/g' \
+            -e 's/ https://raw.githubusercontent.com/fanmingming/live/main/tv/https://gitee.com/weijun_sun/icon/raw/master/PNG/g' \
 
       # 步骤5：提交变更（优化检测逻辑）
       - name: Commit changes
