@@ -138,11 +138,11 @@ http://192.168.6.1:1207/rtp/239.255.40.64:8208
 http://192.168.6.1:1207/rtp/239.255.40.65:8208
 #EXTINF:-1 tvg-name="IPTV谍战剧场" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/IPTV谍战剧场.png" group-title="🎬电影剧集",IPTV谍战剧场
 http://192.168.6.1:1207/rtp/239.255.40.58:8208
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/经典电影.png" group-title="🎬电影剧集",经典电影
+#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/经典电影.png" group-title="🎬电影剧集",IPTV经典电影
 http://192.168.6.1:1207/rtp/239.255.40.70:8208
-#EXTINF:-1 tvg-name="华数1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/华数1.png" group-title="🎬电影剧集",华数1
+#EXTINF:-1 tvg-name="IPTV热播剧场" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/IPTV热播剧场.png" group-title="🎬电影剧集",IPTV热播剧场
 http://192.168.6.1:1207/rtp/239.255.40.69:8208
-#EXTINF:-1 tvg-name="华数2" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/华数2.png" group-title="🎬电影剧集",华数2
+#EXTINF:-1 tvg-name="华数影视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/华数影视.png" group-title="🎬电影剧集",华数影视
 http://192.168.6.1:1207/rtp/239.255.40.159:820
 #EXTINF:-1 tvg-name="福建文体" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/福建文体.png" group-title="💾福建频道",福建文体
 http://192.168.6.1:1207/rtp/239.255.40.155:8208
@@ -160,17 +160,17 @@ http://192.168.6.1:1207/rtp/239.255.40.150:8208
 http://192.168.6.1:1207/rtp/239.255.40.153:8208
 #EXTINF:-1 tvg-name="海峡卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/海峡卫视.png" group-title="💾福建频道",海峡卫视
 http://192.168.6.1:1207/rtp/239.255.40.157:8208
-#EXTINF:-1 tvg-name="福州一套" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/福州一套.png" group-title="💾福建频道",福州一套
+#EXTINF:-1 tvg-name="福州新闻" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/福州新闻.png" group-title="💾福建频道",福州新闻
 http://192.168.6.1:1207/rtp/239.255.40.170:8208
 #EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/厦门卫视.png" group-title="💾福建频道",厦门卫视
 http://192.168.6.1:1207/rtp/239.255.40.28:8208
-#EXTINF:-1 tvg-name="厦门一套" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/厦门一套.png" group-title="💾福建频道",厦门一套
+#EXTINF:-1 tvg-name="厦门1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/厦门1.png" group-title="💾福建频道",厦门1
 http://192.168.6.1:1207/rtp/239.255.40.171:8208
 #EXTINF:-1 tvg-name="平潭卫视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/平潭卫视.png" group-title="💾福建频道",平潭卫视
 http://192.168.6.1:1207/rtp/239.255.40.191:8208
 #EXTINF:-1 tvg-name="泉州一套" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/泉州一套.png" group-title="💾福建频道",泉州一套
 http://192.168.6.1:1207/rtp/239.255.40.172:8208
-#EXTINF:-1 tvg-name="莆田一套" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/莆田一套.png" group-title="💾福建频道",莆田一套
+#EXTINF:-1 tvg-name="莆田新闻" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/莆田新闻.png" group-title="💾福建频道",莆田新闻
 http://192.168.6.1:1207/rtp/239.255.40.140:8208
 #EXTINF:-1 tvg-name="CETV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CETV1.png" group-title="📼其他频道",CETV1
 http://192.168.6.1:1207/rtp/239.255.40.201:8208
