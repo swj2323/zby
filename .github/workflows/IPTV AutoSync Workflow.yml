@@ -37,11 +37,10 @@ jobs:
             https://raw.githubusercontent.com/sweijun/iptv-api/master/output/my_tv.txt
 
       # 步骤4：批量替换文件内容
-      - name: Process files
+      - name: Replace URLs
         run: |
-          find Download -type f -exec sed -i \
-            -e 's/https://raw.githubusercontent.com/fanmingming/live/main/e.xml/https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml/g' \
-            -e 's/ https://raw.githubusercontent.com/fanmingming/live/main/tv/https://gitee.com/weijun_sun/icon/raw/master/PNG/g' \
+          sed -i 's|https://raw.githubusercontent.com/fanmingming/live/main/e.xml|https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml|g' TV/my_tv.m3u TV/tv.m3u
+          sed -i 's|https://raw.githubusercontent.com/fanmingming/live/main/tv/|https://gitee.com/weijun_sun/icon/raw/master/PNG/|g' TV/my_tv.m3u TV/tv.m3u
 
       # 步骤5：提交变更（优化检测逻辑）
       - name: Commit changes
