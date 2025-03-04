@@ -27,7 +27,7 @@ jobs:
       - name: Setup Git Config  
         run: |  
           git config --global user.email "656556071@qq.com"  
-          git config --global user.name "毁在右手上"  
+          git config --global user.name "weijun_sun"  
 
       - name: Force Push to Gitee  
         env:  
