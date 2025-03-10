@@ -1,10 +1,14 @@
 #EXTM3U x-tvg-url="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml"
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV1.png" group-title="📺央视频道",CCTV1
+http://221.226.4.10:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV1.png" group-title="📺央视频道",CCTV1
 http://z.b.bkpcp.top/m.php?id=cctv1
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV1.png" group-title="📺央视频道",CCTV1
 http://goo.bkpcp.top/mg/cctv1
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV1.png" group-title="📺央视频道",CCTV1
 http://yc.myds.me:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV2.png" group-title="📺央视频道",CCTV2
+http://221.226.4.10:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV2.png" group-title="📺央视频道",CCTV2
 http://z.b.bkpcp.top/m.php?id=cctv2
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV2.png" group-title="📺央视频道",CCTV2
@@ -12,17 +16,23 @@ http://goo.bkpcp.top/mg/cctv2
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV2.png" group-title="📺央视频道",CCTV2
 http://yc.myds.me:35455/itv/1000000001000023315.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV3.png" group-title="📺央视频道",CCTV3
+http://221.226.4.10:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV3.png" group-title="📺央视频道",CCTV3
 http://z.b.bkpcp.top/m.php?id=cctv3
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV3.png" group-title="📺央视频道",CCTV3
 http://goo.bkpcp.top/mg/cctv3
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV3.png" group-title="📺央视频道",CCTV3
 http://yc.myds.me:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV4.png" group-title="📺央视频道",CCTV4
+http://221.226.4.10:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV4.png" group-title="📺央视频道",CCTV4
 http://z.b.bkpcp.top/m.php?id=CCTV4国际
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV4.png" group-title="📺央视频道",CCTV4
 http://goo.bkpcp.top/mg/cctv4
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV4.png" group-title="📺央视频道",CCTV4
 http://yc.myds.me:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV5.png" group-title="📺央视频道",CCTV5
+http://221.226.4.10:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV5.png" group-title="📺央视频道",CCTV5
 http://z.b.bkpcp.top/m.php?id=cctv5p\
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV5.png" group-title="📺央视频道",CCTV5
@@ -34,11 +44,15 @@ http://z.b.bkpcp.top/m.php?id=cctv5p⁭
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV5+.png" group-title="📺央视频道",CCTV5+
 http://yc.myds.me:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV7.png" group-title="📺央视频道",CCTV7
+http://221.226.4.10:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV7.png" group-title="📺央视频道",CCTV7
 http://z.b.bkpcp.top/m.php?id=cctv7
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV7.png" group-title="📺央视频道",CCTV7
 http://goo.bkpcp.top/mg/cctv7
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV7.png" group-title="📺央视频道",CCTV7
 http://yc.myds.me:35455/itv/1000000005000265007.m3u8?cdn=ystenlive
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV9.png" group-title="📺央视频道",CCTV9
+http://221.226.4.10:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV9.png" group-title="📺央视频道",CCTV9
 http://z.b.bkpcp.top/m.php?id=cctv9
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV9.png" group-title="📺央视频道",CCTV9
@@ -46,11 +60,15 @@ http://goo.bkpcp.top/mg/cctv9
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV9.png" group-title="📺央视频道",CCTV9
 http://yc.myds.me:35455/itv/1000000005000265009.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV10.png" group-title="📺央视频道",CCTV10
+http://221.226.4.10:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV10.png" group-title="📺央视频道",CCTV10
 http://z.b.bkpcp.top/m.php?id=CCTV10科教科教
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV10.png" group-title="📺央视频道",CCTV10
 http://goo.bkpcp.top/mg/cctv10
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV10.png" group-title="📺央视频道",CCTV10
 http://yc.myds.me:35455/itv/1000000005000265010.m3u8?cdn=ystenlive
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV11.png" group-title="📺央视频道",CCTV11
+http://221.226.4.10:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV11.png" group-title="📺央视频道",CCTV11
 http://z.b.bkpcp.top/m.php?id=CCTV11戏曲戏曲
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV11.png" group-title="📺央视频道",CCTV11
@@ -58,17 +76,19 @@ http://goo.bkpcp.top/mg/cctv11
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV11.png" group-title="📺央视频道",CCTV11
 http://yc.myds.me:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV12.png" group-title="📺央视频道",CCTV12
+http://221.226.4.10:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV12.png" group-title="📺央视频道",CCTV12
 http://z.b.bkpcp.top/m.php?id=CCTV12社会与法社会与法
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV12.png" group-title="📺央视频道",CCTV12
 http://goo.bkpcp.top/mg/cctv12
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV12.png" group-title="📺央视频道",CCTV12
 http://yc.myds.me:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV13.png" group-title="📺央视频道",CCTV13
+http://221.226.4.10:9901/tsfile/live/00101_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV13.png" group-title="📺央视频道",CCTV13
 http://z.b.bkpcp.top/m.php?id=cctv13
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV13.png" group-title="📺央视频道",CCTV13
 https://event.pull.hebtv.com/jishi/cp1.m3u8
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV13.png" group-title="📺央视频道",CCTV13
-http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV13.png" group-title="📺央视频道",CCTV13
 http://goo.bkpcp.top/mg/cctv13
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV13.png" group-title="📺央视频道",CCTV13
@@ -109,8 +129,6 @@ http://z.b.bkpcp.top/m.php?id=bjws
 http://z.b.bkpcp.top/m.php?id=hubws
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/黑龙江卫视.png" group-title="📡卫视频道",黑龙江卫视
 https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/chunks.m3u8
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/黑龙江卫视.png" group-title="📡卫视频道",黑龙江卫视
-http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/重庆卫视.png" group-title="📡卫视频道",重庆卫视
 http://z.b.bkpcp.top/m.php?id=cqws
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/东方卫视.png" group-title="📡卫视频道",东方卫视
@@ -172,6 +190,8 @@ http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
 #EXTINF:-1 tvg-name="香港卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/香港卫视.png" group-title="📡卫视频道",香港卫视
 https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV14.png" group-title="🎥动画频道",CCTV14
+http://221.226.4.10:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV14.png" group-title="🎥动画频道",CCTV14
 https://event.pull.hebtv.com/jishi/cp2.m3u8#rtsp://103.251.96.71/PLTV/88888888/224/3221225783/10000100000000060000000000726027_0.smil?icpid=SSPID&amp;accounttype=1&amp;limitflux=-1&amp;limitdur=-1&amp;accountinfo=:20240213104135
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV14.png" group-title="🎥动画频道",CCTV14
 http://z.b.bkpcp.top/m.php?id=cctv14
@@ -179,8 +199,6 @@ http://z.b.bkpcp.top/m.php?id=cctv14
 http://goo.bkpcp.top/mg/cctv14
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV14.png" group-title="🎥动画频道",CCTV14
 http://yc.myds.me:35455/itv/1000000005000265013.m3u8?cdn=ystenlive
-#EXTINF:-1 tvg-name="福建少儿" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/福建少儿.png" group-title="🎥动画频道",福建少儿
-http://aa3.kkwk111.top/fj.php?id=2
 #EXTINF:-1 tvg-name="优漫卡通" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/优漫卡通.png" group-title="🎥动画频道",优漫卡通
 http://z.b.bkpcp.top/m.php?id=ymkt
 #EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/浙江少儿.png" group-title="🎥动画频道",浙江少儿
@@ -188,19 +206,21 @@ https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?#https://ali-m-l
 #EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/浙江少儿.png" group-title="🎥动画频道",浙江少儿
 http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?fbl=#migu5://611318244
 #EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/浙江少儿.png" group-title="🎥动画频道",浙江少儿
-http://aa3.kkwk111.top/zj.php?id=zjse
-#EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/浙江少儿.png" group-title="🎥动画频道",浙江少儿
 http://ali-vl.cztv.com/channels/lantian/channel008/360p.m3u8?a=1000&amp;d=83b26bacf5397c013aff782b2c4287d0&amp;k=c99bdac76cff6ddc27e750ba689b7d5b&amp;t=1704368408
 #EXTINF:-1 tvg-name="浙江少儿" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/浙江少儿.png" group-title="🎥动画频道",浙江少儿
 https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/游戏风云.png" group-title="🎥动画频道",游戏风云
 http://z.b.bkpcp.top/m.php?id=yxfy
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV6.png" group-title="🎬电影剧集",CCTV6
+http://221.226.4.10:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV6.png" group-title="🎬电影剧集",CCTV6
 http://z.b.bkpcp.top/m.php?id=cctv6
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV6.png" group-title="🎬电影剧集",CCTV6
 http://goo.bkpcp.top/mg/cctv6
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV6.png" group-title="🎬电影剧集",CCTV6
 http://yc.myds.me:35455/itv/1000000005000265006.m3u8?cdn=ystenlive
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV8.png" group-title="🎬电影剧集",CCTV8
+http://221.226.4.10:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV8.png" group-title="🎬电影剧集",CCTV8
 http://z.b.bkpcp.top/m.php?id=cctv8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV8.png" group-title="🎬电影剧集",CCTV8
@@ -221,12 +241,6 @@ http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/TVB星河.png" group-title="🎬电影剧集",TVB星河
 http://v2hcdn.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w1006.m3u8
-#EXTINF:-1 tvg-name="福建经济" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/福建经济.png" group-title="💾福建频道",福建经济
-http://aa3.kkwk111.top/fj.php?id=9
-#EXTINF:-1 tvg-name="福建公共" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/福建公共.png" group-title="💾福建频道",福建公共
-http://aa3.kkwk111.top/fj.php?id=6
-#EXTINF:-1 tvg-name="福建旅游" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/福建旅游.png" group-title="💾福建频道",福建旅游
-http://aa3.kkwk111.top/fj.php?id=8
 #EXTINF:-1 tvg-name="山东教育" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/山东教育.png" group-title="📼其他频道",山东教育
 http://z.b.bkpcp.top/m.php?id=sdjy
 #EXTINF:-1 tvg-name="CCTV5+HD" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/CCTV5+HD.png" group-title="📼其他频道",CCTV5+HD
