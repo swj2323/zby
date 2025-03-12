@@ -32,8 +32,6 @@ CCTV12,http://z.b.bkpcp.top/m.php?id=CCTV12社会与法社会与法
 CCTV12,http://goo.bkpcp.top/mg/cctv12
 CCTV12,http://yc.myds.me:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
 CCTV13,http://z.b.bkpcp.top/m.php?id=cctv13
-CCTV13,https://event.pull.hebtv.com/jishi/cp1.m3u8
-CCTV13,http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 CCTV13,http://goo.bkpcp.top/mg/cctv13
 CCTV13,http://yc.myds.me:35455/itv/5000000011000031108.m3u8?cdn=bestzb
 CCTV15,http://z.b.bkpcp.top/m.php?id=cctv15
@@ -48,19 +46,18 @@ CCTV17,http://yc.myds.me:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 📡卫视频道,#genre#
 东南卫视,http://z.b.bkpcp.top/m.php?id=dnws
 广东卫视,http://z.b.bkpcp.top/m.php?id=gdws
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江卫视,http://z.b.bkpcp.top/m.php?id=zjws
 浙江卫视,http://zhfivel02.cztv.com/channel01/1080p.m3u8?auth_key=2524708799-0-0-adde67b1b344fdd5e512f30a4ae31915
 湖南卫视,http://z.b.bkpcp.top/m.php?id=hunws
 北京卫视,http://z.b.bkpcp.top/m.php?id=bjws
 湖北卫视,http://z.b.bkpcp.top/m.php?id=hubws
+黑龙江卫视,https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/chunks.m3u8
 重庆卫视,http://z.b.bkpcp.top/m.php?id=cqws
 东方卫视,http://z.b.bkpcp.top/m.php?id=dfws#rtsp://115.85.232.19/PLTV/88888910/224/3221225531/10000100000000060000000000107311_0.smil
 东方卫视,http://goo.bkpcp.top/mg/dfws
 甘肃卫视,http://z.b.bkpcp.top/m.php?id=gsws
 甘肃卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 广西卫视,http://z.b.bkpcp.top/m.php?id=gxws
-广西卫视,https://mobilelive.gxtv.cn/live/gx_live1004/playlist.m3u8
 贵州卫视,http://z.b.bkpcp.top/m.php?id=gzws
 海南卫视,http://z.b.bkpcp.top/m.php?id=hinws
 河北卫视,http://z.b.bkpcp.top/m.php?id=hbws
@@ -87,14 +84,10 @@ CCTV17,http://yc.myds.me:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 香港卫视,https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8
 
 🎥动画频道,#genre#
-CCTV14,https://event.pull.hebtv.com/jishi/cp2.m3u8#rtsp://103.251.96.71/PLTV/88888888/224/3221225783/10000100000000060000000000726027_0.smil?icpid=SSPID&amp;accounttype=1&amp;limitflux=-1&amp;limitdur=-1&amp;accountinfo=:20240213104135
 CCTV14,http://z.b.bkpcp.top/m.php?id=cctv14
 CCTV14,http://goo.bkpcp.top/mg/cctv14
 CCTV14,http://yc.myds.me:35455/itv/1000000005000265013.m3u8?cdn=ystenlive
-福建少儿,http://aa3.kkwk111.top/fj.php?id=2
 优漫卡通,http://z.b.bkpcp.top/m.php?id=ymkt
-浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?fbl=#migu5://611318244
-浙江少儿,http://aa3.kkwk111.top/zj.php?id=zjse
 浙江少儿,http://ali-vl.cztv.com/channels/lantian/channel008/360p.m3u8?a=1000&amp;d=83b26bacf5397c013aff782b2c4287d0&amp;k=c99bdac76cff6ddc27e750ba689b7d5b&amp;t=1704368408
 浙江少儿,https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 游戏风云,http://z.b.bkpcp.top/m.php?id=yxfy
@@ -115,9 +108,6 @@ TVB星河,http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 TVB星河,http://v2hcdn.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w1006.m3u8
 
 💾福建频道,#genre#
-福建经济,http://aa3.kkwk111.top/fj.php?id=9
-福建公共,http://aa3.kkwk111.top/fj.php?id=6
-福建旅游,http://aa3.kkwk111.top/fj.php?id=8
 
 📼其他频道,#genre#
 山东教育,http://z.b.bkpcp.top/m.php?id=sdjy
