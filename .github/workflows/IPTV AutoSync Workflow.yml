@@ -40,7 +40,7 @@ jobs:
       - name: Replace URLs
         run: |
           sed -i 's|https://raw.githubusercontent.com/fanmingming/live/main/e.xml|https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml|g' TV/my_tv.m3u TV/tv.m3u
-          sed -i 's|https://raw.githubusercontent.com/fanmingming/live/main/tv/|https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/|g' TV/my_tv.m3u TV/tv.m3u
+          sed -i 's|https://raw.githubusercontent.com/fanmingming/live/main/tv/|https://gitcode.com/swj2323/icon/tree/master/png|g' TV/my_tv.m3u TV/tv.m3u
 
       # 步骤5：提交变更（优化检测逻辑）
       - name: Commit changes
