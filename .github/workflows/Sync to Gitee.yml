@@ -2,7 +2,7 @@ name: Sync to Gitee
 on:  
   workflow_dispatch:  
   schedule:  
-    - cron: '0 11,23 * * *'  # UTC 19:00 → 北京时间凌晨 3:00‌:ml-citation{ref="1" data="citationList"}  
+    - cron: '20 07,19 * * *'  # UTC 19:00 → 北京时间凌晨 3:00‌:ml-citation{ref="1" data="citationList"}  
 
 jobs:  
   sync-directory:  
