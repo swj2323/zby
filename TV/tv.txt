@@ -1,4 +1,5 @@
 📺央视频道,#genre#
+CCTV1,http://183.196.87.176:880/hls/1/index.m3u8
 CCTV1,http://z.b.bkpcp.top/m.php?id=cctv1
 CCTV1,http://goo.bkpcp.top/mg/cctv1
 CCTV1,http://yc.myds.me:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
@@ -11,6 +12,7 @@ CCTV3,http://yc.myds.me:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
 CCTV4,http://z.b.bkpcp.top/m.php?id=CCTV4国际
 CCTV4,http://goo.bkpcp.top/mg/cctv4
 CCTV4,http://yc.myds.me:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
+CCTV5,http://183.196.87.176:880/hls/5/index.m3u8
 CCTV5,http://z.b.bkpcp.top/m.php?id=cctv5p\
 CCTV5,http://goo.bkpcp.top/mg/cctv5
 CCTV5,http://yc.myds.me:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
@@ -22,12 +24,14 @@ CCTV7,http://yc.myds.me:35455/itv/1000000005000265007.m3u8?cdn=ystenlive
 CCTV9,http://z.b.bkpcp.top/m.php?id=cctv9
 CCTV9,http://goo.bkpcp.top/mg/cctv9
 CCTV9,http://yc.myds.me:35455/itv/1000000005000265009.m3u8?cdn=ystenlive
+CCTV10,http://183.223.157.123:85/tsfile/live/0010_1.m3u8?key=txiptv
 CCTV10,http://z.b.bkpcp.top/m.php?id=CCTV10科教科教
 CCTV10,http://goo.bkpcp.top/mg/cctv10
 CCTV10,http://yc.myds.me:35455/itv/1000000005000265010.m3u8?cdn=ystenlive
 CCTV11,http://z.b.bkpcp.top/m.php?id=CCTV11戏曲戏曲
 CCTV11,http://goo.bkpcp.top/mg/cctv11
 CCTV11,http://yc.myds.me:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
+CCTV12,http://183.223.157.123:85/tsfile/live/0012_1.m3u8?key=txiptv
 CCTV12,http://z.b.bkpcp.top/m.php?id=CCTV12社会与法社会与法
 CCTV12,http://goo.bkpcp.top/mg/cctv12
 CCTV12,http://yc.myds.me:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
@@ -74,11 +78,12 @@ CCTV17,http://yc.myds.me:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 山东卫视,http://z.b.bkpcp.top/m.php?id=sdws
 陕西卫视,http://z.b.bkpcp.top/m.php?id=sxws
 四川卫视,http://z.b.bkpcp.top/m.php?id=scws
+深圳卫视,http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
 西藏卫视,http://z.b.bkpcp.top/m.php?id=xzws
 新疆卫视,http://z.b.bkpcp.top/m.php?id=xjws
 云南卫视,http://z.b.bkpcp.top/m.php?id=ynws
+大湾区卫视,http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
 大湾区卫视,http://z.b.bkpcp.top/m.php?id=dwqws
-大湾区卫视,http://jp1.jdiptv.cc/live/nfws.m3u8?kdstime=
 延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
 香港卫视,https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8
 

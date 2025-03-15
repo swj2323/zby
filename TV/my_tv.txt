@@ -6,6 +6,7 @@ CCTV1,http://192.168.6.1:1207/rtp/239.255.40.167:8208
 CCTV1,http://192.168.6.1:1207/rtp/239.255.40.173:8208
 CCTV1,http://192.168.6.1:1207/rtp/239.255.40.174:8208
 CCTV1,http://192.168.6.1:1207/rtp/239.255.40.204:8208
+CCTV1,http://183.196.87.176:880/hls/1/index.m3u8
 CCTV1,http://z.b.bkpcp.top/m.php?id=cctv1
 CCTV1,http://goo.bkpcp.top/mg/cctv1
 CCTV1,http://yc.myds.me:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
@@ -22,6 +23,7 @@ CCTV4,http://z.b.bkpcp.top/m.php?id=CCTV4国际
 CCTV4,http://goo.bkpcp.top/mg/cctv4
 CCTV4,http://yc.myds.me:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
 CCTV5,http://192.168.6.1:1207/rtp/239.255.40.196:8208
+CCTV5,http://183.196.87.176:880/hls/5/index.m3u8
 CCTV5,http://z.b.bkpcp.top/m.php?id=cctv5p\
 CCTV5,http://goo.bkpcp.top/mg/cctv5
 CCTV5,http://yc.myds.me:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
@@ -38,6 +40,7 @@ CCTV9,http://z.b.bkpcp.top/m.php?id=cctv9
 CCTV9,http://goo.bkpcp.top/mg/cctv9
 CCTV9,http://yc.myds.me:35455/itv/1000000005000265009.m3u8?cdn=ystenlive
 CCTV10,http://192.168.6.1:1207/rtp/239.255.40.39:8208
+CCTV10,http://183.223.157.123:85/tsfile/live/0010_1.m3u8?key=txiptv
 CCTV10,http://z.b.bkpcp.top/m.php?id=CCTV10科教科教
 CCTV10,http://goo.bkpcp.top/mg/cctv10
 CCTV10,http://yc.myds.me:35455/itv/1000000005000265010.m3u8?cdn=ystenlive
@@ -46,6 +49,7 @@ CCTV11,http://z.b.bkpcp.top/m.php?id=CCTV11戏曲戏曲
 CCTV11,http://goo.bkpcp.top/mg/cctv11
 CCTV11,http://yc.myds.me:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
 CCTV12,http://192.168.6.1:1207/rtp/239.255.40.40:8208
+CCTV12,http://183.223.157.123:85/tsfile/live/0012_1.m3u8?key=txiptv
 CCTV12,http://z.b.bkpcp.top/m.php?id=CCTV12社会与法社会与法
 CCTV12,http://goo.bkpcp.top/mg/cctv12
 CCTV12,http://yc.myds.me:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
@@ -135,7 +139,6 @@ CCTV17,http://yc.myds.me:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 云南卫视,http://z.b.bkpcp.top/m.php?id=ynws
 兵团卫视,http://192.168.6.1:1207/rtp/239.255.40.29:8208
 大湾区卫视,http://z.b.bkpcp.top/m.php?id=dwqws
-大湾区卫视,http://jp1.jdiptv.cc/live/nfws.m3u8?kdstime=
 延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
 香港卫视,https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8
 
@@ -231,9 +234,7 @@ CGTN阿语,http://z.b.bkpcp.top/m.php?id=cgtna
 CGTN阿语,https://0472.org/hls/cgtna.m3u8
 CGTN西语,http://z.b.bkpcp.top/m.php?id=cgtne
 CGTN西语,https://0472.org/hls/cgtnx.m3u8
-凤凰中文,https://cdn.iptv8k.top/dl/jrys.php?id=19&time=20240926215313&ip=111.229.253.40
 凤凰中文,https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8
 凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
 凤凰资讯,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
-凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
 凤凰香港,https://cdn6.163189.xyz/live/fhhk/stream.m3u8
