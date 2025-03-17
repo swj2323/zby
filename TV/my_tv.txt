@@ -83,7 +83,6 @@ CCTV17,http://yc.myds.me:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 湖北卫视,http://z.b.bkpcp.top/m.php?id=hubws
 黑龙江卫视,http://192.168.6.1:1207/rtp/239.255.40.44:8208
 黑龙江卫视,https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/chunks.m3u8
-黑龙江卫视,http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
 安徽卫视,http://192.168.6.1:1207/rtp/239.255.40.53:8208
 重庆卫视,http://192.168.6.1:1207/rtp/239.255.40.21:8208
 重庆卫视,http://z.b.bkpcp.top/m.php?id=cqws
@@ -127,7 +126,6 @@ CCTV17,http://yc.myds.me:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 四川卫视,http://192.168.6.1:1207/rtp/239.255.40.19:8208
 四川卫视,http://z.b.bkpcp.top/m.php?id=scws
 深圳卫视,http://192.168.6.1:1207/rtp/239.255.40.199:8208
-深圳卫视,http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
 三沙卫视,http://192.168.6.1:1207/rtp/239.255.40.82:8208
 天津卫视,http://192.168.6.1:1207/rtp/239.255.40.48:8208
 西藏卫视,http://192.168.6.1:1207/rtp/239.255.40.12:8208
@@ -137,9 +135,7 @@ CCTV17,http://yc.myds.me:35455/itv/1000000005000265015.m3u8?cdn=ystenlive
 云南卫视,http://192.168.6.1:1207/rtp/239.255.40.6:8208
 云南卫视,http://z.b.bkpcp.top/m.php?id=ynws
 兵团卫视,http://192.168.6.1:1207/rtp/239.255.40.29:8208
-大湾区卫视,http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
 大湾区卫视,http://z.b.bkpcp.top/m.php?id=dwqws
-延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
 香港卫视,https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8
 
 🎥动画频道,#genre#
@@ -176,6 +172,7 @@ CHC动作电影,http://z.b.bkpcp.top/m.php?id=dzdy
 CHC家庭影院,http://z.b.bkpcp.top/m.php?id=jtyy
 欢笑剧场,http://z.b.bkpcp.top/m.php?id=hxjc
 东方影视,http://z.b.bkpcp.top/m.php?id=shys
+HBO家庭,http://50.7.234.10:8278/fyi_twn/playlist.m3u8?tid=MFCF7312728573127285&ct=18393&tsum=bc4d3db9ca83c3765cc75512a1bbbbe3
 TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 TVB星河,http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 TVB星河,http://v2hcdn.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w1006.m3u8
@@ -239,4 +236,5 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
 凤凰资讯,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
 凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
+凤凰香港,http://50.7.234.10:8278/hkphoenix_twn/playlist.m3u8?tid=MACA2858291128582911&ct=19225&tsum=0f01288bbaa6c0403d07e96b0a5db4ed
 凤凰香港,https://cdn6.163189.xyz/live/fhhk/stream.m3u8
