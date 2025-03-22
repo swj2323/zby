@@ -47,8 +47,6 @@ CCTV17,http://nas.suntao.online:35455/gaoma/cctv17.m3u8
 
 📡卫视频道,#genre#
 广东卫视,http://z.b.bkpcp.top/m.php?id=gdws
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8#mitv://generationnexxxt.com:19806/7bf4b3a65eaf421ab6d71bd8dcc4547a
-浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 北京卫视,https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/chunks.m3u8
 湖北卫视,https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/chunks.m3u8
 湖北卫视,http://z.b.bkpcp.top/m.php?id=hubws
@@ -65,6 +63,7 @@ CCTV17,http://nas.suntao.online:35455/gaoma/cctv17.m3u8
 青海卫视,http://z.b.bkpcp.top/m.php?id=qhws
 陕西卫视,http://z.b.bkpcp.top/m.php?id=sxws
 大湾区卫视,http://z.b.bkpcp.top/m.php?id=dwqws
+香港卫视,http://148.135.34.95/mn.php?playurl=http://www.pelotas.org:8278/hkphoenix_twn/playlist.m3u8
 香港卫视,https://piccpndks.v.kcdnvip.com/audio/xianggangweishi_2.m3u8
 
 🎥动画频道,#genre#
@@ -72,7 +71,6 @@ CCTV14,https://event.pull.hebtv.com/jishi/cp2.m3u8#rtsp://103.251.96.71/PLTV/888
 CCTV14,http://z.b.bkpcp.top/m.php?id=cctv14
 CCTV14,http://goo.bkpcp.top/mg/cctv14
 CCTV14,http://nas.suntao.online:35455/gaoma/cctv14.m3u8
-浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?fbl=#migu5://611318244
 浙江少儿,http://ali-vl.cztv.com/channels/lantian/channel008/360p.m3u8?a=1000&amp;d=83b26bacf5397c013aff782b2c4287d0&amp;k=c99bdac76cff6ddc27e750ba689b7d5b&amp;t=1704368408
 浙江少儿,https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 游戏风云,http://z.b.bkpcp.top/m.php?id=yxfy

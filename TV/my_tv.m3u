@@ -297,8 +297,6 @@ http://z.b.bkpcp.top/m.php?id=dzdy
 http://z.b.bkpcp.top/m.php?id=jtyy
 #EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/欢笑剧场.png" group-title="🎬电影剧集",欢笑剧场
 http://z.b.bkpcp.top/m.php?id=hxjc
-#EXTINF:-1 tvg-name="HBO家庭" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/HBO家庭.png" group-title="🎬电影剧集",HBO家庭
-http://50.7.234.10:8278/fyi_twn/playlist.m3u8?tid=MFCF7312728573127285&ct=18393&tsum=bc4d3db9ca83c3765cc75512a1bbbbe3
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/TVB星河.png" group-title="🎬电影剧集",TVB星河
 http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 #EXTINF:-1 tvg-name="TVB星河" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/TVB星河.png" group-title="🎬电影剧集",TVB星河
@@ -425,7 +423,5 @@ https://live.tvfix.org/live/fhzw/1/v4000000/index.m3u8
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/凤凰香港.png" group-title="📼其他频道",凤凰香港
 https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
-#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/凤凰香港.png" group-title="📼其他频道",凤凰香港
-http://50.7.234.10:8278/hkphoenix_twn/playlist.m3u8?tid=MACA2858291128582911&ct=19225&tsum=0f01288bbaa6c0403d07e96b0a5db4ed
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/凤凰香港.png" group-title="📼其他频道",凤凰香港
 https://cdn6.163189.xyz/live/fhhk/stream.m3u8
