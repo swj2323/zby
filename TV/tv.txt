@@ -67,6 +67,8 @@ CCTV17,http://goo.bkpcp.top/mg/cctv17
 江西卫视,http://z.b.bkpcp.top/m.php?id=jxws
 青海卫视,http://z.b.bkpcp.top/m.php?id=qhws
 陕西卫视,http://z.b.bkpcp.top/m.php?id=sxws
+深圳卫视,http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8
+大湾区卫视,http://38.64.72.148/hls/modn/list/4011/chunklist0.m3u8
 大湾区卫视,http://z.b.bkpcp.top/m.php?id=dwqws
 
 🎥动画频道,#genre#
@@ -87,6 +89,7 @@ CCTV8,http://goo.bkpcp.top/mg/cctv8
 CHC动作电影,http://z.b.bkpcp.top/m.php?id=dzdy
 CHC家庭影院,http://z.b.bkpcp.top/m.php?id=jtyy
 欢笑剧场,http://z.b.bkpcp.top/m.php?id=hxjc
+HBO家庭,http://50.7.234.10:8278/fyi_twn/playlist.m3u8?tid=MFCF7312728573127285&ct=18393&tsum=bc4d3db9ca83c3765cc75512a1bbbbe3
 TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 TVB星河,http://v2h.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w106.m3u8
 TVB星河,http://v2hcdn.jdshipin.com/xinghe_1/xinghe_1.stream/chunklist_w1006.m3u8
@@ -117,4 +120,5 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 凤凰资讯,http://cdn3.132.us.kg/live/fhzx/stream.m3u8
 凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
 凤凰香港,http://43.129.81.169/qctv.fengshows.cn/live/0701phk72.flv
+凤凰香港,http://50.7.234.10:8278/hkphoenix_twn/playlist.m3u8?tid=MACA2858291128582911&ct=19225&tsum=0f01288bbaa6c0403d07e96b0a5db4ed
 凤凰香港,https://cdn6.163189.xyz/live/fhhk/stream.m3u8
