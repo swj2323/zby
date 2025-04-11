@@ -828,6 +828,7 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 凤凰资讯,http://cdn3.132.us.kg/live/fhzx/stream.m3u8
 凤凰资讯,http://udnhls.skilldns.com:80/fhzx-cn.m3u8
 凤凰资讯,http://stv.alishare.cf/index.php?id=phoenixinfo_hd
+凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
 凤凰香港,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn
 凤凰香港,http://php.17186.eu.org/phtv/fhhk.m3u8
 凤凰香港,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
