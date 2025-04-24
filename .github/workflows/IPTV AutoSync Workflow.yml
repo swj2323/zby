@@ -35,6 +35,10 @@ jobs:
             https://raw.githubusercontent.com/sweijun/iptv-api/master/output/my_tv.m3u
           wget --tries=3 --timeout=30 -q -O TV/my_tv.txt \
             https://raw.githubusercontent.com/sweijun/iptv-api/master/output/my_tv.txt
+          wget --tries=3 --timeout=30 -q -O TV/wwkejishe.m3u \
+            https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/wwkejishe.m3u
+          wget --tries=3 --timeout=30 -q -O TV/iptv-api.txt \
+            https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/iptv-api.txt
           wget --tries=3 --timeout=30 -q -O TV/e.xml \
             https://raw.githubusercontent.com/fanmingming/live/main/e.xml
 
