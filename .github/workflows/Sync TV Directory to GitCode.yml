@@ -42,5 +42,5 @@ jobs:
           GIT_TRACE: 1
           GIT_SSH_COMMAND: "ssh -v"
         run: |
-          git remote add gitcode git@gitcode.com:swj2323/live.git || true
+          git remote add gitcode git@gitcode.com:git@gitcode.com:swj2323/live.git || true
           git push gitcode HEAD:main --force -v
