@@ -32,9 +32,10 @@ jobs:
           git commit -m "Auto-sync TV directory" || echo "No changes to commit"
 
       - name: Force Push to GitCode
-        env:
-          GIT_SSH_COMMAND: "ssh -v"  # 启用 SSH 详细日志
-        run: |
-          git remote rm gitcode || true  # 清理旧配置
-          git remote add gitcode git@gitcode.com:swj2323/live.git
+        env:  
+          GITCODE_TOKEN: ${{ secrets.GITCODE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="1" data="citationList"}  
+        run: |  
+          git remote add gitcode https://oauth2:$GITCODE_TOKEN@git@gitcode.com:swj2323/live.git  
+          git add .  # 添加所有保留文件‌:ml-citation{ref="3" data="citationList"}  
+          git commit -m "Sync TV Directory to GitCode"  
           git push gitcode HEAD:main --force
