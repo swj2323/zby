@@ -1,31 +1,39 @@
 name: Sync to GitCode
 on:  
-  workflow_dispatch:
-  schedule:
-    - cron: '20 07,19 * * *'  # 每天 UTC 时间 00:00 执行
+  workflow_dispatch:  
+  schedule:  
+    - cron: '20 07,19 * * *'  # UTC 19:00 → 北京时间凌晨 3:00‌:ml-citation{ref="1" data="citationList"}  
 
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # 拉取完整的提交历史
+jobs:  
+  sync-directory:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - name: Checkout Full Repository  
+        uses: actions/checkout@v4  
+        with:  
+          fetch-depth: 0  # 保留完整提交历史‌:ml-citation{ref="1" data="citationList"}  
 
-      - name: Set up SSH keys
+      - name: Prepare Download directory
         run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan gitcode.com >> ~/.ssh/known_hosts
+          mkdir -p sync_temp
+          cp -R TV/ sync_temp/
+          cd sync_temp
+          git init
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-sync TV directory"  
 
-      - name: Add GitCode remote
-        run: |
-          git remote add gitcode git@gitcode.com:swj2323/live.git
+      - name: Setup Git Config  
+        run: |  
+          git config --global user.email "656556071@qq.com"  
+          git config --global user.name "swj2323"  
 
-      - name: Push to GitCode
-        run: |
-          git config --global user.name "swj2323"
-          git config --global user.email "656556071@qq.com"
-          git push --mirror gitcode
+      - name: Force Push to Gitcode 
+        env:  
+          GITEE_TOKEN: ${{ secrets.GITCODE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="1" data="citationList"}  
+        run: |  
+          git remote add gitcode https://oauth2:$GITCODE_TOKEN@gitcode.com/swj2323/live.git 
+          git add .  # 添加所有保留文件‌:ml-citation{ref="3" data="citationList"}  
+          git commit -m "Auto-sync TV directory"  
+          git push gitcode HEAD:main --force  
