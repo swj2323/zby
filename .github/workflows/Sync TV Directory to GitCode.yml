@@ -2,7 +2,7 @@ name: Sync TV Directory to GitCode
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 07,19 * * *'  # UTC 时间，对应北京时间凌晨3点和下午3点
+    - cron: '20 07,19 * * *'
 
 jobs:
   sync-directory:
@@ -11,15 +11,17 @@ jobs:
       - name: Checkout Full Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 保留完整历史
+          fetch-depth: 0
 
       - name: Configure SSH
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 700 ~/.ssh
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan gitcode.com >> ~/.ssh/known_hosts
+
+      - name: Test SSH Connection
+        run: ssh -T git@gitcode.com
 
       - name: Setup Git Identity
         run: |
@@ -28,10 +30,17 @@ jobs:
 
       - name: Prepare TV Directory
         run: |
-          git add TV/  # 直接操作主仓库中的 TV 目录
-          git commit -m "Auto-sync TV directory" || echo "No changes to commit"
+          git add TV/
+          if git diff-index --quiet HEAD --; then
+            echo "无变更可提交"
+          else
+            git commit -m "Auto-sync TV directory"
+          fi
 
       - name: Force Push to GitCode
+        env:
+          GIT_TRACE: 1
+          GIT_SSH_COMMAND: "ssh -v"
         run: |
-          git remote add gitcode git@gitcode.com:swj2323/live.git
-          git push gitcode HEAD:main --force
+          git remote add gitcode git@gitcode.com:swj2323/live.git || true
+          git push gitcode HEAD:main --force -v
