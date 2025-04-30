@@ -32,6 +32,9 @@ jobs:
           git commit -m "Auto-sync TV directory" || echo "No changes to commit"
 
       - name: Force Push to GitCode
+        env:
+          GIT_SSH_COMMAND: "ssh -v"  # 启用 SSH 详细日志
         run: |
+          git remote rm gitcode || true  # 清理旧配置
           git remote add gitcode git@gitcode.com:swj2323/live.git
           git push gitcode HEAD:main --force
