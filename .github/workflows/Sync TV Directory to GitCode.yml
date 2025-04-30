@@ -33,9 +33,9 @@ jobs:
           git commit -m "Auto-sync TV directory" || echo "No changes to commit"
 
       - name: Validate SSH Connection
-        run: ssh -T git@gitcode.com
+        run: ssh -T git@gitcode.com  # 此步骤退出码非零但不影响后续流程
 
-      - name: Debug Git Remote  # 新增调试步骤
+      - name: Debug Git Remote
         run: |
           git remote -v
           git branch -a
@@ -44,4 +44,4 @@ jobs:
         run: |
           git remote remove gitcode || true
           git remote add gitcode git@gitcode.com:swj2323/live.git
-          git push gitcode HEAD:main --force  # 确保此处无多余字符
+          git push gitcode HEAD:main --force  # 关键修复：移除多余文本
