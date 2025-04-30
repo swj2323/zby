@@ -1,6 +1,6 @@
 name: Sync TV Directory to GitCode
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # 支持手动触发
   schedule:
     - cron: '20 07,19 * * *'  # UTC 时间（北京时间凌晨3点/下午3点）
 
@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 完整克隆历史记录
 
       - name: Configure SSH (RSA 2048)
         run: |
@@ -29,19 +29,19 @@ jobs:
 
       - name: Commit TV Directory
         run: |
-          git add TV/
+          git add TV/  # 添加 TV 目录到暂存区
           git commit -m "Auto-sync TV directory" || echo "No changes to commit"
 
       - name: Validate SSH Connection
-        run: ssh -T git@gitcode.com  # 此步骤退出码非零但不影响后续流程
+        run: ssh -T git@gitcode.com  # 测试 SSH 连通性（预期输出带警告但认证成功）
 
       - name: Debug Git Remote
         run: |
-          git remote -v
-          git branch -a
+          git remote -v  # 显示当前远程仓库配置
+          git branch -a  # 显示所有分支
 
       - name: Force Push via SSH
         run: |
-          git remote remove gitcode || true
-          git remote add gitcode git@gitcode.com:swj2323/live.git
-          git push gitcode HEAD:main --force  # 关键修复：移除多余文本
+          git remote remove gitcode || true  # 清理旧远程配置
+          git remote add gitcode git@gitcode.com:swj2323/live.git  # 添加 SSH 远程地址
+          git push gitcode HEAD:main --force  # 强制推送更新
