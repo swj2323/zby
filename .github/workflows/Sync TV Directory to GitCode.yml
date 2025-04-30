@@ -13,18 +13,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Configure SSH (核心修复)
+      - name: Configure SSH
         run: |
           mkdir -p ~/.ssh
-          # 写入ED25519私钥（必须包含完整的BEGIN/END标记）
-          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          
-          # 修正SSH连接配置
-          echo -e "Host gitcode.com\n  Hostname gitcode.com\n  Port 443" >> ~/.ssh/config
-          
-          # 强制获取公钥指纹
-          ssh-keyscan -p 443 gitcode.com >> ~/.ssh/known_hosts
+          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan gitcode.com >> ~/.ssh/known_hosts
 
       - name: Setup Git Identity
         run: |
