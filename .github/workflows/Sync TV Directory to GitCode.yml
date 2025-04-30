@@ -13,18 +13,29 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Configure SSH (核心修复)
+      - name: Configure SSH (RSA 2048 专用修复)
         run: |
           mkdir -p ~/.ssh
-          # 写入ED25519私钥（必须包含完整的BEGIN/END标记）
-          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+          # 清理旧配置
+          rm -f ~/.ssh/id_rsa ~/.ssh/known_hosts
           
-          # 修正SSH连接配置
-          echo -e "Host gitcode.com\n  Hostname gitcode.com\n  Port 443" >> ~/.ssh/config
+          # 写入 RSA 2048 私钥（处理换行符）
+          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_rsa
           
-          # 强制获取公钥指纹
-          ssh-keyscan -p 443 gitcode.com >> ~/.ssh/known_hosts
+          # 严格权限控制
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          
+          # 配置 SSH 连接参数
+          echo -e "Host gitcode.com\n  Hostname gitcode.com\n  Port 22\n  User git\n  IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
+          
+          # 注册服务器指纹（强制 RSA 类型）
+          ssh-keyscan -t rsa gitcode.com >> ~/.ssh/known_hosts
+          
+          # 调试输出密钥头尾
+          echo "=== RSA 私钥头尾 ==="
+          head -n 3 ~/.ssh/id_rsa
+          tail -n 3 ~/.ssh/id_rsa
 
       - name: Setup Git Identity
         run: |
@@ -36,10 +47,11 @@ jobs:
           git add TV/
           git commit -m "Auto-sync TV directory" || echo "No changes to commit"
 
-      - name: Force Push via SSH (统一认证方式)
-        run: |  
-          # 清理旧远程仓库配置
+      - name: Test SSH Connection (前置验证)
+        run: ssh -T git@gitcode.com
+
+      - name: Force Push via SSH
+        run: |
           git remote remove gitcode || true
-          # 使用SSH协议添加远程仓库
           git remote add gitcode git@gitcode.com:swj2323/live.git
           git push gitcode HEAD:main --force
