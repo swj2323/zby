@@ -11,20 +11,25 @@ jobs:
       - name: Checkout Full Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 克隆完整仓库历史
 
+      # -------------------- 关键修复部分 --------------------  
       - name: Configure SSH
         run: |
           mkdir -p ~/.ssh
+          # 写入私钥（必须包含完整的 BEGIN/END 标记）
           echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          # 修复 Hostname 为 gitcode.com
+          chmod 600 ~/.ssh/id_ed25519  # 严格权限控制
+
+          # 强制指定 SSH 端口和域名（核心修复）
           echo -e "Host gitcode.com\n  Hostname gitcode.com\n  Port 443" >> ~/.ssh/config
-          # 修正 ssh-keyscan 目标
+
+          # 精准获取服务器公钥指纹（避免 MITM 警告）
           ssh-keyscan -p 443 gitcode.com >> ~/.ssh/known_hosts
+      # -----------------------------------------------------
 
       - name: Test SSH Connection
-        run: ssh -T git@gitcode.com
+        run: ssh -T -v git@gitcode.com  # 输出详细连接日志
 
       - name: Setup Git Identity
         run: |
@@ -33,7 +38,7 @@ jobs:
 
       - name: Prepare TV Directory
         run: |
-          git add -A TV/
+          git add -A TV/  # 捕获所有变更（新增/修改/删除）
           if ! git diff-index --quiet HEAD --; then
             git commit -m "Auto-sync TV directory - $(date -u '+%Y-%m-%d %H:%M:%S')"
           else
@@ -42,8 +47,8 @@ jobs:
 
       - name: Force Push to GitCode
         env:
-          GIT_TRACE: 1
-          GIT_SSH_COMMAND: "ssh -v"
+          GIT_SSH_COMMAND: "ssh -v"  # 启用 SSH 详细日志
         run: |
-          git remote add gitcode git@gitcode.com:swj2323/live.git || true
+          git remote rm gitcode || true  # 清理旧配置
+          git remote add gitcode git@gitcode.com:swj2323/live.git
           git push gitcode HEAD:main --force
