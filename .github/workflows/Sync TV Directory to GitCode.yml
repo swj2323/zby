@@ -11,36 +11,50 @@ jobs:
       - name: Checkout Full Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 确保克隆完整历史记录
 
+      # 强化 SSH 配置（强制使用 443 端口）
       - name: Configure SSH
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan gitcode.com >> ~/.ssh/known_hosts
+          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519  # 确保密钥类型与生成时一致
+          chmod 600 ~/.ssh/id_ed25519
+          # 显式指定 SSH 配置（绕过 22 端口限制）
+          echo -e "Host gitcode.com\n  Hostname ssh.gitcode.com\n  Port 443" >> ~/.ssh/config
+          # 精准添加 known_hosts 条目（避免 MITM 警告）
+          ssh-keyscan -p 443 ssh.gitcode.com >> ~/.ssh/known_hosts
 
+      # 验证 SSH 连通性（失败则终止流程）
       - name: Test SSH Connection
-        run: ssh -T git@gitcode.com
+        run: |
+          if ! ssh -T git@gitcode.com 2>&1 | grep "Welcome to GitCode"; then
+            echo "SSH 连接验证失败，请检查密钥配置！"
+            exit 1
+          fi
 
+      # 显式配置 Git 身份
       - name: Setup Git Identity
         run: |
           git config --global user.name "swj2323"
           git config --global user.email "656556071@qq.com"
 
+      # 强化提交逻辑（捕捉所有变更）
       - name: Prepare TV Directory
         run: |
-          git add TV/
-          if git diff-index --quiet HEAD --; then
-            echo "无变更可提交"
+          git add -A TV/  # 捕获新增、修改和删除的文件
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Auto-sync TV directory - $(date -u '+%Y-%m-%d %H:%M:%S')"
+            echo "检测到变更并已提交"
           else
-            git commit -m "Auto-sync TV directory"
+            echo "无变更可提交"
           fi
 
+      # 强制推送并启用详细日志
       - name: Force Push to GitCode
         env:
-          GIT_TRACE: 1
-          GIT_SSH_COMMAND: "ssh -v"
+          GIT_TRACE: 1          # 启用 Git 底层日志
+          GIT_SSH_COMMAND: "ssh -vv"  # 启用 SSH 详细日志
         run: |
-          git remote add gitcode git@gitcode.com:swj2323/live.git || true
-          git push gitcode HEAD:main --force -v
+          git remote remove gitcode || true  # 清理旧远程配置
+          git remote add gitcode git@gitcode.com:swj2323/live.git
+          git push gitcode HEAD:main --force --porcelain  # 精准推送
