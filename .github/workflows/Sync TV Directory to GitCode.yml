@@ -11,15 +11,20 @@ jobs:
       - name: Checkout Full Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 保留完整历史
+          fetch-depth: 0
 
-      - name: Configure SSH
+      - name: Configure SSH (核心修复)
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 700 ~/.ssh
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan gitcode.com >> ~/.ssh/known_hosts
+          # 写入ED25519私钥（必须包含完整的BEGIN/END标记）
+          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          
+          # 修正SSH连接配置
+          echo -e "Host gitcode.com\n  Hostname gitcode.com\n  Port 443" >> ~/.ssh/config
+          
+          # 强制获取公钥指纹
+          ssh-keyscan -p 443 gitcode.com >> ~/.ssh/known_hosts
 
       - name: Setup Git Identity
         run: |
@@ -28,14 +33,13 @@ jobs:
 
       - name: Prepare TV Directory
         run: |
-          git add TV/  # 直接操作主仓库中的 TV 目录
+          git add TV/
           git commit -m "Auto-sync TV directory" || echo "No changes to commit"
 
-      - name: Force Push to GitCode
-        env:  
-          GITCODE_TOKEN: ${{ secrets.GITCODE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="1" data="citationList"}  
+      - name: Force Push via SSH (统一认证方式)
         run: |  
-          git remote add gitcode https://oauth2:$GITCODE_TOKEN@git@gitcode.com:swj2323/live.git  
-          git add .  # 添加所有保留文件‌:ml-citation{ref="3" data="citationList"}  
-          git commit -m "Sync TV Directory to GitCode"  
+          # 清理旧远程仓库配置
+          git remote remove gitcode || true
+          # 使用SSH协议添加远程仓库
+          git remote add gitcode git@gitcode.com:swj2323/live.git
           git push gitcode HEAD:main --force
