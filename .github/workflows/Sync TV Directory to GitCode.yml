@@ -43,5 +43,5 @@ jobs:
       - name: Force Push via SSH
         run: |
           git remote remove gitcode || true  # 清理旧远程配置
-          git remote add gitcode git@gitcode.com:swj2323/live.git  # 添加 SSH 远程地址
+          git remote add gitcode git@gitcode.com:swj2323/zby.git  # 添加 SSH 远程地址
           git push gitcode HEAD:main --force  # 强制推送更新
