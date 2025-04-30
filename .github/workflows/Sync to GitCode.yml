@@ -1,8 +1,9 @@
 name: Sync to GitCode
+
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天UTC时间02:00执行（北京时间10:00）:ml-citation{ref="2" data="citationList"}
-  workflow_dispatch:     # 支持手动触发
+    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 执行
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -10,17 +11,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 拉取完整提交历史:ml-citation{ref="4" data="citationList"}
+          fetch-depth: 0  # 拉取完整的提交历史
 
-      - name: Configure SSH
+      - name: Set up SSH keys
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.GITCODE_SSH_KEY }}" > ~/.ssh/id_rsa
+          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan gitcode.net >> ~/.ssh/known_hosts:ml-citation{ref="3,4" data="citationList"}
+          ssh-keyscan gitcode.com >> ~/.ssh/known_hosts
 
-      - name: Add GitCode Remote
-        run: git remote add gitcode git@gitcode.net:your-username/your-repo.git:ml-citation{ref="1,7" data="citationList"}
+      - name: Add GitCode remote
+        run: |
+          git remote add gitcode git@gitcode.com:swj2323/live.git
 
       - name: Push to GitCode
-        run: git push --mirror gitcode  # 强制全量同步所有分支和标签:ml-citation{ref="4" data="citationList"}
+        run: |
+          git config --global user.name "swj2323"
+          git config --global user.email "656556071@qq.com"
+          git push --mirror gitcode
