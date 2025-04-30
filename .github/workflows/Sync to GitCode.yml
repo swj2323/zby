@@ -1,39 +1,37 @@
-name: Sync to GitCode
-on:  
-  workflow_dispatch:  
-  schedule:  
-    - cron: '20 07,19 * * *'  # UTC 19:00 → 北京时间凌晨 3:00‌:ml-citation{ref="1" data="citationList"}  
+name: Sync TV Directory to GitCode
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 07,19 * * *'  # UTC 时间，对应北京时间凌晨3点和下午3点
 
-jobs:  
-  sync-directory:  
-    runs-on: ubuntu-latest  
-    steps:  
-      - name: Checkout Full Repository  
-        uses: actions/checkout@v4  
-        with:  
-          fetch-depth: 0  # 保留完整提交历史‌:ml-citation{ref="1" data="citationList"}  
+jobs:
+  sync-directory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Full Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 保留完整历史
 
-      - name: Prepare Download directory
+      - name: Configure SSH
         run: |
-          mkdir -p sync_temp
-          cp -R TV/ sync_temp/
-          cd sync_temp
-          git init
-          git config --local user.name "GitHub Actions Bot"
-          git config --local user.email "actions@github.com"
-          git add .
-          git commit -m "Auto-sync TV directory"  
+          mkdir -p ~/.ssh
+          echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan gitcode.com >> ~/.ssh/known_hosts
 
-      - name: Setup Git Config  
-        run: |  
-          git config --global user.email "656556071@qq.com"  
-          git config --global user.name "swj2323"  
+      - name: Setup Git Identity
+        run: |
+          git config --global user.name "swj2323"
+          git config --global user.email "656556071@qq.com"
 
-      - name: Force Push to Gitcode 
-        env:  
-          GITEE_TOKEN: ${{ secrets.GITCODE_TOKEN }}  # 需配置写入权限 Token‌:ml-citation{ref="1" data="citationList"}  
-        run: |  
-          git remote add gitcode https://oauth2:$GITCODE_TOKEN@gitcode.com/swj2323/live.git 
-          git add .  # 添加所有保留文件‌:ml-citation{ref="3" data="citationList"}  
-          git commit -m "Auto-sync TV directory"  
-          git push gitcode HEAD:main --force  
+      - name: Prepare TV Directory
+        run: |
+          git add TV/  # 直接操作主仓库中的 TV 目录
+          git commit -m "Auto-sync TV directory" || echo "No changes to commit"
+
+      - name: Force Push to GitCode
+        run: |
+          git remote add gitcode git@gitcode.com:swj2323/live.git
+          git push gitcode HEAD:main --force
