@@ -1,57 +1,46 @@
 name: Sync TV Directory to GitCode
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # 支持手动触发
   schedule:
-    - cron: '20 07,19 * * *'  # UTC 时间，对应北京时间凌晨3点和下午3点
+    - cron: '20 07,19 * * *'  # UTC 时间（北京时间凌晨3点/下午3点）
 
 jobs:
   sync-directory:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Full Repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 完整克隆历史记录:ml-citation{ref="6" data="citationList"}
 
-      - name: Configure SSH (RSA 2048 专用修复)
+      - name: Configure SSH (RSA 2048)
         run: |
           mkdir -p ~/.ssh
-          # 清理旧配置
-          rm -f ~/.ssh/id_rsa ~/.ssh/known_hosts
-          
-          # 写入 RSA 2048 私钥（处理换行符）
+          # 写入 RSA 私钥并处理换行符（防止格式错误）:ml-citation{ref="2,7" data="citationList"}
           echo "${{ secrets.GITCODE_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_rsa
-          
-          # 严格权限控制
+          # 严格权限控制:ml-citation{ref="2,6" data="citationList"}
           chmod 700 ~/.ssh
           chmod 600 ~/.ssh/id_rsa
-          
-          # 配置 SSH 连接参数
+          # 配置 SSH 连接参数（强制指定端口和密钥路径）:ml-citation{ref="1,4" data="citationList"}
           echo -e "Host gitcode.com\n  Hostname gitcode.com\n  Port 22\n  User git\n  IdentityFile ~/.ssh/id_rsa" > ~/.ssh/config
-          
-          # 注册服务器指纹（强制 RSA 类型）
+          # 注册服务器指纹（RSA 类型）:ml-citation{ref="3,4" data="citationList"}
           ssh-keyscan -t rsa gitcode.com >> ~/.ssh/known_hosts
-          
-          # 调试输出密钥头尾
-          echo "=== RSA 私钥头尾 ==="
-          head -n 3 ~/.ssh/id_rsa
-          tail -n 3 ~/.ssh/id_rsa
 
       - name: Setup Git Identity
         run: |
-          git config --global user.name "swj2323"
+          git config --global user.name "swj2323"  # 全局用户名:ml-citation{ref="2,7" data="citationList"}
           git config --global user.email "656556071@qq.com"
 
-      - name: Prepare TV Directory
+      - name: Commit TV Directory
         run: |
-          git add TV/
-          git commit -m "Auto-sync TV directory" || echo "No changes to commit"
+          git add TV/  # 添加指定目录到暂存区:ml-citation{ref="1,6" data="citationList"}
+          git commit -m "Auto-sync TV directory" || echo "No changes to commit"  # 允许空提交:ml-citation{ref="7" data="citationList"}
 
-      - name: Test SSH Connection (前置验证)
-        run: ssh -T git@gitcode.com
+      - name: Validate SSH Connection
+        run: ssh -T git@gitcode.com  # 测试 SSH 连通性:ml-citation{ref="4,5" data="citationList"}
 
       - name: Force Push via SSH
         run: |
-          git remote remove gitcode || true
-          git remote add gitcode git@gitcode.com:swj2323/live.git
-          git push gitcode HEAD:main --force
+          git remote remove gitcode || true  # 清理旧远程配置:ml-citation{ref="1" data="citationList"}
+          git remote add gitcode git@gitcode.com:swj2323/live.git  # 添加 SSH 远程仓库:ml-citation{ref="2,4" data="citationList"}
+          git push gitcode HEAD:main --force  # 强制推送到 main 分支:ml-citation{ref="6,7" data="citationList"}
