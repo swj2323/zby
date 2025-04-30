@@ -1,0 +1,26 @@
+name: Sync to GitCode
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天UTC时间02:00执行（北京时间10:00）:ml-citation{ref="2" data="citationList"}
+  workflow_dispatch:     # 支持手动触发
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 拉取完整提交历史:ml-citation{ref="4" data="citationList"}
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.GITCODE_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan gitcode.net >> ~/.ssh/known_hosts:ml-citation{ref="3,4" data="citationList"}
+
+      - name: Add GitCode Remote
+        run: git remote add gitcode git@gitcode.net:your-username/your-repo.git:ml-citation{ref="1,7" data="citationList"}
+
+      - name: Push to GitCode
+        run: git push --mirror gitcode  # 强制全量同步所有分支和标签:ml-citation{ref="4" data="citationList"}
