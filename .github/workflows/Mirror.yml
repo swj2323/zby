@@ -1,6 +1,5 @@
 name: Mirror to GitCode
 on: [push]
-  workflow_dispatch:
 jobs:
   mirror:
     runs-on: ubuntu-latest
