@@ -6,84 +6,76 @@ CCTV-1 综合,http://192.168.6.1:1207/rtp/239.255.40.167:8208
 CCTV-1 综合,http://192.168.6.1:1207/rtp/239.255.40.173:8208
 CCTV-1 综合,http://192.168.6.1:1207/rtp/239.255.40.174:8208
 CCTV-1 综合,http://192.168.6.1:1207/rtp/239.255.40.204:8208
-CCTV-1 综合,https://smart.pendy.dpdns.org/Smart.php?id=cctv1
 CCTV-1 综合,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?servicetype=1&accountinfo=%7E%7EV2.0%7EI0Rkc6neBYgfpoJ1yud8Fw%7EPepnxHHB2d6Hk2dZWM77MyFlBN5q1KnYLvimM9pqT7Epd7QgO4HFWH0z34SUb2Vs%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3A20240420192714%2C%2C%2C20240420192714%2C%2C10001000275495%2C-1%2C0%2C1%2C-1%2C%2C2%2C2201300%2C%2C%2C2%2C%2C%2CEND&GuardEncType=2
 CCTV-1 综合,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226016/index.m3u8
 CCTV-1 综合,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226338/1.m3u8?
+CCTV-1 综合,https://smart.pendy.dpdns.org/Smart.php?id=cctv1
 CCTV-2 财经,http://192.168.6.1:1207/rtp/239.255.40.36:8208
-CCTV-2 财经,https://smart.pendy.dpdns.org/Smart.php?id=cctv2
 CCTV-2 财经,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/8/3221225588/index.m3u8
 CCTV-2 财经,http://[2409:8087:1a01:df::406f]:80/wh7f454c46tw1241164675_1575082505/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8?icpid=88888888&RTS=1713968070&from=4&hms_devid=692&prioritypopid=4&online=1713968070&vqe=3
 CCTV-2 财经,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8?
 CCTV-3 综艺,http://192.168.6.1:1207/rtp/239.255.40.195:8208
-CCTV-3 综艺,https://smart.pendy.dpdns.org/Smart.php?id=cctv3
-CCTV-3 综艺,http://[2409:8087:1a01:df::4041]/TVOD/88888888/224/3221225799/main.m3u8
+CCTV-3 综艺,http://[2409:8087:1a01:df::4041]:80/TVOD/88888888/224/3221225799/main.m3u8
 CCTV-3 综艺,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
 CCTV-3 综艺,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226456/1.m3u8?
 CCTV-3 综艺,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638727c125355/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUSPTZ4CK5oLfjaEYe9dogNMUNNEYLCPUtKY62j1Wp5u04wipypKUQ1TTuR2lXvBl5YpHqBJmlA19x22TD9bUOjk
 CCTV-4 中文国际,http://192.168.6.1:1207/rtp/239.255.40.198:8208
-CCTV-4 中文国际,https://smart.pendy.dpdns.org/Smart.php?id=Cctv4
 CCTV-4 中文国际,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?servicetype=1&accountinfo=%7E%7EV2.0%7EBFJ5gRpm8ntK8JEFPZOhLQ%7EPepnxHHB2d6Hk2dZWM77MyFlBN5q1KnYLvimM9pqT7EfCf-e5nKehMQzrOBwWduf%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3A20240420192542%2C%2C%2C20240420192542%2C%2C10001000275495%2C-1%2C0%2C1%2C-1%2C%2C2%2C2201300%2C%2C%2C2%2C%2C%2CEND&GuardEncType=2
 CCTV-4 中文国际,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226007/index.m3u8
 CCTV-4 中文国际,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?
+CCTV-4 中文国际,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN5000037BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUSpr1AVNI633ampcuzdN%2BfH0ZQXwaiVktPr6ILPKXqwOUC2ZXft7ZULN6h9qLQPFOTSlVTfophiKaMb8h1kPV74
 CCTV-5 体育,http://192.168.6.1:1207/rtp/239.255.40.196:8208
-CCTV-5 体育,https://smart.pendy.dpdns.org/Smart.php?id=cctv5
 CCTV-5 体育,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226019/index.m3u8
 CCTV-5 体育,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226454/1.m3u8?
+CCTV-5 体育,http://[2409:8087:2001:20:2800:0:df6e:eb21]:80/PLTV/1/224/3221230976/1.m3u8
 CCTV-5+ 体育赛事,http://192.168.6.1:1207/rtp/239.255.40.34:8208
 CCTV-5+ 体育赛事,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225603/index.m3u8
-CCTV-5+ 体育赛事,https://smart.pendy.dpdns.org/Smart.php?id=cctv5plus
 CCTV-5+ 体育赛事,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225603/index.m3u8
 CCTV-5+ 体育赛事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226349/1.m3u8?
 CCTV-7 国防军事,http://192.168.6.1:1207/rtp/239.255.40.37:8208
-CCTV-7 国防军事,https://smart.pendy.dpdns.org/Smart.php?id=cctv7
 CCTV-7 国防军事,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225733/index.m3u8
 CCTV-7 国防军事,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225733/index.m3u8
 CCTV-7 国防军事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226234/1.m3u8?
+CCTV-7 国防军事,https://smart.pendy.dpdns.org/Smart.php?id=cctv7
 CCTV-9 纪录,http://192.168.6.1:1207/rtp/239.255.40.38:8208
 CCTV-9 纪录,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225734/index.m3u8
-CCTV-9 纪录,https://smart.pendy.dpdns.org/Smart.php?id=cctv9hd
 CCTV-9 纪录,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226236/1.m3u8?
 CCTV-10 科教,http://192.168.6.1:1207/rtp/239.255.40.39:8208
-CCTV-10 科教,https://smart.pendy.dpdns.org/Smart.php?id=cctv10hd
 CCTV-10 科教,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225730/index.m3u8
 CCTV-10 科教,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226449/1.m3u8?
+CCTV-10 科教,https://smart.pendy.dpdns.org/Smart.php?id=cctv10hd
 CCTV-11 戏曲,http://192.168.6.1:1207/rtp/239.255.40.2:8208
-CCTV-11 戏曲,https://smart.pendy.dpdns.org/Smart.php?id=cctv11
 CCTV-11 戏曲,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225597/index.m3u8
 CCTV-11 戏曲,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225597/index.m3u8
 CCTV-11 戏曲,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8?
 CCTV-12 社会与法,http://192.168.6.1:1207/rtp/239.255.40.40:8208
-CCTV-12 社会与法,https://smart.pendy.dpdns.org/Smart.php?id=cctv12
 CCTV-12 社会与法,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225731/index.m3u8
 CCTV-12 社会与法,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226228/1.m3u8?
 CCTV-13 新闻,http://192.168.6.1:1207/rtp/239.255.40.3:8208
-CCTV-13 新闻,https://smart.pendy.dpdns.org/Smart.php?id=cctv13
 CCTV-13 新闻,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226011/index.m3u8
 CCTV-13 新闻,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8?
 CCTV-15 音乐,http://192.168.6.1:1207/rtp/239.255.40.4:8208
 CCTV-15 音乐,http://[2409:8087:1a01:df::4033]:80/TVOD/88888888/224/3221226127/main.m3u8
-CCTV-15 音乐,https://smart.pendy.dpdns.org/Smart.php?id=cctv15
 CCTV-15 音乐,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225601/index.m3u8
 CCTV-15 音乐,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 CCTV-15 音乐,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226333/1.m3u8?
+CCTV-15 音乐,https://smart.pendy.dpdns.org/Smart.php?id=cctv15
 CCTV-16 奥林匹克,http://192.168.6.1:1207/rtp/239.255.40.194:8208
 CCTV-16 奥林匹克,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226100/index.m3u8
 CCTV-16 奥林匹克,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226887/1.m3u8?
 CCTV-16 奥林匹克,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226100/index.m3u8
 CCTV-16 奥林匹克,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000016/index.m3u8?channel-id=newtv&livemode=4&Contentid=9900000016
 CCTV-17 农业农村,http://192.168.6.1:1207/rtp/239.255.40.143:8208
-CCTV-17 农业农村,http://[2409:8087:1a01:df::4025]:80/TVOD/88888888/224/3221225708/main.m3u8
 CCTV-17 农业农村,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
+CCTV-17 农业农村,http://[2409:8087:1a01:df::4025]:80/TVOD/88888888/224/3221225708/main.m3u8
 CCTV-17 农业农村,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226318/1.m3u8?
 
 📡卫视频道,#genre#
 东南卫视,http://192.168.6.1:1207/rtp/239.255.40.149:8208
 东南卫视,http://192.168.6.1:1207/rtp/239.255.40.203:8208
 东南卫视,http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226496/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EkZUfG47p98m2PZiCsgkhyQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNM5EcQIH6BiwZavlhPLb4oJ%2CEND
-东南卫视,https://smart.pendy.dpdns.org/Smart.php?id=fujian
 东南卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226341/index.m3u8
-东南卫视,http://[2409:8087:1a01:df::4035]/TVOD/88888888/224/3221225950/main.m3u8
+东南卫视,http://[2409:8087:1a01:df::4035]:80/TVOD/88888888/224/3221225950/main.m3u8
 东南卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
 东南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226496/1.m3u8?
 广东卫视,http://192.168.6.1:1207/rtp/239.255.40.52:8208
@@ -107,13 +99,12 @@ CCTV-17 农业农村,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/P
 湖南卫视,http://[2409:8087:2001:20:2800:0:df6e:eb16]:80/ott.mobaibox.com/PLTV/4/224/3221227482/index.m3u8
 北京卫视,http://192.168.6.1:1207/rtp/239.255.40.46:8208
 北京卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-北京卫视,https://smart.pendy.dpdns.org/Smart.php?id=beijing
 北京卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226450/index.m3u8
 北京卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226450/index.m3u8
+北京卫视,https://smart.pendy.dpdns.org/Smart.php?id=beijing
 湖北卫视,http://192.168.6.1:1207/rtp/239.255.40.47:8208
 湖北卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226240/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ExfU_RR0RQok0w_xd7h22CQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNPVnDV2fEBphgm3TP7hAHBx%2CEND
-湖北卫视,https://smart.pendy.dpdns.org/Smart.php?id=hubei
-湖北卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226477/index.m3u8
+湖北卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
 湖北卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226240/1.m3u8?
 黑龙江卫视,http://192.168.6.1:1207/rtp/239.255.40.44:8208
 黑龙江卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226239/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEHwpSHKc5p-bHJfhpIWFig%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNM5Y8rTELLykZJHp-bmY2YW%2CEND
@@ -147,7 +138,6 @@ CCTV-17 农业农村,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/P
 甘肃卫视,http://[2409:8087:2001:20:2800:0:df6e:eb1b]:80/wh7f454c46tw1625690606_1267463833/ott.mobaibox.com/PLTV/3/224/3221227568/index.m3u8?icpid=3&RTS=1674377446&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
 广西卫视,http://192.168.6.1:1207/rtp/239.255.40.22:8208
 广西卫视,http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226534/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EpjsBggKPaCw3f-xlBWZWaQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNMJYhPE64lykNkIsypBRZqO%2CEND
-广西卫视,https://smart.pendy.dpdns.org/Smart.php?id=guangxi
 广西卫视,http://[2409:8087:1a01:df::4047]:80/TVOD/88888888/224/3221226091/main.m3u8
 广西卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226549/index.m3u8
 广西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226534/1.m3u8?
@@ -155,6 +145,7 @@ CCTV-17 农业农村,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/P
 广西卫视,http://[2409:8087:2001:20:2800:0:df6e:eb04]:80/ott.mobaibox.com/PLTV/4/224/3221228183/index.m3u8
 广西卫视,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001224/index.m3u8
 广西卫视,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+广西卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227250/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 贵州卫视,http://192.168.6.1:1207/rtp/239.255.40.200:8208
 贵州卫视,http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225974/main.m3u8
 贵州卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226474/index.m3u8
@@ -256,10 +247,10 @@ CCTV-17 农业农村,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/P
 四川卫视,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001130/index.m3u8
 深圳卫视,http://192.168.6.1:1207/rtp/239.255.40.199:8208
 深圳卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226245/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EFvxuZ6Kfg6J67sArVd0LuA%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO9YxM-C8gPFvQRk47-h2ok%2CEND
-深圳卫视,https://smart.pendy.dpdns.org/Smart.php?id=shenzhen
 深圳卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226313/index.m3u8
 深圳卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226313/index.m3u8
 深圳卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226245/1.m3u8?
+深圳卫视,https://smart.pendy.dpdns.org/Smart.php?id=shenzhen
 三沙卫视,http://192.168.6.1:1207/rtp/239.255.40.82:8208
 三沙卫视,http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226544/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eb2dn60YQRxhB5rAyOnrv0g%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNO_hnHaWpTsMQwR98VJGduo%2CEND
 三沙卫视,http://[2409:8087:2001:20:2800:0:df6e:eb21]:80/ott.mobaibox.com/PLTV/4/224/3221228626/index.m3u8
@@ -307,13 +298,12 @@ CCTV-17 农业农村,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/P
 安多卫视,https://livecdn.dmqhyadmin.com/hls/xjmenyuan.m3u8
 安多卫视,http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
 延边卫视,http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227045/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eq0D3NdTUN7FuRzr8eJsbQA%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNONS2RAhxb5u6NYaMGGM23S%2CEND
-延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 延边卫视,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001470/index.m3u8
+延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 延边卫视,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
 
 🎥动画频道,#genre#
 CCTV-14 少儿,http://192.168.6.1:1207/rtp/239.255.40.41:8208
-CCTV-14 少儿,https://smart.pendy.dpdns.org/Smart.php?id=cctv14
 CCTV-14 少儿,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221225732/index.m3u8
 CCTV-14 少儿,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226229/1.m3u8?
 福建少儿,http://192.168.6.1:1207/rtp/239.255.40.156:8208
@@ -339,18 +329,17 @@ IPTV野外,http://192.168.6.1:1207/rtp/239.255.40.60:8208
 优漫卡通,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/2/224/3221225656/2.m3u8
 优漫卡通,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226932/1.m3u8?
 优漫卡通,http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
-浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?fbl=#migu5://611318244
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?
 浙江少儿,https://ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 
 🎬电影剧集,#genre#
 CCTV-6 电影,http://192.168.6.1:1207/rtp/239.255.40.175:8208
 CCTV-6 电影,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/1.m3u8?icpid=88888888&from=1&hms_devid=1012&vqe=3
-CCTV-6 电影,https://smart.pendy.dpdns.org/Smart.php?id=cctv6
+CCTV-6 电影,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226453/1.m3u8?
 CCTV-8 电视剧,http://192.168.6.1:1207/rtp/239.255.40.197:8208
 CCTV-8 电视剧,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226008/index.m3u8
 CCTV-8 电视剧,http://[2409:8087:1a01:df::4051]:80/TVOD/88888888/224/3221225795/main.m3u8
-CCTV-8 电视剧,https://smart.pendy.dpdns.org/Smart.php?id=cctv8hd
 CCTV-8 电视剧,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226451/1.m3u8?
 福建电视剧,http://192.168.6.1:1207/rtp/239.255.40.152:8208
 IPTV6+,http://192.168.6.1:1207/rtp/239.255.40.64:8208
@@ -406,8 +395,8 @@ CETV4,http://192.168.6.1:1207/rtp/239.255.40.31:8208
 山东教育,http://192.168.6.1:1207/rtp/239.255.40.32:8208
 纪实科教,http://192.168.6.1:1207/rtp/239.255.40.205:8208
 金鹰纪实,http://192.168.6.1:1207/rtp/239.255.40.57:8208
-金鹰纪实,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226572/1.m3u8?
 金鹰纪实,http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000334/index.m3u8?IASHttpSessionId=
+金鹰纪实,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226572/1.m3u8?
 金鹰纪实,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225595/index.m3u8?fmt=ts2hls
 财富天下,http://192.168.6.1:1207/rtp/239.255.40.33:8208
 CCTV3+,http://192.168.6.1:1207/rtp/239.255.40.68:8208
@@ -422,19 +411,17 @@ CGTN英语,http://192.168.6.1:1207/rtp/239.255.40.5:8208
 CGTN俄语,http://192.168.6.1:1207/rtp/239.255.40.179:8208
 CGTN法语,http://192.168.6.1:1207/rtp/239.255.40.178:8208
 CGTN纪录,http://192.168.6.1:1207/rtp/239.255.40.183:8208
-凤凰中文,https://cdn.163189.xyz/live/fhzw/stream.m3u8
-凤凰中文,http://cdn.163.dedyn.io/live/fhzw/stream.m3u8
 凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
 凤凰中文,http://cdn.163189.xyz/live/fhzw/stream.m3u8
+凤凰中文,http://cdn.163.dedyn.io/live/fhzw/stream.m3u8
+凤凰中文,https://cdn.163189.xyz/live/fhzw/stream.m3u8
 凤凰资讯,https://smart.pendy.dpdns.org/Smart.php?id=phoenixinfo_hd
-凤凰资讯,http://cdn3.132.us.kg/live/fhzx/stream.m3u8
 凤凰资讯,http://cdn3.163189.xyz/live/fhzx/stream.m3u8
-凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 凤凰资讯,https://cdn3.163189.xyz/live/fhzx/stream.m3u8
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 凤凰资讯,https://cdn6.163189.xyz/live/fhzx/stream.m3u8
 凤凰香港,https://cdn.iptv8k.top/dl/jrys.php?id=18&time=20240926215313&ip=111.229.253.40
 凤凰香港,https://smart.pendy.dpdns.org/Smart.php?id=hkphoenix_twn
-凤凰香港,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk
 凤凰香港,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
+凤凰香港,http://php.jdshipin.com/PLTV/iptv.php?id=fhhk
 凤凰香港,https://cdn6.163189.xyz/live/fhhk/stream.m3u8
-凤凰香港,http://cdn3.132.us.kg/live/fhhk/stream.m3u8
