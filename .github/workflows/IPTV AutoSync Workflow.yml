@@ -43,6 +43,8 @@ jobs:
             https://raw.githubusercontent.com/sweijun/iptv-api/refs/heads/master/output/epg/epg.gz
           wget --tries=3 --timeout=30 -q -O TV/epg.xml \
             https://raw.githubusercontent.com/sweijun/iptv-api/refs/heads/master/output/epg/epg.xml
+          wget --tries=3 --timeout=30 -q -O TV/allinone.m3u \
+            http://fn.sunweijun.top:35455/tv.m3u
 
       # 步骤4：批量替换文件内容
       - name: Replace URLs
