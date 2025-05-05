@@ -3,12 +3,7 @@
 
 https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/wwkejishe.m3u
 https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/iptv-api.txt.m3u
-https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/cn.m3u
-https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/suxuangipv6.m3u
-https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/merged_output.txt
 https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/l.txt
 https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/kk.txt
-https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/live.txt
-https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/fanmingmingipv6.m3u
 https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/vbskycniptv6.txt
 https://raw.githubusercontent.com/swj2323/m3ufiles/refs/heads/main/Download/vbskycniptv4.txt
