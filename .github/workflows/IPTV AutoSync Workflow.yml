@@ -43,8 +43,6 @@ jobs:
             https://raw.githubusercontent.com/swj2323/iptv-api/master/output/epg/epg.gz
           wget --tries=3 --timeout=30 -q -O TV/epg.xml \
             https://raw.githubusercontent.com/swj2323/iptv-api/master/output/epg/epg.xml
-          wget --tries=3 --timeout=30 -q -O TV/fy.xml \
-            https://epg.v1.mk/fy.xml
 
       # 步骤4：批量替换文件内容
       - name: Replace URLs
