@@ -116,7 +116,7 @@ http://192.168.6.1:1207/rtp/239.255.40.29:8208
 http://192.168.6.1:1207/rtp/239.255.40.41:8208
 #EXTINF:-1 tvg-name="福建少儿" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/福建少儿.png" group-title="🎥动画频道",福建少儿
 http://192.168.6.1:1207/rtp/239.255.40.156:8208
-#EXTINF:-1 tvg-name="卡酷动画" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/卡酷动画.png" group-title="🎥动画频道",卡酷少儿
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/卡酷动画.png" group-title="🎥动画频道",卡酷少儿
 http://192.168.6.1:1207/rtp/239.255.40.24:8208
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/PNG/金鹰卡通.png" group-title="🎥动画频道",金鹰卡通
 http://192.168.6.1:1207/rtp/239.255.40.25:8208
