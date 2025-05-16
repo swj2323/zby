@@ -43,6 +43,7 @@ CCTV4,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225621/in
 CCTV4,http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
 CCTV4,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225621/2/index.m3u8
 CCTV5,http://192.168.6.1:1207/rtp/239.255.40.196:8208
+CCTV5,https://feiyang.wangdu.site/decrypt.php?url=ZUZTNEZlKy85UjlvOVhqeFg1N2FxTkhKVTRRMmU1UEdqOUVXWFVQWWFudnF5amphYmVxWFhIbUp6Q01SY0VkbVhpRnBIcnI4bndjYllwVFNTU3M4RVR5TEhTYUFJSUx1L2RSbDZVSUpJdXM9
 CCTV5,http://[2409:8087:74f0:22::4]:6410/270000001111/1110000305/index.m3u8
 CCTV5,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226019/index.m3u8
 CCTV5,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
@@ -128,7 +129,6 @@ CCTV16,http://livetv.wqwqwq.sbs/gaoma/cctv4k16.m3u8
 CCTV16,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226230/index.m3u8
 CCTV16,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225909/2/index.m3u8
 CCTV17,http://192.168.6.1:1207/rtp/239.255.40.143:8208
-CCTV17,http://222.169.85.8:9901/tsfile/live/0007_1.m3u8
 CCTV17,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000513/index.m3u8
 CCTV17,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225765/index.m3u8
 CCTV17,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
@@ -156,6 +156,7 @@ CCTV17,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225909/2
 东南卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226341/index.m3u8
 广东卫视,http://192.168.6.1:1207/rtp/239.255.40.52:8208
 广东卫视,http://satellitepull.cnr.cn/live/wxgdws/playlist.m3u8
+广东卫视,https://feiyang.wangdu.site/decrypt.php?url=ZUZTNEZlKy85UjlvOVhqeFg1N2FxTkhKVTRRMmU1UEdqOUVXWFVQWWFudnF5amphYmVxWFhIbUp6Q01SY0VkbVhpRnBIcnI4bndjYllwVFNTU3M4RWE3Nm11angrZjBOYTVaR3VDSWZ4RVU9
 广东卫视,http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000520
 广东卫视,http://z.b.bkpcp.top/m.php?id=gdws
 广东卫视,http://j.x.bkpcp.top/jx/GUANGDHD
@@ -168,12 +169,11 @@ CCTV17,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225909/2
 广东卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
 广东卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/1.m3u8
 广东卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226248/index.m3u8
-广东卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226238/1.m3u8
 浙江卫视,http://192.168.6.1:1207/rtp/239.255.40.49:8208
 浙江卫视,https://feiyang.wangdu.site/decrypt.php?url=R0pNS3ZscGVSc3U2MFVLQ3REaE04S3lqeUZyOEIwb0xJam5Cc1FwT1FoRGlFNjFvbE5MN1lvaGtGTGZiaTBXRGdZTUl2SjcwREM0WmtsalhJZ09JekE9PQ%3D%3D
 浙江卫视,https://feiyang.wangdu.site/decrypt.php?url=SG1VeENiZ292Zy91c285eGJMaUYyVWdWZjBJSmlXMVB5aTNoMVNrd1NyZFZJRmhEQ0U1V0M3YjV6a1ZxYWt1ejkyTUg0N01ZV21xVEVCdEZodElRN3c9PQ%3D%3D
-浙江卫视,http://119.32.12.17:2901/udp/224.1.100.52:11111
 浙江卫视,https://feiyang.wangdu.site/decrypt.php?url=R0pNS3ZscGVSc3U2MFVLQ3REaE04S3lqeUZyOEIwb0xJam5Cc1FwT1FoRGlFNjFvbE5MN1lvaGtGTGZiaTBXRG5qcFpiNjZMNzIxaTZVWko2RFRNMnc9PQ%3D%3D
+浙江卫视,http://119.32.12.17:2901/udp/224.1.100.52:11111
 浙江卫视,http://zwebl02.cztv.com/live/channel011080P.m3u8?auth_key=2524708799-0-0-9a1229d8b9d311024ebea08c3fb1d63f
 浙江卫视,http://zhfivel02.cztv.com/channel01/1080p.m3u8?auth_key=2524708799-0-0-adde67b1b344fdd5e512f30a4ae31915
 浙江卫视,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010070
@@ -201,6 +201,7 @@ CCTV17,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225909/2
 湖南卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225827/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 北京卫视,http://192.168.6.1:1207/rtp/239.255.40.46:8208
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
+北京卫视,https://feiyang.wangdu.site/decrypt.php?url=ZUZTNEZlKy85UjlvOVhqeFg1N2FxTkhKVTRRMmU1UEdqOUVXWFVQWWFudnF5amphYmVxWFhIbUp6Q01SY0VkbVhpRnBIcnI4bndjYllwVFNTU3M4RVJRb2pSeTJYUFhxeis5L3poQVNYQWM9
 北京卫视,http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010143
 北京卫视,http://z.b.bkpcp.top/m.php?id=bjws
 北京卫视,http://j.x.bkpcp.top/jx/BEIJHD
@@ -213,7 +214,6 @@ CCTV17,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225909/2
 北京卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/1.m3u8
 北京卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226450/index.m3u8
 北京卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226450/index.m3u8
-北京卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
 湖北卫视,http://192.168.6.1:1207/rtp/239.255.40.47:8208
 湖北卫视,http://www.745612.xyz:7788/rtp/235.254.198.72:1564
 湖北卫视,http://119.32.12.17:2901/udp/224.1.100.68:11111
@@ -684,6 +684,7 @@ IPTV野外,http://192.168.6.1:1207/rtp/239.255.40.60:8208
 爱玩具,http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000053/index.m3u8
 爱幼教,http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000049/index.m3u8
 优漫卡通,http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
+浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?fbl=
 浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 浙江少儿,https://qiniup-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
@@ -699,6 +700,7 @@ CCTV6,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225632/2/
 CCTV6,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225650/2/index.m3u8
 CCTV6,http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
 CCTV8,http://192.168.6.1:1207/rtp/239.255.40.197:8208
+CCTV8,https://feiyang.wangdu.site/decrypt.php?url=ZUZTNEZlKy85UjlvOVhqeFg1N2FxTkhKVTRRMmU1UEdqOUVXWFVQWWFudnF5amphYmVxWFhIbUp6Q01SY0VkbVhpRnBIcnI4bndjYllwVFNTU3M4RWE1UURwcEIvaEtGSkdNVitPeDhDZGc9
 CCTV8,http://[2409:8087:74f0:22::9]:6410/270000001111/1110000309/index.m3u8
 CCTV8,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226008/index.m3u8
 CCTV8,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8
@@ -712,9 +714,10 @@ CCTV8,http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
 IPTV6+,http://192.168.6.1:1207/rtp/239.255.40.64:8208
 IPTV8+,http://192.168.6.1:1207/rtp/239.255.40.65:8208
 IPTV谍战剧场,http://192.168.6.1:1207/rtp/239.255.40.58:8208
+北京IPTV4K,https://feiyang.wangdu.site/decrypt.php?url=ZUZTNEZlKy85UjlvOVhqeFg1N2FxTkhKVTRRMmU1UEdqOUVXWFVQWWFudnF5amphYmVxWFhIbUp6Q01SY0VkbWEzM1A2czFLNm5USVJzT2t5RHNZeVFmQ2pwcW5ZanhDMXBLSG16U1ExTk09
 北京IPTV4K,https://feiyang.wangdu.site/decrypt.php?url=eWlRZjY1Zlhwb3g3Q092dWJaQ2FpaHFvSm9VWXR5YURaNDZVL0RVUFNPRGI1NnhrSTNaaE9oNEJZNU01LzZKZVhPSS9VdlVXZkI4SWVGSjZCanFuNEVzeHVWS3VxUjRTcW9EWHg3WFQzM1U9
-重温经典,https://feiyang.wangdu.site/decrypt.php?url=eWxyNlNiS1JJdUx6eS9QSzNvNXczRU0zblZlbUZNd0RHY2Q4anFxdUd3aFpZT21vVGh0SzFCUmZjcjF3Wk1xeg%3D%3D
 重温经典,https://feiyang.wangdu.site/decrypt.php?url=UUpJQmovS0UxVE9nMXhwRFlUV0lZdW00NUpsZUZzNTdRalhYS2xiYkJ2Y3RjcnBQQzl6eDdnWTVwbGdIYWFjMA%3D%3D
+重温经典,https://feiyang.wangdu.site/decrypt.php?url=eWxyNlNiS1JJdUx6eS9QSzNvNXczRU0zblZlbUZNd0RHY2Q4anFxdUd3aFpZT21vVGh0SzFCUmZjcjF3Wk1xeg%3D%3D
 重温经典,https://feiyang.wangdu.site/decrypt.php?url=VU00T2tWdFhueENpR2NqRDhEZzg4ZmRFRmVvNi94Znp0UlgveEVLOWliZ0xRdkxKU0RjSWtDTGdlVkR4OXZpcA%3D%3D
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 淘电影,http://yc.myds.me:35455/bptv/10000100000000050000000003887498.m3u8
@@ -864,22 +867,24 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 
 🇨🇳 斗鱼,#genre#
 橙記Orange,https://www.goodiptv.club/douyu/4549169
-斗鱼贝爷影厅,http://b.zgjok.com:35455/douyu/252802
 斗鱼贝爷影厅,http://www.douzhicloud.site:35455/douyu/252802
+斗鱼贝爷影厅,http://b.zgjok.com:35455/douyu/252802
 斗鱼漫威电影,http://www.douzhicloud.site:35455/douyu/6140589
 斗鱼漫威电影,http://b.zgjok.com:35455/douyu/6140589
-斗鱼科幻电影,http://www.douzhicloud.site:35455/douyu/9651304
+斗鱼MAX电影,http://www.douzhicloud.site:35455/douyu/4332
+斗鱼MAX电影,http://b.zgjok.com:35455/douyu/4332
 斗鱼科幻电影,http://b.zgjok.com:35455/douyu/9651304
-斗鱼喜剧电影,http://b.zgjok.com:35455/douyu/323876
+斗鱼科幻电影,http://www.douzhicloud.site:35455/douyu/9651304
 斗鱼喜剧电影,http://www.douzhicloud.site:35455/douyu/323876
+斗鱼喜剧电影,http://b.zgjok.com:35455/douyu/323876
 斗鱼蓝光影院,http://www.douzhicloud.site:35455/douyu/7882691
 斗鱼蓝光影院,http://b.zgjok.com:35455/douyu/7882691
 斗鱼漫威宇宙,http://www.douzhicloud.site:35455/douyu/11673725
 斗鱼漫威宇宙,http://b.zgjok.com:35455/douyu/11673725
 斗鱼魔幻大片,http://b.zgjok.com:35455/douyu/52787
 斗鱼魔幻大片,http://www.douzhicloud.site:35455/douyu/52787
-斗鱼华语喜剧,http://www.douzhicloud.site:35455/douyu/276200
 斗鱼华语喜剧,http://b.zgjok.com:35455/douyu/276200
+斗鱼华语喜剧,http://www.douzhicloud.site:35455/douyu/276200
 斗鱼香港电影,http://b.zgjok.com:35455/douyu/6079455
 斗鱼香港电影,http://www.douzhicloud.site:35455/douyu/6079455
 斗鱼经典电影,http://www.douzhicloud.site:35455/douyu/96577
@@ -945,4 +950,5 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 
 💥 Y//Y,#genre#
 寻秦记,http://www.douzhicloud.site:35455/huya/29465848
+神雕侠侣,http://www.douzhicloud.site:35455/huya/23865171
 倚天屠龙记,http://www.douzhicloud.site:35455/huya/23734246
