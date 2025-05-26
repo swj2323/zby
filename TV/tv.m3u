@@ -102,6 +102,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV5.png" group-title="📺央视频道",CCTV5
 http://192.168.6.1:1207/rtp/239.255.40.196:8208
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV5.png" group-title="📺央视频道",CCTV5
+http://omnix.cn:4000/udp/225.1.8.89:8000
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV5.png" group-title="📺央视频道",CCTV5
 http://[2409:8087:74f0:22::4]:6410/270000001111/1110000305/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV5.png" group-title="📺央视频道",CCTV5
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226019/index.m3u8
@@ -484,8 +486,6 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/湖北卫视.png" group-title="📡卫视频道",湖北卫视
 http://192.168.6.1:1207/rtp/239.255.40.47:8208
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/湖北卫视.png" group-title="📡卫视频道",湖北卫视
-http://www.745612.xyz:7788/rtp/235.254.198.72:1564
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/湖北卫视.png" group-title="📡卫视频道",湖北卫视
 http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010057
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/湖北卫视.png" group-title="📡卫视频道",湖北卫视
 http://z.b.bkpcp.top/m.php?id=hubws
@@ -511,6 +511,8 @@ http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/32212
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/湖北卫视.png" group-title="📡卫视频道",湖北卫视
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226501/index.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/湖北卫视.png" group-title="📡卫视频道",湖北卫视
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226240/1.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑龙江卫视.png" group-title="📡卫视频道",黑龙江卫视
 http://192.168.6.1:1207/rtp/239.255.40.44:8208
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑龙江卫视.png" group-title="📡卫视频道",黑龙江卫视
@@ -1483,6 +1485,8 @@ http://192.168.6.1:1207/rtp/239.255.40.64:8208
 http://192.168.6.1:1207/rtp/239.255.40.65:8208
 #EXTINF:-1 tvg-name="IPTV谍战剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/IPTV谍战剧场.png" group-title="🎬电影剧集",IPTV谍战剧场
 http://192.168.6.1:1207/rtp/239.255.40.58:8208
+#EXTINF:-1 tvg-name="重温经典" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/重温经典.png" group-title="🎬电影剧集",重温经典
+http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 #EXTINF:-1 tvg-name="淘电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/淘电影.png" group-title="🎬电影剧集",淘电影
 http://yc.myds.me:35455/bptv/10000100000000050000000003887498.m3u8
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CHC动作电影.png" group-title="🎬电影剧集",CHC动作电影
@@ -1781,6 +1785,8 @@ http://www.douzhicloud.site:35455/douyu/11673725
 http://www.douzhicloud.site:35455/douyu/52787
 #EXTINF:-1 tvg-name="斗鱼华语喜剧" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼华语喜剧.png" group-title="🇨🇳 斗鱼",斗鱼华语喜剧
 http://www.douzhicloud.site:35455/douyu/276200
+#EXTINF:-1 tvg-name="斗鱼香港电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼香港电影.png" group-title="🇨🇳 斗鱼",斗鱼香港电影
+http://www.douzhicloud.site:35455/douyu/6079455
 #EXTINF:-1 tvg-name="斗鱼经典电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼经典电影.png" group-title="🇨🇳 斗鱼",斗鱼经典电影
 http://www.douzhicloud.site:35455/douyu/96577
 #EXTINF:-1 tvg-name="斗鱼专辑影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼专辑影院.png" group-title="🇨🇳 斗鱼",斗鱼专辑影院
