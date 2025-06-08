@@ -136,6 +136,8 @@ http://192.168.6.1:1207/rtp/239.255.40.71:8208
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV7.png" group-title="📺央视频道",CCTV7
 http://192.168.6.1:1207/rtp/239.255.40.37:8208
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV7.png" group-title="📺央视频道",CCTV7
+http://omnix.cn:4000/udp/225.1.8.7:8104
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV7.png" group-title="📺央视频道",CCTV7
 http://119.32.12.17:2901/udp/224.1.100.27:11111
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV7.png" group-title="📺央视频道",CCTV7
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000504/index.m3u8
@@ -162,6 +164,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV9.png" group-title="📺央视频道",CCTV9
 http://192.168.6.1:1207/rtp/239.255.40.38:8208
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV9.png" group-title="📺央视频道",CCTV9
+http://omnix.cn:4000/udp/225.1.8.9:8112
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV9.png" group-title="📺央视频道",CCTV9
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000505/index.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV9.png" group-title="📺央视频道",CCTV9
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225734/index.m3u8
@@ -185,6 +189,8 @@ http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226651/1.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV10.png" group-title="📺央视频道",CCTV10
 http://192.168.6.1:1207/rtp/239.255.40.39:8208
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV10.png" group-title="📺央视频道",CCTV10
+http://119.32.12.17:2901/udp/224.1.100.76:11111
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV10.png" group-title="📺央视频道",CCTV10
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000506/index.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV10.png" group-title="📺央视频道",CCTV10
@@ -235,6 +241,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226714/1.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV12.png" group-title="📺央视频道",CCTV12
 http://192.168.6.1:1207/rtp/239.255.40.40:8208
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV12.png" group-title="📺央视频道",CCTV12
+http://nas.hssvm.com:8888/udp/225.1.1.142:5002
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV12.png" group-title="📺央视频道",CCTV12
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000509/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV12.png" group-title="📺央视频道",CCTV12
@@ -420,6 +428,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/浙江卫视.png" group-title="📡卫视频道",浙江卫视
 http://192.168.6.1:1207/rtp/239.255.40.49:8208
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/浙江卫视.png" group-title="📡卫视频道",浙江卫视
+http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/浙江卫视.png" group-title="📡卫视频道",浙江卫视
 http://zwebl02.cztv.com/live/channel011080P.m3u8?auth_key=2524708799-0-0-9a1229d8b9d311024ebea08c3fb1d63f
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/浙江卫视.png" group-title="📡卫视频道",浙江卫视
 http://zhfivel02.cztv.com/channel01/1080p.m3u8?auth_key=2524708799-0-0-adde67b1b344fdd5e512f30a4ae31915
@@ -445,8 +455,6 @@ http://[2409:8087:1a01:df::4043]:80/TVOD/88888888/224/3221225959/main.m3u8
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873464.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/浙江卫视.png" group-title="📡卫视频道",浙江卫视
 https://zwebl02.cztv.com/live/channel011080P.m3u8?auth_key=1746309623-0oh0wczjlthcs675z4v5o04eqlbj4e7p-0-f7567e57301970404dd8b1441f8b6662
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/浙江卫视.png" group-title="📡卫视频道",浙江卫视
-https://zwebl02.cztv.com/live/channel011080P.m3u8?auth_key=1746093625-2ln6mv1hv9ixvyubfdm32l0edhwgiqw7-0-d989b083951d17cd5c43bdd0538cbe3f
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/湖南卫视.png" group-title="📡卫视频道",湖南卫视
 http://192.168.6.1:1207/rtp/239.255.40.43:8208
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/湖南卫视.png" group-title="📡卫视频道",湖南卫视
@@ -810,9 +818,9 @@ http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
 http://192.168.6.1:1207/rtp/239.255.40.9:8208
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
-http://1.94.31.214/php/hntv.php?id=hnws
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
 http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
+http://1.94.31.214/php/hntv.php?id=hnws
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
 http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
@@ -1429,6 +1437,8 @@ http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226677/1.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/金鹰卡通.png" group-title="🎥动画频道",金鹰卡通
 http://192.168.6.1:1207/rtp/239.255.40.25:8208
+#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/金鹰卡通.png" group-title="🎥动画频道",金鹰卡通
+http://119.32.12.17:2901/udp/224.1.100.113:11111
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/金鹰卡通.png" group-title="🎥动画频道",金鹰卡通
 http://[2409:8087:1a0b:df::4008]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/金鹰卡通.png" group-title="🎥动画频道",金鹰卡通
