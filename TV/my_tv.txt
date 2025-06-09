@@ -80,8 +80,8 @@ CCTV7,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225624/2/
 CCTV7,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226234/1.m3u8
 CCTV7,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226721/1.m3u8
 CCTV7,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8
+CCTV7,http://goo.bkpcp.top/mg/CCTV7
 CCTV9,http://192.168.6.1:1207/rtp/239.255.40.38:8208
-CCTV9,http://omnix.cn:4000/udp/225.1.8.9:8112
 CCTV9,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000505/index.m3u8
 CCTV9,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225734/index.m3u8
 CCTV9,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8
@@ -410,8 +410,8 @@ CCTV17,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226660/1.m3u8
 河北卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
 河北卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226406/index.m3u8
 河南卫视,http://192.168.6.1:1207/rtp/239.255.40.9:8208
-河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
+河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226480
 河南卫视,http://z.b.bkpcp.top/m.php?id=hnws
@@ -744,6 +744,7 @@ IPTV野外,http://192.168.6.1:1207/rtp/239.255.40.60:8208
 爱幼教,http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000049/index.m3u8
 优漫卡通,http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
 优漫卡通,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226932/1.m3u8
+优漫卡通,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226329/1.m3u8
 浙江少儿,http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 浙江少儿,https://qiniup-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
@@ -773,6 +774,7 @@ CCTV8,http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
 CCTV8,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226451/1.m3u8
 CCTV8,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8
 CCTV8,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226715/1.m3u8
+CCTV8,http://goo.bkpcp.top/mg/cctv8
 福建电视剧,http://192.168.6.1:1207/rtp/239.255.40.152:8208
 IPTV6+,http://192.168.6.1:1207/rtp/239.255.40.64:8208
 IPTV8+,http://192.168.6.1:1207/rtp/239.255.40.65:8208
