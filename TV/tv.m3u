@@ -834,8 +834,6 @@ https://live.lalifeier.eu.org/hntv/hnws.m3u8?t=1746372302&key=e288851cc629fc253a
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/吉林卫视.png" group-title="📡卫视频道",吉林卫视
 http://192.168.6.1:1207/rtp/239.255.40.17:8208
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/吉林卫视.png" group-title="📡卫视频道",吉林卫视
-https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0533b55e42354f4f802bdec78e26b571/1.m3u8
-#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/吉林卫视.png" group-title="📡卫视频道",吉林卫视
 http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010075
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/吉林卫视.png" group-title="📡卫视频道",吉林卫视
 http://z.b.bkpcp.top/m.php?id=jlws
@@ -861,6 +859,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/吉林卫视.png" group-title="📡卫视频道",吉林卫视
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/吉林卫视.png" group-title="📡卫视频道",吉林卫视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227240/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/江苏卫视.png" group-title="📡卫视频道",江苏卫视
 http://192.168.6.1:1207/rtp/239.255.40.42:8208
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/江苏卫视.png" group-title="📡卫视频道",江苏卫视
@@ -1827,6 +1827,10 @@ https://www.goodiptv.club/douyu/4549169
 http://www.douzhicloud.site:35455/douyu/252802
 #EXTINF:-1 tvg-name="斗鱼漫威电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼漫威电影.png" group-title="🇨🇳 斗鱼",斗鱼漫威电影
 http://www.douzhicloud.site:35455/douyu/6140589
+#EXTINF:-1 tvg-name="斗鱼MAX电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼MAX电影.png" group-title="🇨🇳 斗鱼",斗鱼MAX电影
+http://b.zgjok.com:35455/douyu/4332
+#EXTINF:-1 tvg-name="斗鱼MAX电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼MAX电影.png" group-title="🇨🇳 斗鱼",斗鱼MAX电影
+http://www.douzhicloud.site:35455/douyu/4332
 #EXTINF:-1 tvg-name="斗鱼科幻电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼科幻电影.png" group-title="🇨🇳 斗鱼",斗鱼科幻电影
 http://www.douzhicloud.site:35455/douyu/9651304
 #EXTINF:-1 tvg-name="斗鱼喜剧电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼喜剧电影.png" group-title="🇨🇳 斗鱼",斗鱼喜剧电影
