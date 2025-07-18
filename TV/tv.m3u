@@ -1433,8 +1433,6 @@ http://192.168.6.1:1207/rtp/239.255.40.60:8208
 http://[2409:8087:1a0b:df::4006]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 #EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑莓动画.png" group-title="🎥动画频道",黑莓动画
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226935/1.m3u8
-#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/动漫秀场.png" group-title="🎥动画频道",动漫秀场
-http://183.237.95.108:9901/tsfile/live/1104_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/哈哈炫动.png" group-title="🎥动画频道",哈哈炫动
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/哈哈炫动.png" group-title="🎥动画频道",哈哈炫动
@@ -1949,5 +1947,3 @@ https://www.goodiptv.club/huya/11352876
 https://www.goodiptv.club/huya/11601968
 #EXTINF:-1 tvg-name="电影_星爷" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/电影_星爷.png" group-title="💥 虎牙",电影_星爷
 https://www.goodiptv.club/huya/11342412
-#EXTINF:-1 tvg-name="神雕侠侣" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/神雕侠侣.png" group-title="💥 Y//Y",神雕侠侣
-http://iptv.jxpan.vip:18888/aio/huya/23865171
