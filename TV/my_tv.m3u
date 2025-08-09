@@ -250,8 +250,6 @@ http://lu.wqwqwq.sbs/itv/1000000005000265011.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV12.png" group-title="📺央视频道",CCTV12
 http://192.168.6.1:1207/rtp/239.255.40.40:8208
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV12.png" group-title="📺央视频道",CCTV12
-http://drive.mxmy.net:8888/udp/239.3.1.64:8124
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV12.png" group-title="📺央视频道",CCTV12
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000509/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV12.png" group-title="📺央视频道",CCTV12
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225731/index.m3u8
@@ -834,9 +832,9 @@ http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
 http://192.168.6.1:1207/rtp/239.255.40.9:8208
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
-http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
 http://1.94.31.214/php/hntv.php?id=hnws
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
+http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
 http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/河南卫视.png" group-title="📡卫视频道",河南卫视
