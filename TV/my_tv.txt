@@ -755,7 +755,6 @@ IPTV野外,http://192.168.6.1:1207/rtp/239.255.40.60:8208
 爱玩具,http://[2409:8087:5e08:24::17]:6610/000000001000/2000000004000000053/index.m3u8
 爱玩具,http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000053/index.m3u8
 爱幼教,http://[2409:8087:5e08:24::11]:6610/000000001000/2000000004000000049/index.m3u8
-优漫卡通,http://8.134.110.147:5300/?id=ymkt
 优漫卡通,http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8
 优漫卡通,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226932/1.m3u8
 优漫卡通,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226329/1.m3u8
@@ -796,6 +795,7 @@ CCTV8,http://lu.wqwqwq.sbs/itv/1000000005000265008.m3u8?cdn=ystenlive
 IPTV6+,http://192.168.6.1:1207/rtp/239.255.40.64:8208
 IPTV8+,http://192.168.6.1:1207/rtp/239.255.40.65:8208
 IPTV谍战剧场,http://192.168.6.1:1207/rtp/239.255.40.58:8208
+IPTV经典电影,http://43.138.0.72:35455/yy/1382754187
 淘剧场,http://dsj.motem.top:8880/bptv/10000100000000050000000003887497.m3u8
 淘剧场,http://zjzcf.synology.me:35455/bptv/10000100000000050000000003887497.m3u8
 淘电影,http://yc.myds.me:35455/bptv/10000100000000050000000003887498.m3u8
@@ -805,9 +805,11 @@ CHC动作电影,http://eastscreen.tv/ooooo.php
 CHC动作电影,http://goo.bkpcp.top/mg/dzdy
 CHC动作电影,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226329/1.m3u8
 CHC动作电影,https://migu.188766.xyz/?migutoken=5f7ddbc144aaa6a046ced38913096c20&id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1&pp=1
+CHC动作电影,http://sport.pendy.dpdns.org/migu/644368714?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
 CHC家庭影院,https://stream1.freetv.fun/chcjia-ting-ying-yuan-17.ctv
 CHC家庭影院,http://eastscreen.tv/ooooo.php
 CHC家庭影院,http://goo.bkpcp.top/mg/jtyy
+CHC家庭影院,http://sport.pendy.dpdns.org/migu/644368373?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
 淘娱乐,http://dsj.motem.top:8880/bptv/10000100000000050000000003887499.m3u8
 淘娱乐,http://zjzcf.synology.me:35455/bptv/10000100000000050000000003887499.m3u8
 黑莓电影,http://[2409:8087:1:20:20::27]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8
@@ -923,7 +925,6 @@ CGTN英语,http://192.168.6.1:1207/rtp/239.255.40.5:8208
 CGTN俄语,http://192.168.6.1:1207/rtp/239.255.40.179:8208
 CGTN俄语,https://0472.org/hls/cgtne.m3u8
 CGTN法语,http://192.168.6.1:1207/rtp/239.255.40.178:8208
-CGTN法语,http://8.134.110.147:5300/?id=cgtnf
 CGTN法语,https://0472.org/hls/cgtnf.m3u8
 CGTN纪录,http://192.168.6.1:1207/rtp/239.255.40.183:8208
 CGTN纪录,https://0472.org/hls/cgtnd.m3u8
@@ -973,6 +974,20 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 
 🇨🇳 斗鱼,#genre#
 橙記Orange,https://www.goodiptv.club/douyu/4549169
+斗鱼贝爷影厅,http://www.douzhicloud.site:35455/douyu/252802
+斗鱼漫威电影,http://www.douzhicloud.site:35455/douyu/6140589
+斗鱼科幻电影,http://www.douzhicloud.site:35455/douyu/9651304
+斗鱼喜剧电影,http://www.douzhicloud.site:35455/douyu/323876
+斗鱼蓝光影院,http://www.douzhicloud.site:35455/douyu/7882691
+斗鱼漫威宇宙,http://www.douzhicloud.site:35455/douyu/11673725
+斗鱼魔幻大片,http://www.douzhicloud.site:35455/douyu/52787
+斗鱼华语喜剧,http://www.douzhicloud.site:35455/douyu/276200
+斗鱼豆瓣高分,http://www.douzhicloud.site:35455/douyu/74374
+斗鱼香港电影,http://www.douzhicloud.site:35455/douyu/6079455
+斗鱼经典电影,http://www.douzhicloud.site:35455/douyu/96577
+斗鱼专辑影院,http://www.douzhicloud.site:35455/douyu/3811092
+斗鱼恐怖电影,http://www.douzhicloud.site:35455/douyu/263824
+斗鱼周末影院,http://www.douzhicloud.site:35455/douyu/315457
 
 虎牙,#genre#
 电影_星爷,https://www.goodiptv.club/huya/11342412
@@ -1027,5 +1042,7 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 电影_星爷,https://www.goodiptv.club/huya/11342412
 
 💥 Y//Y,#genre#
+寻秦记,http://www.douzhicloud.site:35455/huya/29465848
 神雕侠侣,http://iptv.jxpan.vip:18888/aio/huya/23865171
 钟馗传说,https://mursor.ottiptv.cc/yy/1382736839
+倚天屠龙记,http://www.douzhicloud.site:35455/huya/23734246
