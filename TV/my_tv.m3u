@@ -1623,6 +1623,8 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225764/2/index.
 https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b303c47.m3u8
 #EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑莓电影.png" group-title="🎬电影剧集",黑莓电影
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8
+#EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑莓电影.png" group-title="🎬电影剧集",黑莓电影
+http://[2409:8087:1a01:df::4001]:80/TVOD/88888888/224/3221225681/main.m3u8
 #EXTINF:-1 tvg-name="爱谍战" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/爱谍战.png" group-title="🎬电影剧集",爱谍战
 http://[2409:8087:5e08:24::17]:6610/000000001000/2000000004000000038/index.m3u8
 #EXTINF:-1 tvg-name="爱谍战" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/爱谍战.png" group-title="🎬电影剧集",爱谍战
@@ -1943,6 +1945,8 @@ http://www.douzhicloud.site:35455/douyu/74374
 http://www.douzhicloud.site:35455/douyu/6079455
 #EXTINF:-1 tvg-name="斗鱼经典电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼经典电影.png" group-title="🇨🇳 斗鱼",斗鱼经典电影
 http://www.douzhicloud.site:35455/douyu/96577
+#EXTINF:-1 tvg-name="斗鱼国产电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼国产电影.png" group-title="🇨🇳 斗鱼",斗鱼国产电影
+http://www.douzhicloud.site:35455/douyu/122402
 #EXTINF:-1 tvg-name="斗鱼专辑影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼专辑影院.png" group-title="🇨🇳 斗鱼",斗鱼专辑影院
 http://www.douzhicloud.site:35455/douyu/3811092
 #EXTINF:-1 tvg-name="斗鱼恐怖电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼恐怖电影.png" group-title="🇨🇳 斗鱼",斗鱼恐怖电影

@@ -12,6 +12,8 @@ http://192.168.6.1:1207/rtp/239.255.40.174:8208
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV1.png" group-title="📺央视频道",CCTV1
 http://192.168.6.1:1207/rtp/239.255.40.204:8208
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV1.png" group-title="📺央视频道",CCTV1
+http://8.134.110.147:5300/?id=cctv1
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV1.png" group-title="📺央视频道",CCTV1
 http://[2409:8087:74f0:22::4]:6610/270000001128/9900000501/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV1.png" group-title="📺央视频道",CCTV1
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226016/index.m3u8
@@ -27,12 +29,8 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225618/2/index.
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225642/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV1.png" group-title="📺央视频道",CCTV1
 http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV1.png" group-title="📺央视频道",CCTV1
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV2.png" group-title="📺央视频道",CCTV2
 http://192.168.6.1:1207/rtp/239.255.40.36:8208
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV2.png" group-title="📺央视频道",CCTV2
-http://8.134.110.147:5300/?id=cctv2
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV2.png" group-title="📺央视频道",CCTV2
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000502/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV2.png" group-title="📺央视频道",CCTV2
@@ -59,6 +57,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226739/1.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV2.png" group-title="📺央视频道",CCTV2
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226371/1.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV2.png" group-title="📺央视频道",CCTV2
+http://[2409:8087:1a01:df::4041]:80/TVOD/88888888/224/3221225799/main.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV3.png" group-title="📺央视频道",CCTV3
 http://192.168.6.1:1207/rtp/239.255.40.195:8208
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV3.png" group-title="📺央视频道",CCTV3
@@ -361,6 +361,8 @@ https://migu.188766.xyz/?migutoken=eda82b340e2efaedc007fddfaf1c7c28&id=CCTV16&pp
 http://free.cnlive.club/channel/c15fcc8/index.m3u8?q=1756084903216
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV17.png" group-title="📺央视频道",CCTV17
 http://192.168.6.1:1207/rtp/239.255.40.143:8208
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV17.png" group-title="📺央视频道",CCTV17
+http://8.134.110.147:5300/?id=cctv17
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV17.png" group-title="📺央视频道",CCTV17
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000513/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV17.png" group-title="📺央视频道",CCTV17
@@ -1512,6 +1514,8 @@ https://live.iill.top/huya/11342413
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV6.png" group-title="🎬电影剧集",CCTV6
 http://192.168.6.1:1207/rtp/239.255.40.175:8208
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV6.png" group-title="🎬电影剧集",CCTV6
+http://8.134.110.147:5300/?id=cctv6
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV6.png" group-title="🎬电影剧集",CCTV6
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226010/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV6.png" group-title="🎬电影剧集",CCTV6
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225632/index.m3u8
@@ -1609,6 +1613,8 @@ http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225764/2/index.
 https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b303c47.m3u8
 #EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑莓电影.png" group-title="🎬电影剧集",黑莓电影
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8
+#EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑莓电影.png" group-title="🎬电影剧集",黑莓电影
+http://[2409:8087:1a01:df::4001]:80/TVOD/88888888/224/3221225681/main.m3u8
 #EXTINF:-1 tvg-name="爱谍战" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/爱谍战.png" group-title="🎬电影剧集",爱谍战
 http://[2409:8087:5e08:24::17]:6610/000000001000/2000000004000000038/index.m3u8
 #EXTINF:-1 tvg-name="爱谍战" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/爱谍战.png" group-title="🎬电影剧集",爱谍战
@@ -1933,8 +1939,6 @@ http://www.douzhicloud.site:35455/douyu/11673725
 http://www.douzhicloud.site:35455/douyu/52787
 #EXTINF:-1 tvg-name="斗鱼华语喜剧" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼华语喜剧.png" group-title="🇨🇳 斗鱼",斗鱼华语喜剧
 http://www.douzhicloud.site:35455/douyu/276200
-#EXTINF:-1 tvg-name="斗鱼豆瓣高分" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼豆瓣高分.png" group-title="🇨🇳 斗鱼",斗鱼豆瓣高分
-http://www.douzhicloud.site:35455/douyu/74374
 #EXTINF:-1 tvg-name="斗鱼经典电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼经典电影.png" group-title="🇨🇳 斗鱼",斗鱼经典电影
 http://www.douzhicloud.site:35455/douyu/96577
 #EXTINF:-1 tvg-name="斗鱼专辑影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼专辑影院.png" group-title="🇨🇳 斗鱼",斗鱼专辑影院
