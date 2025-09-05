@@ -1697,6 +1697,8 @@ http://[2409:8087:5e08:24::17]:6610/000000001000/2000000004000000036/index.m3u8
 http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000000/index.m3u8
 #EXTINF:-1 tvg-name="爱悬疑" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/爱悬疑.png" group-title="🎬电影剧集",爱悬疑
 http://yc.myds.me:35455/itv/6000000006000050630.m3u8?cdn=wasusyt
+#EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/风云剧场.png" group-title="🎬电影剧集",风云剧场
+https://mursor.ottiptv.cc/mcp/fyjc.m3u8
 #EXTINF:-1 tvg-name="爱情喜剧" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/爱情喜剧.png" group-title="🎬电影剧集",爱情喜剧
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
 #EXTINF:-1 tvg-name="超级电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/超级电影.png" group-title="🎬电影剧集",超级电影
@@ -2081,6 +2083,8 @@ https://www.goodiptv.club/huya/11342412
 http://www.douzhicloud.site:35455/huya/29465848
 #EXTINF:-1 tvg-name="神雕侠侣" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/神雕侠侣.png" group-title="💥 Y//Y",神雕侠侣
 http://iptv.jxpan.vip:18888/aio/huya/23865171
+#EXTINF:-1 tvg-name="神雕侠侣" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/神雕侠侣.png" group-title="💥 Y//Y",神雕侠侣
+http://www.douzhicloud.site:35455/huya/23865171
 #EXTINF:-1 tvg-name="钟馗传说" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/钟馗传说.png" group-title="💥 Y//Y",钟馗传说
 https://mursor.ottiptv.cc/yy/1382736839
 #EXTINF:-1 tvg-name="倚天屠龙记" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/倚天屠龙记.png" group-title="💥 Y//Y",倚天屠龙记
