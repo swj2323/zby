@@ -1404,6 +1404,8 @@ http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/兵团卫视.png" group-title="📡卫视频道",兵团卫视
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226661/1.m3u8
 #EXTINF:-1 tvg-name="大湾区卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/大湾区卫视.png" group-title="📡卫视频道",大湾区卫视
+http://117.141.162.238:8181/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="大湾区卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/大湾区卫视.png" group-title="📡卫视频道",大湾区卫视
 http://goo.bkpcp.top/mg/dwqws
 #EXTINF:-1 tvg-name="大湾区卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/大湾区卫视.png" group-title="📡卫视频道",大湾区卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226540/1.m3u8
@@ -1625,6 +1627,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 https://migu.188766.xyz/?migutoken=5f7ddbc144aaa6a046ced38913096c20&id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1&pp=1
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CHC动作电影.png" group-title="🎬电影剧集",CHC动作电影
 http://sport.pendy.dpdns.org/migu/644368714?token=BCDxUPC2aE0y0iz8JYzYhWA21b8DBPXm4Tw9nHe0T-ftD1MRmsBCXZPPiHXeDz7cNybVmmXGazeeaHKpxyYgEA
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CHC动作电影.png" group-title="🎬电影剧集",CHC动作电影
+http://[2409:8087:1a01:df::4021]:80/TVOD/88888888/224/3221225555/main.m3u8
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CHC家庭影院.png" group-title="🎬电影剧集",CHC家庭影院
 https://stream1.freetv.fun/chcjia-ting-ying-yuan-17.ctv
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CHC家庭影院.png" group-title="🎬电影剧集",CHC家庭影院
@@ -2082,9 +2086,9 @@ https://www.goodiptv.club/huya/11342412
 #EXTINF:-1 tvg-name="寻秦记" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/寻秦记.png" group-title="💥 Y//Y",寻秦记
 http://www.douzhicloud.site:35455/huya/29465848
 #EXTINF:-1 tvg-name="神雕侠侣" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/神雕侠侣.png" group-title="💥 Y//Y",神雕侠侣
-http://iptv.jxpan.vip:18888/aio/huya/23865171
-#EXTINF:-1 tvg-name="神雕侠侣" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/神雕侠侣.png" group-title="💥 Y//Y",神雕侠侣
 http://www.douzhicloud.site:35455/huya/23865171
+#EXTINF:-1 tvg-name="神雕侠侣" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/神雕侠侣.png" group-title="💥 Y//Y",神雕侠侣
+http://iptv.jxpan.vip:18888/aio/huya/23865171
 #EXTINF:-1 tvg-name="钟馗传说" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/钟馗传说.png" group-title="💥 Y//Y",钟馗传说
 https://mursor.ottiptv.cc/yy/1382736839
 #EXTINF:-1 tvg-name="倚天屠龙记" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/倚天屠龙记.png" group-title="💥 Y//Y",倚天屠龙记
