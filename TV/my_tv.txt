@@ -720,6 +720,7 @@ CCTV17,https://cc06.tv12.xyz/17.m3u8
 香港卫视,https://stream1.freetv.fun/xiang-gang-wei-shi-8.m3u8
 香港卫视,https://yvxymm.tv12.xyz/175.m3u8
 香港卫视,https://migu.188766.xyz/?migutoken=71c1dbe4568d6c43573e0f04671d588f&id=%E9%A6%99%E6%B8%AF%E5%8D%AB%E8%A7%86&pp=1
+香港卫视,https://migu.188766.xyz/?migutoken=6804cde09f4133e69f2aaf5406a2bcc5&id=%E9%A6%99%E6%B8%AF%E5%8D%AB%E8%A7%86&type=yy
 凤凰卫视,http://218.202.220.2:5000/nn_live.ts?id=NEWSASIA
 
 🎥动画频道,#genre#
@@ -857,6 +858,7 @@ CHC家庭影院,https://mgtv.ottiptv.cc/mg/644368373.m3u8?sign=bda539eec2bb0ede8
 爱悬疑,http://[2409:8087:5e08:24::12]:6610/000000001000/2000000004000000000/index.m3u8
 爱悬疑,http://yc.myds.me:35455/itv/6000000006000050630.m3u8?cdn=wasusyt
 风云剧场,https://mursor.ottiptv.cc/mcp/fyjc.m3u8
+风云剧场,https://mursor.ottiptv.cc/mcp/fyjc.m3u8?sign=b2f39a8a6bde51405aca53e0ac0f10e9&tm=1757443317
 爱情喜剧,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
 超级电影,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 东北热剧,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
@@ -1061,8 +1063,7 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 电影_星爷,https://www.goodiptv.club/huya/11342412
 
 💥 Y//Y,#genre#
-寻秦记,http://www.douzhicloud.site:35455/huya/29465848
-神雕侠侣,http://iptv.jxpan.vip:18888/aio/huya/23865171
 神雕侠侣,http://www.douzhicloud.site:35455/huya/23865171
+神雕侠侣,http://iptv.jxpan.vip:18888/aio/huya/23865171
 钟馗传说,https://mursor.ottiptv.cc/yy/1382736839
 倚天屠龙记,http://www.douzhicloud.site:35455/huya/23734246
