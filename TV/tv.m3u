@@ -1681,6 +1681,8 @@ http://yc.myds.me:35455/itv/6000000006000050630.m3u8?cdn=wasusyt
 https://mursor.ottiptv.cc/mcp/fyjc.m3u8
 #EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/风云剧场.png" group-title="🎬电影剧集",风云剧场
 https://mursor.ottiptv.cc/mcp/fyjc.m3u8?sign=b2f39a8a6bde51405aca53e0ac0f10e9&tm=1757443317
+#EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/风云剧场.png" group-title="🎬电影剧集",风云剧场
+https://mursor.ottiptv.cc/mcp/fyjc.m3u8?sign=4504fb617281e8909e4259760d3b64d8&tm=1757535222
 #EXTINF:-1 tvg-name="爱情喜剧" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/爱情喜剧.png" group-title="🎬电影剧集",爱情喜剧
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
 #EXTINF:-1 tvg-name="超级电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/超级电影.png" group-title="🎬电影剧集",超级电影
@@ -1955,8 +1957,6 @@ http://www.douzhicloud.site:35455/douyu/11673725
 http://www.douzhicloud.site:35455/douyu/52787
 #EXTINF:-1 tvg-name="斗鱼华语喜剧" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼华语喜剧.png" group-title="🇨🇳 斗鱼",斗鱼华语喜剧
 http://www.douzhicloud.site:35455/douyu/276200
-#EXTINF:-1 tvg-name="斗鱼香港电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼香港电影.png" group-title="🇨🇳 斗鱼",斗鱼香港电影
-http://www.douzhicloud.site:35455/douyu/6079455
 #EXTINF:-1 tvg-name="斗鱼经典电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼经典电影.png" group-title="🇨🇳 斗鱼",斗鱼经典电影
 http://www.douzhicloud.site:35455/douyu/96577
 #EXTINF:-1 tvg-name="斗鱼专辑影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼专辑影院.png" group-title="🇨🇳 斗鱼",斗鱼专辑影院
