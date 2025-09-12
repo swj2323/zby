@@ -431,8 +431,8 @@ CCTV17,https://cc06.tv12.xyz/17.m3u8
 河北卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
 河北卫视,http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226406/index.m3u8
 河南卫视,http://192.168.6.1:1207/rtp/239.255.40.9:8208
-河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://satellitepull.cnr.cn/live/wxhnws/playlist.m3u8
+河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226480
 河南卫视,http://z.b.bkpcp.top/m.php?id=hnws
@@ -1065,7 +1065,7 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 
 💥 Y//Y,#genre#
 寻秦记,http://www.douzhicloud.site:35455/huya/29465848
-神雕侠侣,http://www.douzhicloud.site:35455/huya/23865171
 神雕侠侣,http://iptv.jxpan.vip:18888/aio/huya/23865171
+神雕侠侣,http://www.douzhicloud.site:35455/huya/23865171
 钟馗传说,https://mursor.ottiptv.cc/yy/1382736839
 倚天屠龙记,http://www.douzhicloud.site:35455/huya/23734246
