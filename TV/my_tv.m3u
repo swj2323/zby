@@ -326,8 +326,6 @@ http://j.x.bkpcp.top/jx/CCTV13HD
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV15.png" group-title="📺央视频道",CCTV15
 http://192.168.6.1:1207/rtp/239.255.40.4:8208
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV15.png" group-title="📺央视频道",CCTV15
-http://111.227.196.164:9901/tsfile/live/0015_1.m3u8
-#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV15.png" group-title="📺央视频道",CCTV15
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000512/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV15.png" group-title="📺央视频道",CCTV15
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225601/index.m3u8
@@ -1997,8 +1995,6 @@ http://www.douzhicloud.site:35455/douyu/276200
 http://www.douzhicloud.site:35455/douyu/6079455
 #EXTINF:-1 tvg-name="斗鱼经典电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼经典电影.png" group-title="🇨🇳 斗鱼",斗鱼经典电影
 http://www.douzhicloud.site:35455/douyu/96577
-#EXTINF:-1 tvg-name="斗鱼国产电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼国产电影.png" group-title="🇨🇳 斗鱼",斗鱼国产电影
-http://www.douzhicloud.site:35455/douyu/122402
 #EXTINF:-1 tvg-name="斗鱼专辑影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼专辑影院.png" group-title="🇨🇳 斗鱼",斗鱼专辑影院
 http://www.douzhicloud.site:35455/douyu/3811092
 #EXTINF:-1 tvg-name="斗鱼恐怖电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼恐怖电影.png" group-title="🇨🇳 斗鱼",斗鱼恐怖电影

@@ -156,7 +156,6 @@ CCTV13,http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
 CCTV13,http://j.x.bkpcp.top/jx/CCTV13HD
 CCTV13,https://cc06.tv12.xyz/14.m3u8
 CCTV15,http://192.168.6.1:1207/rtp/239.255.40.4:8208
-CCTV15,http://111.227.196.164:9901/tsfile/live/0015_1.m3u8
 CCTV15,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000512/index.m3u8
 CCTV15,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225601/index.m3u8
 CCTV15,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
@@ -874,7 +873,6 @@ CHC家庭影院,https://mgtv.ottiptv.cc/mg/644368373.m3u8?sign=bda539eec2bb0ede8
 福建公共,http://192.168.6.1:1207/rtp/239.255.40.150:8208
 福建旅游,http://192.168.6.1:1207/rtp/239.255.40.153:8208
 海峡卫视,http://192.168.6.1:1207/rtp/239.255.40.157:8208
-海峡卫视,http://8.138.7.223/tv/hxws.m3u8
 海峡卫视,http://goo.bkpcp.top/mg/hxws
 海峡卫视,http://hlsbkmgsplive.miguvideo.com/migu/kailu/haixiaws/57/20230724/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
 海峡卫视,http://r.jdshipin.com/WtYt3
@@ -999,6 +997,7 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 斗鱼漫威宇宙,http://www.douzhicloud.site:35455/douyu/11673725
 斗鱼魔幻大片,http://www.douzhicloud.site:35455/douyu/52787
 斗鱼华语喜剧,http://www.douzhicloud.site:35455/douyu/276200
+斗鱼香港电影,http://www.douzhicloud.site:35455/douyu/6079455
 斗鱼经典电影,http://www.douzhicloud.site:35455/douyu/96577
 斗鱼专辑影院,http://www.douzhicloud.site:35455/douyu/3811092
 斗鱼恐怖电影,http://www.douzhicloud.site:35455/douyu/263824
