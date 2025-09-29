@@ -703,6 +703,7 @@ CCTV17,https://cc06.tv12.xyz/17.m3u8
 兵团卫视,http://192.168.6.1:1207/rtp/239.255.40.29:8208
 兵团卫视,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
 兵团卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226661/1.m3u8
+兵团卫视,https://cc06.tv12.xyz/30.m3u8
 大湾区卫视,http://goo.bkpcp.top/mg/dwqws
 大湾区卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226540/1.m3u8
 安多卫视,http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8
@@ -712,6 +713,7 @@ CCTV17,https://cc06.tv12.xyz/17.m3u8
 延边卫视,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8
 延边卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227045/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Eq0D3NdTUN7FuRzr8eJsbQA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
+延边卫视,https://cc06.tv12.xyz/113.m3u8
 香港卫视,http://cctvtxyh5c.liveplay.myqcloud.com/cstv/xianggangweishi_2/index.m3u8
 香港卫视,https://stream1.freetv.fun/xiang-gang-wei-shi-7.m3u8
 香港卫视,https://stream1.freetv.fun/79e4d77e2f29a2ca7f7cabbbe2ee02d32a4f2f7fb91ae94d0fb9573c9f94b4ab.ctv
@@ -743,11 +745,13 @@ CCTV14,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 卡酷少儿,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8
 卡酷少儿,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226677/1.m3u8
 卡酷少儿,http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010081/1.m3u8
+卡酷少儿,https://cc06.tv12.xyz/29.m3u8
 金鹰卡通,http://192.168.6.1:1207/rtp/239.255.40.25:8208
 金鹰卡通,http://[2409:8087:1a0b:df::4008]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
 金鹰卡通,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226674/1.m3u8
 金鹰卡通,http://dsj.motem.top:8880/bptv/10000100000000050000000004796942.m3u8
 金鹰卡通,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226576/1.m3u8
+金鹰卡通,https://cc06.tv12.xyz/55.m3u8
 嘉佳卡通,http://192.168.6.1:1207/rtp/239.255.40.26:8208
 IPTV少儿动画,http://192.168.6.1:1207/rtp/239.255.40.66:8208
 IPTV野外,http://192.168.6.1:1207/rtp/239.255.40.60:8208
