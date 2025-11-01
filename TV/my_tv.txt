@@ -89,6 +89,7 @@ CCTV7,http://goo.bkpcp.top/mg/CCTV7
 CCTV7,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226451/1.m3u8
 CCTV7,https://cc06.tv12.xyz/8.m3u8
 CCTV9,http://192.168.6.1:1207/rtp/239.255.40.38:8208
+CCTV9,http://sh.lnott.top:880/dx09.m3u8
 CCTV9,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000505/index.m3u8
 CCTV9,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225734/index.m3u8
 CCTV9,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8
@@ -102,7 +103,6 @@ CCTV9,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226651/1.m3u8
 CCTV9,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8
 CCTV9,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226449/1.m3u8
 CCTV9,http://lu.wqwqwq.sbs/itv/1000000005000265009.m3u8?cdn=ystenlive
-CCTV9,https://cc06.tv12.xyz/10.m3u8
 CCTV10,http://192.168.6.1:1207/rtp/239.255.40.39:8208
 CCTV10,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000506/index.m3u8
 CCTV10,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225730/index.m3u8
@@ -147,6 +147,7 @@ CCTV12,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 CCTV12,http://lu.wqwqwq.sbs/itv/1000000005000265012.m3u8?cdn=ystenlive
 CCTV12,https://cc06.tv12.xyz/13.m3u8
 CCTV13,http://192.168.6.1:1207/rtp/239.255.40.3:8208
+CCTV13,http://sh.lnott.top:880/dx13.m3u8
 CCTV13,http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 CCTV13,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000510/index.m3u8
 CCTV13,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226011/index.m3u8
@@ -160,7 +161,6 @@ CCTV13,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225638/2
 CCTV13,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226316/1.m3u8
 CCTV13,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226717/1.m3u8
 CCTV13,http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
-CCTV13,http://j.x.bkpcp.top/jx/CCTV13HD
 CCTV15,http://192.168.6.1:1207/rtp/239.255.40.4:8208
 CCTV15,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000512/index.m3u8
 CCTV15,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225601/index.m3u8
@@ -686,6 +686,7 @@ CCTV17,https://cc06.tv12.xyz/17.m3u8
 新疆卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227248/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 新疆卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226460/index.m3u8
 云南卫视,http://192.168.6.1:1207/rtp/239.255.40.6:8208
+云南卫视,http://sh.lnott.top:880/dx49.m3u8
 云南卫视,http://php.jdshipin.com/TVOD/hljyd.php?id=3221226444
 云南卫视,http://z.b.bkpcp.top/m.php?id=ynws
 云南卫视,http://goo.bkpcp.top/mg/ynws
@@ -699,7 +700,6 @@ CCTV17,https://cc06.tv12.xyz/17.m3u8
 云南卫视,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225853/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 云南卫视,http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226444/index.m3u8
 云南卫视,http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001223/index.m3u8
-云南卫视,http://[2409:8087:2001:20:2800:0:df6e:eb05]:80/ott.mobaibox.com/PLTV/4/224/3221225591/index.m3u8
 兵团卫视,http://192.168.6.1:1207/rtp/239.255.40.29:8208
 兵团卫视,http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8
 兵团卫视,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226661/1.m3u8

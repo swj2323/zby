@@ -178,6 +178,8 @@ https://cc06.tv12.xyz/8.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV9.png" group-title="📺央视频道",CCTV9
 http://192.168.6.1:1207/rtp/239.255.40.38:8208
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV9.png" group-title="📺央视频道",CCTV9
+http://sh.lnott.top:880/dx09.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV9.png" group-title="📺央视频道",CCTV9
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000505/index.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV9.png" group-title="📺央视频道",CCTV9
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225734/index.m3u8
@@ -285,6 +287,8 @@ http://lu.wqwqwq.sbs/itv/1000000005000265012.m3u8?cdn=ystenlive
 https://cc06.tv12.xyz/13.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV13.png" group-title="📺央视频道",CCTV13
 http://192.168.6.1:1207/rtp/239.255.40.3:8208
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV13.png" group-title="📺央视频道",CCTV13
+http://sh.lnott.top:880/dx13.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV13.png" group-title="📺央视频道",CCTV13
 http://[2409:8087:74f0:22::4]:6410/270000001128/9900000510/index.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV13.png" group-title="📺央视频道",CCTV13
@@ -1354,6 +1358,8 @@ http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/32
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/云南卫视.png" group-title="📡卫视频道",云南卫视
 http://192.168.6.1:1207/rtp/239.255.40.6:8208
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/云南卫视.png" group-title="📡卫视频道",云南卫视
+http://sh.lnott.top:880/dx49.m3u8
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/云南卫视.png" group-title="📡卫视频道",云南卫视
 http://php.jdshipin.com/TVOD/hljyd.php?id=3221226444
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/云南卫视.png" group-title="📡卫视频道",云南卫视
 http://z.b.bkpcp.top/m.php?id=ynws
@@ -1379,8 +1385,6 @@ http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225853/index.m3u
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226444/index.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/云南卫视.png" group-title="📡卫视频道",云南卫视
 http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001223/index.m3u8
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/云南卫视.png" group-title="📡卫视频道",云南卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb05]:80/ott.mobaibox.com/PLTV/4/224/3221225591/index.m3u8
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/兵团卫视.png" group-title="📡卫视频道",兵团卫视
 http://192.168.6.1:1207/rtp/239.255.40.29:8208
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/兵团卫视.png" group-title="📡卫视频道",兵团卫视
