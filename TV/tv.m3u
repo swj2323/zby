@@ -724,6 +724,8 @@ http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227262/index.m3u
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广西卫视.png" group-title="📡卫视频道",广西卫视
 http://192.168.6.1:1207/rtp/239.255.40.22:8208
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广西卫视.png" group-title="📡卫视频道",广西卫视
+http://sh.lnott.top:880/dx41.m3u8
+#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广西卫视.png" group-title="📡卫视频道",广西卫视
 http://php.jdshipin.com/TVOD/hljyd.php?id=3221226549
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广西卫视.png" group-title="📡卫视频道",广西卫视
 http://z.b.bkpcp.top/m.php?id=gxws
@@ -749,8 +751,6 @@ http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/322
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226534/1.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广西卫视.png" group-title="📡卫视频道",广西卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226915/1.m3u8
-#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广西卫视.png" group-title="📡卫视频道",广西卫视
-http://[2409:8087:2001:20:2800:0:df6e:eb1a]:80/wh7f454c46tw1546067216_-1703904154/ott.mobaibox.com/PLTV/3/224/3221228183/index.m3u8?icpid=3&RTS=1674385956&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/贵州卫视.png" group-title="📡卫视频道",贵州卫视
 http://192.168.6.1:1207/rtp/239.255.40.200:8208
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/贵州卫视.png" group-title="📡卫视频道",贵州卫视
