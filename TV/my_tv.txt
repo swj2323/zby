@@ -1028,6 +1028,7 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 斗鱼华语喜剧,http://www.douzhicloud.site:35455/douyu/276200
 斗鱼香港电影,http://www.douzhicloud.site:35455/douyu/6079455
 斗鱼经典电影,http://www.douzhicloud.site:35455/douyu/96577
+斗鱼国产电影,http://www.douzhicloud.site:35455/douyu/122402
 斗鱼专辑影院,http://www.douzhicloud.site:35455/douyu/3811092
 斗鱼恐怖电影,http://www.douzhicloud.site:35455/douyu/263824
 斗鱼周末影院,http://www.douzhicloud.site:35455/douyu/315457
