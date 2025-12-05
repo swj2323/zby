@@ -407,6 +407,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226660/1.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV17.png" group-title="📺央视频道",CCTV17
 https://cc06.tv12.xyz/17.m3u8
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/CCTV17.png" group-title="📺央视频道",CCTV17
+http://lu.wqwqwq.sbs/itv/1000000005000265015.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/东南卫视.png" group-title="📡卫视频道",东南卫视
 http://192.168.6.1:1207/rtp/239.255.40.149:8208
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/东南卫视.png" group-title="📡卫视频道",东南卫视
@@ -440,8 +442,6 @@ http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广东卫视.png" group-title="📡卫视频道",广东卫视
 http://192.168.6.1:1207/rtp/239.255.40.52:8208
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广东卫视.png" group-title="📡卫视频道",广东卫视
-http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226508/.m3u8
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广东卫视.png" group-title="📡卫视频道",广东卫视
 http://php.jdshipin.com:8880/TVOD/gsyd.php?id=9900000520
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广东卫视.png" group-title="📡卫视频道",广东卫视
 http://z.b.bkpcp.top/m.php?id=gdws
@@ -467,6 +467,8 @@ http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/yinhe/88888888/224/3221226248/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广东卫视.png" group-title="📡卫视频道",广东卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226238/1.m3u8
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/广东卫视.png" group-title="📡卫视频道",广东卫视
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227201/index.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/浙江卫视.png" group-title="📡卫视频道",浙江卫视
 http://192.168.6.1:1207/rtp/239.255.40.49:8208
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/浙江卫视.png" group-title="📡卫视频道",浙江卫视
@@ -1512,9 +1514,9 @@ http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010002/1.m3u8
 #EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑莓动画.png" group-title="🎥动画频道",黑莓动画
 http://[2409:8087:1a01:df::4007]:80/TVOD/88888888/224/3221225529/main.m3u8
 #EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/动漫秀场.png" group-title="🎥动画频道",动漫秀场
-http://183.237.95.108:9901/tsfile/live/1104_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/动漫秀场.png" group-title="🎥动画频道",动漫秀场
 http://vapi.91kds.cc/live1/jdtv2.m3u8?id=dmxchd&apiKey=73c963d13814ce7d0e4743c5e7d033cc
+#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/动漫秀场.png" group-title="🎥动画频道",动漫秀场
+http://183.237.95.108:9901/tsfile/live/1104_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/哈哈炫动.png" group-title="🎥动画频道",哈哈炫动
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225657/index.m3u8
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/哈哈炫动.png" group-title="🎥动画频道",哈哈炫动
@@ -2031,8 +2033,6 @@ http://www.douzhicloud.site:35455/douyu/276200
 http://www.douzhicloud.site:35455/douyu/6079455
 #EXTINF:-1 tvg-name="斗鱼经典电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼经典电影.png" group-title="🇨🇳 斗鱼",斗鱼经典电影
 http://www.douzhicloud.site:35455/douyu/96577
-#EXTINF:-1 tvg-name="斗鱼国产电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼国产电影.png" group-title="🇨🇳 斗鱼",斗鱼国产电影
-http://www.douzhicloud.site:35455/douyu/122402
 #EXTINF:-1 tvg-name="斗鱼专辑影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼专辑影院.png" group-title="🇨🇳 斗鱼",斗鱼专辑影院
 http://www.douzhicloud.site:35455/douyu/3811092
 #EXTINF:-1 tvg-name="斗鱼恐怖电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼恐怖电影.png" group-title="🇨🇳 斗鱼",斗鱼恐怖电影
@@ -2139,6 +2139,8 @@ https://www.goodiptv.club/huya/11342412
 http://live.ottiptv.cc/huya/29465848
 #EXTINF:-1 tvg-name="封神榜" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/封神榜.png" group-title="💥 Y//Y",封神榜
 http://live.ottiptv.cc/huya/29465849
+#EXTINF:-1 tvg-name="笑傲江湖" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/笑傲江湖.png" group-title="💥 Y//Y",笑傲江湖
+http://www.douzhicloud.site:35455/huya/23865142
 #EXTINF:-1 tvg-name="神雕侠侣" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/神雕侠侣.png" group-title="💥 Y//Y",神雕侠侣
 http://www.douzhicloud.site:35455/huya/23865171
 #EXTINF:-1 tvg-name="钟馗传说" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/钟馗传说.png" group-title="💥 Y//Y",钟馗传说
