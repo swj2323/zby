@@ -666,6 +666,8 @@ http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001129/index.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/东方卫视.png" group-title="📡卫视频道",东方卫视
 http://192.168.6.1:1207/rtp/239.255.40.50:8208
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/东方卫视.png" group-title="📡卫视频道",东方卫视
+http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/东方卫视.png" group-title="📡卫视频道",东方卫视
 http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010054
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/东方卫视.png" group-title="📡卫视频道",东方卫视
 http://z.b.bkpcp.top/m.php?id=dfws#rtsp://115.85.232.19/PLTV/88888910/224/3221225531/10000100000000060000000000107311_0.smil
@@ -691,8 +693,6 @@ https://bp-cdn-ali.bestv.cn/enhance/bestvdfws_enhance.m3u8?auth_key=1746162006-7
 http://[2409:8087:1a0a:df::404b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226345/index.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/东方卫视.png" group-title="📡卫视频道",东方卫视
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226345/index.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/东方卫视.png" group-title="📡卫视频道",东方卫视
-https://bp-cdn-ali.bestv.cn/enhance/bestvdfws_enhance.m3u8?auth_key=1745902806-7dc1aed6625747feb7e41ec09ab15200-0-683de0778ee6e364c28e16431cd50443
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/甘肃卫视.png" group-title="📡卫视频道",甘肃卫视
 http://192.168.6.1:1207/rtp/239.255.40.16:8208
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/甘肃卫视.png" group-title="📡卫视频道",甘肃卫视
@@ -1593,6 +1593,8 @@ http://192.168.6.1:1207/rtp/239.255.40.64:8208
 http://192.168.6.1:1207/rtp/239.255.40.65:8208
 #EXTINF:-1 tvg-name="IPTV谍战剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/IPTV谍战剧场.png" group-title="🎬电影剧集",IPTV谍战剧场
 http://192.168.6.1:1207/rtp/239.255.40.58:8208
+#EXTINF:-1 tvg-name="重温经典" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/重温经典.png" group-title="🎬电影剧集",重温经典
+https://other.ottiptv.cc/cwjd.m3u8
 #EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/淘剧场.png" group-title="🎬电影剧集",淘剧场
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887497.m3u8
 #EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/淘剧场.png" group-title="🎬电影剧集",淘剧场
@@ -2005,8 +2007,6 @@ http://www.douzhicloud.site:35455/douyu/52787
 http://www.douzhicloud.site:35455/douyu/276200
 #EXTINF:-1 tvg-name="斗鱼经典电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼经典电影.png" group-title="🇨🇳 斗鱼",斗鱼经典电影
 http://www.douzhicloud.site:35455/douyu/96577
-#EXTINF:-1 tvg-name="斗鱼国产电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼国产电影.png" group-title="🇨🇳 斗鱼",斗鱼国产电影
-http://www.douzhicloud.site:35455/douyu/122402
 #EXTINF:-1 tvg-name="斗鱼专辑影院" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼专辑影院.png" group-title="🇨🇳 斗鱼",斗鱼专辑影院
 http://www.douzhicloud.site:35455/douyu/3811092
 #EXTINF:-1 tvg-name="斗鱼恐怖电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/斗鱼恐怖电影.png" group-title="🇨🇳 斗鱼",斗鱼恐怖电影
