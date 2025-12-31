@@ -89,6 +89,7 @@ CCTV7,http://goo.bkpcp.top/mg/CCTV7
 CCTV7,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226451/1.m3u8
 CCTV7,https://cc06.tv12.xyz/8.m3u8
 CCTV9,http://192.168.6.1:1207/rtp/239.255.40.38:8208
+CCTV9,http://27.41.245.32:801/hls/9/index.m3u8
 CCTV9,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000505/index.m3u8
 CCTV9,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225734/index.m3u8
 CCTV9,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8
@@ -102,7 +103,6 @@ CCTV9,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226651/1.m3u8
 CCTV9,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8
 CCTV9,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226449/1.m3u8
 CCTV9,http://lu.wqwqwq.sbs/itv/1000000005000265009.m3u8?cdn=ystenlive
-CCTV9,https://cc06.tv12.xyz/10.m3u8
 CCTV10,http://192.168.6.1:1207/rtp/239.255.40.39:8208
 CCTV10,http://[2409:8087:74f0:22::4]:6410/270000001128/9900000506/index.m3u8
 CCTV10,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225730/index.m3u8
@@ -748,7 +748,6 @@ CCTV14,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/2
 卡酷少儿,http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010081/1.m3u8
 卡酷少儿,https://cc06.tv12.xyz/29.m3u8
 金鹰卡通,http://192.168.6.1:1207/rtp/239.255.40.25:8208
-金鹰卡通,http://182.112.188.136:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://[2409:8087:1a0b:df::4008]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8
 金鹰卡通,http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226674/1.m3u8
 金鹰卡通,http://dsj.motem.top:8880/bptv/10000100000000050000000004796942.m3u8
@@ -1080,7 +1079,6 @@ CGTN西语,https://0472.org/hls/cgtnx.m3u8
 💥 Y//Y,#genre#
 寻秦记,http://live.ottiptv.cc/huya/29465848
 封神榜,http://live.ottiptv.cc/huya/29465849
-笑傲江湖,http://www.douzhicloud.site:35455/huya/23865142
 神雕侠侣,http://www.douzhicloud.site:35455/huya/23865171
 钟馗传说,https://mursor.ottiptv.cc/yy/1382736839
 钟馗传说,https://yylunbo.ottiptv.cc/yy/1382736839
