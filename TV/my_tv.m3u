@@ -1224,8 +1224,6 @@ http://192.168.6.1:1207/rtp/239.255.40.199:8208
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/深圳卫视.png" group-title="📡卫视频道",深圳卫视
 http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/深圳卫视.png" group-title="📡卫视频道",深圳卫视
-http://222.214.208.34:59901/tsfile/live/0126_1.m3u8
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/深圳卫视.png" group-title="📡卫视频道",深圳卫视
 http://php.jdshipin.com/TVOD/hnyd.php?id=200000001898/460000089800010068
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/深圳卫视.png" group-title="📡卫视频道",深圳卫视
 http://iptv.huuc.edu.cn/hls/szhd.m3u8
@@ -1249,6 +1247,8 @@ http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/32
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226245/1.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/深圳卫视.png" group-title="📡卫视频道",深圳卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226495/1.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/深圳卫视.png" group-title="📡卫视频道",深圳卫视
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226573/1.m3u8
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/三沙卫视.png" group-title="📡卫视频道",三沙卫视
 http://192.168.6.1:1207/rtp/239.255.40.82:8208
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/三沙卫视.png" group-title="📡卫视频道",三沙卫视
@@ -1513,6 +1513,8 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010002/1.m3u8
 #EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/黑莓动画.png" group-title="🎥动画频道",黑莓动画
 http://[2409:8087:1a01:df::4007]:80/TVOD/88888888/224/3221225529/main.m3u8
+#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/动漫秀场.png" group-title="🎥动画频道",动漫秀场
+http://vapi.91kds.cc/live1/jdtv2.m3u8?id=dmxchd&apiKey=73c963d13814ce7d0e4743c5e7d033cc
 #EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/动漫秀场.png" group-title="🎥动画频道",动漫秀场
 http://183.237.95.108:9901/tsfile/live/1104_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/哈哈炫动.png" group-title="🎥动画频道",哈哈炫动
