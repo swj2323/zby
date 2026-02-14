@@ -1619,8 +1619,6 @@ http://192.168.6.1:1207/rtp/239.255.40.64:8208
 http://192.168.6.1:1207/rtp/239.255.40.65:8208
 #EXTINF:-1 tvg-name="IPTV谍战剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/IPTV谍战剧场.png" group-title="🎬电影剧集",IPTV谍战剧场
 http://192.168.6.1:1207/rtp/239.255.40.58:8208
-#EXTINF:-1 tvg-name="IPTV经典电影" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/IPTV经典电影.png" group-title="🎬电影剧集",IPTV经典电影
-http://43.138.0.72:35455/yy/1382754187
 #EXTINF:-1 tvg-name="重温经典" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/重温经典.png" group-title="🎬电影剧集",重温经典
 https://other.ottiptv.cc/cwjd.m3u8
 #EXTINF:-1 tvg-name="淘剧场" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/淘剧场.png" group-title="🎬电影剧集",淘剧场
@@ -2115,8 +2113,6 @@ https://www.goodiptv.club/huya/11352876
 https://www.goodiptv.club/huya/11601968
 #EXTINF:-1 tvg-name="电影_星爷" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/电影_星爷.png" group-title="💥 虎牙",电影_星爷
 https://www.goodiptv.club/huya/11342412
-#EXTINF:-1 tvg-name="鹿鼎记" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/鹿鼎记.png" group-title="💥 Y//Y",鹿鼎记
-http://43.138.0.72:35455/yy/28265277
 #EXTINF:-1 tvg-name="寻秦记" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/寻秦记.png" group-title="💥 Y//Y",寻秦记
 http://live.ottiptv.cc/huya/29465848
 #EXTINF:-1 tvg-name="封神榜" tvg-logo="https://gitee.com/weijun_sun/icon/raw/master/png/封神榜.png" group-title="💥 Y//Y",封神榜

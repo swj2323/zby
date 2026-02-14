@@ -804,7 +804,6 @@ CCTV8,http://lu.wqwqwq.sbs/itv/1000000005000265008.m3u8?cdn=ystenlive
 IPTV6+,http://192.168.6.1:1207/rtp/239.255.40.64:8208
 IPTV8+,http://192.168.6.1:1207/rtp/239.255.40.65:8208
 IPTV谍战剧场,http://192.168.6.1:1207/rtp/239.255.40.58:8208
-IPTV经典电影,http://43.138.0.72:35455/yy/1382754187
 重温经典,https://other.ottiptv.cc/cwjd.m3u8
 淘剧场,http://dsj.motem.top:8880/bptv/10000100000000050000000003887497.m3u8
 淘剧场,http://zjzcf.synology.me:35455/bptv/10000100000000050000000003887497.m3u8
@@ -879,7 +878,6 @@ CHC家庭影院,https://mgtv.ottiptv.cc/mg/644368373.m3u8?sign=bda539eec2bb0ede8
 欢笑剧场,http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225771/1.m3u8
 欢笑剧场,https://shyd.695847.xyz/cms001/ch00000090990000001490/index.m3u8?IASHttpSessionId=RR4967720251014100028031761&ispcode=12
 欢笑剧场,https://shyd.695847.xyz/cms001/ch00000090990000001193/index.m3u8?IASHttpSessionId=RR4967720251014100028031761&ispcode=12
-纬来电影,http://free.cnlive.club/channel/581b458b.m3u8?q=111.170.171.148
 东方影视,https://migu.188766.xyz/?migutoken=bc0e05d32878b28e54d3735d235f61c0&id=%E4%B8%8A%E8%A7%86%E4%B8%9C%E6%96%B9%E5%BD%B1%E8%A7%86&type=yy
 
 💾福建频道,#genre#
